@@ -168,7 +168,7 @@ Add to `~/.config/opencode/opencode.json`:
   "mcp": {
     "sitelint-auditor": {
       "type": "local",
-      "command": ["npx", "@sitelint/auditor-mcp"]
+      "command": ["npx", "-y", "@sitelint/auditor-mcp"]
     }
   }
 }
@@ -194,7 +194,7 @@ With custom Chromium:
   "mcp": {
     "sitelint-auditor": {
       "type": "local",
-      "command": ["npx", "@sitelint/auditor-mcp"],
+      "command": ["npx", "-y", "@sitelint/auditor-mcp"],
       "environment": {
         "AUDITOR_BROWSER_PATH": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
         "AUDITOR_TIMEOUT": "60000"
@@ -213,7 +213,7 @@ Edit `claude_desktop_config.json`:
   "mcpServers": {
     "sitelint-auditor": {
       "command": "npx",
-      "args": ["@sitelint/auditor-mcp"]
+      "args": ["-y", "@sitelint/auditor-mcp"]
     }
   }
 }
@@ -227,7 +227,7 @@ In Cline extension settings → MCP Servers:
 {
   "sitelint-auditor": {
     "command": "npx",
-    "args": ["@sitelint/auditor-mcp"]
+    "args": ["-y", "@sitelint/auditor-mcp"]
   }
 }
 ```
@@ -242,7 +242,7 @@ In `~/.continue/config.json`:
     "mcpServers": {
       "sitelint-auditor": {
         "command": "npx",
-        "args": ["@sitelint/auditor-mcp"]
+        "args": ["-y", "@sitelint/auditor-mcp"]
       }
     }
   }
