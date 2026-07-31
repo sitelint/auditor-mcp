@@ -1,0 +1,2884 @@
+{
+  "_appDescription": {
+    "value": "Fast, offline audits for Accessibility, Performance, Security & Technical SEO inside DevTools and Side Panel."
+  },
+  "_appName": {
+    "value": "SiteLint - Web Audit Tools"
+  },
+  "_config": {
+    "locale": "en-us",
+    "nativeName": "English US",
+    "englishName": "English US"
+  },
+  "abbreviations_manual_check": {
+    "value": "Verify that a mechanism for identifying the expanded form or explanation of abbreviations is available (e.g., using the <abbr> tag with a title attribute, or providing the expansion in text upon first use)."
+  },
+  "abbreviations_title": {
+    "value": "Verify abbreviation expansions"
+  },
+  "accessible_authentication_enhanced_manual_check": {
+    "value": "Verify that authentication processes do not rely on cognitive function tests (such as remembering a password, solving a CAPTCHA, or recognizing objects/personal images) without providing a non-cognitive alternative."
+  },
+  "accessible_authentication_enhanced_title": {
+    "value": "Verify accessible authentication (enhanced)"
+  },
+  "accessible_authentication_manual_check": {
+    "value": "Verify that authentication processes do not rely on cognitive function tests (such as remembering a password or solving a CAPTCHA) without providing an alternative like copy-paste, password managers, or biometric authentication."
+  },
+  "accessible_authentication_title": {
+    "value": "Verify accessible authentication"
+  },
+  "accessible_name_mismatch_element_description_report_message_1": {
+    "value": "The accessible name <code>%0</code> is too different from the label <code>%1</code>."
+  },
+  "accessible_name_mismatch_element_description_title": {
+    "value": "Accessible name should match the control's label."
+  },
+  "accessible_svg_report_message_1": {
+    "value": "The element <code>%0</code> does not have an accessible description."
+  },
+  "accessible_svg_report_message_2": {
+    "value": "You have defined element <code>%0</code>, but it's content is empty."
+  },
+  "accessible_svg_report_message_3": {
+    "value": "You have defined <code>%0</code> and ids that refers to the elements, but associated elements with following attributes id does not exists: <code>%1</code>."
+  },
+  "accessible_svg_report_message_4": {
+    "value": "You have defined attribute <code>tabindex</code> but the value <code>%0</code> is not a valid integer."
+  },
+  "accessible_svg_title": {
+    "value": "SVG content must have an accessible name."
+  },
+  "action_audit_pdfs": {
+    "value": "Audit PDFs"
+  },
+  "action_cancel": {
+    "value": "Cancel"
+  },
+  "action_cancelled": {
+    "value": "Operation cancelled"
+  },
+  "action_capture_node_screenshot_title": {
+    "value": "Capture a screenshot of this element"
+  },
+  "action_check_for_local_ai": {
+    "value": "Check local AI model"
+  },
+  "action_check_for_local_ai_title": {
+    "value": "Please note: this feature is experimental. While it is fully supported in Google Chrome, it may not function correctly in other Chromium-based browsers at this time."
+  },
+  "action_close": {
+    "value": "Close"
+  },
+  "action_copy": {
+    "value": "Copy"
+  },
+  "action_copy_as_document": {
+    "value": "Copy as document"
+  },
+  "action_copy_as_html": {
+    "value": "Copy as HTML"
+  },
+  "action_copy_as_markdown": {
+    "value": "Copy as Markdown"
+  },
+  "action_copy_prompt_with_issues": {
+    "value": "Copy prompt with issues"
+  },
+  "action_copy_prompt_with_issues_title": {
+    "value": "Copy all audit issues as a formatted prompt for use with AI assistants to fix issues automatically"
+  },
+  "action_download_earl_title": {
+    "value": "Reports in EARL format are useful for computer programs that automatically run tests and generate results. They are also useful for systems that collect data from various sources and display it in one place. Additionally, software developers and auditors, who review and evaluate data, use EARL reports because they provide data in a structured and easily readable format."
+  },
+  "action_download_json_title": {
+    "value": "Technical JSON report with detailed data, ideal for analysis and integrations."
+  },
+  "action_download_report_in_html_title": {
+    "value": "HTML report for a quick results overview, easy to share with non-technical stakeholders."
+  },
+  "action_get_explanation_of_the_issue": {
+    "value": "Get explanation of the issue"
+  },
+  "action_get_explanation_of_the_issue_title": {
+    "value": "Get AI-powered explanations"
+  },
+  "action_more": {
+    "value": "More"
+  },
+  "action_options": {
+    "value": "Options"
+  },
+  "action_refresh": {
+    "value": "Refresh"
+  },
+  "action_scan": {
+    "value": "Analyze page"
+  },
+  "action_share_link_to_report": {
+    "value": "Share link to the report"
+  },
+  "additional_information": {
+    "value": "Additional information"
+  },
+  "ai_chat_cancel": {
+    "value": "Cancel"
+  },
+  "ai_chat_close": {
+    "value": "Close"
+  },
+  "ai_chat_input_label": {
+    "value": "Enter question"
+  },
+  "ai_chat_label": {
+    "value": "Message AI"
+  },
+  "ai_chat_placeholder": {
+    "value": "Ask a follow-up question..."
+  },
+  "ai_chat_send": {
+    "value": "Send"
+  },
+  "ai_chat_user_prefix": {
+    "value": "You:"
+  },
+  "ai_dl_background_info": {
+    "value": "You can close this window or the extension at any time. The browser will continue the download in the background."
+  },
+  "ai_dl_bar_error": {
+    "value": "AI model download failed"
+  },
+  "ai_dl_bar_progress": {
+    "value": "Downloading AI model..."
+  },
+  "ai_dl_button": {
+    "value": "Download and enable"
+  },
+  "ai_dl_description": {
+    "value": "A one-time download is required to run the AI model locally on your device. This ensures your data stays private and the service works offline."
+  },
+  "ai_dl_restart_note": {
+    "value": "To enable AI features, please restart your browser."
+  },
+  "ai_dl_status_init": {
+    "value": "Initializing. Please wait."
+  },
+  "ai_dl_success": {
+    "value": "AI local LLM model loaded and initalized successfully!"
+  },
+  "ai_dl_title": {
+    "value": "AI model download"
+  },
+  "ai_documentation_help": {
+    "value": "Discover how to configure browser flags"
+  },
+  "ai_error_api_not_found": {
+    "value": "Local AI LLM model and API not found. Please enable the required browser flags."
+  },
+  "ai_error_details": {
+    "value": "Error details"
+  },
+  "ai_error_disabled": {
+    "value": "Local AI LLM model features are not supported or are disabled."
+  },
+  "ai_error_init_title": {
+    "value": "AI initialization error"
+  },
+  "ai_pdf_prompt_context": {
+    "value": "Context: PDF accessibility validation issue for \"%0\". Severity: %1. Standard: %2. Description: %3."
+  },
+  "ai_pdf_prompt_element": {
+    "value": "Element: %0."
+  },
+  "ai_pdf_prompt_explain": {
+    "value": "Explain this PDF accessibility issue clearly and concisely to a non-technical user. Describe what the issue means, why it matters for accessibility, and how to fix it."
+  },
+  "ai_pdf_prompt_manual_check": {
+    "value": "Manual check note: %0."
+  },
+  "ai_pdf_prompt_manual_verification": {
+    "value": "This issue requires manual verification."
+  },
+  "ai_pdf_prompt_wcag": {
+    "value": "WCAG Criterion: %0."
+  },
+  "ai_preparing_explanation": {
+    "value": "Preparing explanation. Please wait."
+  },
+  "ai_prompt_answer_follow_up": {
+    "value": "Answer follow-up"
+  },
+  "ai_prompt_part_1": {
+    "value": "Context: %0 audit for \"%1\". Description: %2. XPath: %3. Element HTML: %4. Manual verification: %5."
+  },
+  "ai_prompt_part_2": {
+    "value": "Explain this issue clearly and concisely to a non-technical user. Translate technical terms to visual descriptions. If manual verification is set as %0 then explain why rule could not be evaluated automatically and require manual verification."
+  },
+  "ai_status_processing_desc": {
+    "value": "The browser is currently extracting and verifying the model data. The progress bar may pause briefly during this final phase. Please wait."
+  },
+  "ai_status_processing_title": {
+    "value": "Finishing installation."
+  },
+  "allow_anonymous_analytics": {
+    "value": "Allow anonymous analytics"
+  },
+  "alt_text_include_filename_report_message": {
+    "value": "The source filename of the image element must not be part of its text alternative (<code>alt=\"%0\"</code>)."
+  },
+  "alt_text_include_filename_title": {
+    "value": "The alt text of an image should describe the image's content, not its filename."
+  },
+  "alt_text_tool": {
+    "value": "Alt text"
+  },
+  "analytics_consent_description": {
+    "value": "We'd like your permission to collect anonymous usage analytics to help improve our product."
+  },
+  "analyzing_the_page_please_wait_a_moment": {
+    "value": "Analyzing the page. Please wait a moment."
+  },
+  "animation_interaction_manual_check": {
+    "value": "Verify that motion animation triggered by interaction can be disabled, unless the animation is essential to the functionality or the information being conveyed (e.g., check for support of the `prefers-reduced-motion` media query)."
+  },
+  "animation_interaction_title": {
+    "value": "Verify animation from interactions"
+  },
+  "animation_report_message_0": {
+    "value": "Make sure that there is a mechanism for the user to pause, stop, or hide it unless the movement, blinking, or scrolling is part of an activity where it is essential."
+  },
+  "animation_report_message_1": {
+    "value": "You have defined an animation duration in <code>%0</code> which is more than 5 seconds."
+  },
+  "animation_report_message_2": {
+    "value": "You have defined an animation iteration count with <code>%0</code> value."
+  },
+  "animation_report_message_3": {
+    "value": "The element references an animated GIF image that loops indefinitely."
+  },
+  "animation_title": {
+    "value": "Animations should not loop indefinitely."
+  },
+  "applet_missing_alt_report_message_1": {
+    "value": "You have not defined an <code>alt</code> attribute that provides a text alternative to the browsers that supporting the element but are unable to load the <code>applet</code>."
+  },
+  "applet_missing_alt_report_message_2": {
+    "value": "You have defined an <code>alt</code> attribute with empty content, but it should describe the <code>applet</code>'s function."
+  },
+  "applet_missing_alt_report_message_3": {
+    "value": "The text within the <code>alt</code> attribute should describe the <code>applet</code>'s function. It contains only white space and therefore it is ignored by assistive technologies."
+  },
+  "applet_missing_alt_title": {
+    "value": "Applets must have a text alternative when not supported."
+  },
+  "applet_missing_body_title": {
+    "value": "Applets need a text alternative."
+  },
+  "area_missing_alt_report_message_1": {
+    "value": "You have not defined an <code>alt</code> attribute that describes the function of the image map area."
+  },
+  "area_missing_alt_report_message_2": {
+    "value": "You have defined an <code>alt</code> attribute with an empty content, but it should describe the function of the image map area."
+  },
+  "area_missing_alt_report_message_3": {
+    "value": "The text within the <code>alt</code> attribute should describe the function of the image map area. It contains only white space and therefore it is ignored by assistive technologies."
+  },
+  "area_missing_alt_title": {
+    "value": "Image map area must have a text alternative."
+  },
+  "aria_attribute_conflict_report_message": {
+    "value": "The ARIA attribute <code>%0</code> is redundant because native HTML attribute <code>%1</code> is present. The native HTML attribute with the same implicit ARIA semantics takes precedence."
+  },
+  "aria_attribute_conflict_title": {
+    "value": "Both native HTML attributes and ARIA attributes should not be used together."
+  },
+  "aria_describedby_association_report_message_1": {
+    "value": "There is no element with attribute <code>id=\"%0\"</code>, which is referred-to by <code>aria-describedby=\"%1\"</code>."
+  },
+  "aria_describedby_association_report_message_2": {
+    "value": "Expected attribute <code>aria-describedby</code> not to be empty."
+  },
+  "aria_describedby_association_title": {
+    "value": "Use aria-describedby to provide additional descriptions and context for elements that need it."
+  },
+  "aria_hidden_false_report_message": {
+    "value": "This page contains %0 element(s) with <code>aria-hidden=\"false\"</code>. Setting <code>aria-hidden=\"false\"</code> is rarely needed as it's the default state for most elements. Consider removing this attribute unless specifically required for complex widget logic. Search DevTools for <code>[aria-hidden=\"false\"]</code> to review these elements. The element below represents the first found instance."
+  },
+  "aria_hidden_false_title": {
+    "value": "Use caution with aria-hidden=\"false\" because content may still be exposed unintentionally."
+  },
+  "aria_hidden_true_focusable_descendants_report_message_1": {
+    "value": "Focusable element must not be a child of the element with <code>aria-hidden=\"true\"</code> (parent: <code>%0</code>)."
+  },
+  "aria_hidden_true_focusable_descendants_title": {
+    "value": "Focusable elements should not be hidden from assistive technologies."
+  },
+  "aria_labelledby_association_empty_element_report_message_1": {
+    "value": "Elements with an attribute <code>id</code> defined in <code>aria-labelledby</code> exists, but they are empty. They should not be an empty."
+  },
+  "aria_labelledby_association_empty_element_title": {
+    "value": "An aria-labelledby attribute must reference an element that contains meaningful content."
+  },
+  "aria_labelledby_association_report_message_1": {
+    "value": "Elements with an attribute <code>id</code> defined in <code>aria-labelledby</code> does not exists."
+  },
+  "aria_labelledby_association_report_message_2": {
+    "value": "Expected attribute <code>aria-labelledby</code> not to be an empty on element <code>%0</code>."
+  },
+  "aria_labelledby_association_title": {
+    "value": "The aria-labelledby attribute must reference an existing element."
+  },
+  "aria_role_dialog_report_message_1": {
+    "value": "Element with <code>%0</code> attribute has no accessible name because attribute <code>%1</code> has no content (it's empty)."
+  },
+  "aria_role_dialog_report_message_2": {
+    "value": "Element with <code>%0</code> attribute has no accessible name."
+  },
+  "aria_role_dialog_title": {
+    "value": "Pop-ups and modals must have accessible names."
+  },
+  "aria_role_tool": {
+    "value": "Aria and role"
+  },
+  "audio_control_manual_check": {
+    "value": "If audio or video plays automatically for more than 3 seconds, verify there is a mechanism to pause, stop, or control the volume independently from the system volume."
+  },
+  "audio_control_title": {
+    "value": "Verify audio controls"
+  },
+  "audio_description_or_media_alternative_manual_check": {
+    "value": "Verify that an audio description or a text transcript is provided for pre-recorded video content to convey important visual information to users who are blind or have low vision."
+  },
+  "audio_description_or_media_alternative_title": {
+    "value": "Verify audio description or media alternative"
+  },
+  "audio_description_prerecorded_manual_check": {
+    "value": "Check if the video recording includes an audio description track that describes important visual information."
+  },
+  "audio_description_prerecorded_title": {
+    "value": "Verify audio description (Prerecorded)"
+  },
+  "audio_only_live_manual_check": {
+    "value": "Verify that a text alternative for live audio-only content is provided. This ensures that users who are deaf or hard of hearing can access the information presented in live audio broadcasts."
+  },
+  "audio_only_live_title": {
+    "value": "Verify audio-only (live)"
+  },
+  "audit": {
+    "value": "Audit"
+  },
+  "audit_complete": {
+    "value": "Audit complete"
+  },
+  "audit_date": {
+    "value": "Audit date"
+  },
+  "audit_requirement": {
+    "value": "Audit requirement"
+  },
+  "audit_type_accessibility": {
+    "value": "Accessibility"
+  },
+  "audit_type_all": {
+    "value": "All"
+  },
+  "audit_type_logs": {
+    "value": "Logs"
+  },
+  "audit_type_performance": {
+    "value": "Performance"
+  },
+  "audit_type_privacy": {
+    "value": "Privacy"
+  },
+  "audit_type_quality": {
+    "value": "Quality"
+  },
+  "audit_type_security": {
+    "value": "Security"
+  },
+  "audit_type_seo": {
+    "value": "SEO"
+  },
+  "auditor": {
+    "value": "Auditor"
+  },
+  "autocomplete_attribute_usage_report_message_1": {
+    "value": "Form control appears to collect user-specific data but is missing an autocomplete attribute, preventing browsers and assistive technologies from offering autofill."
+  },
+  "autocomplete_attribute_usage_report_message_2": {
+    "value": "Form control is missing an autocomplete attribute. Manually verify whether autofill should be supported for this field."
+  },
+  "autocomplete_attribute_usage_report_message_3": {
+    "value": "Form control collects user-specific data but has <code>autocomplete=\"%0\"</code>, which does not identify the input purpose as required by WCAG 1.3.5."
+  },
+  "autocomplete_attribute_usage_title": {
+    "value": "Add autocomplete attribute to form controls to help users fill out forms more efficiently."
+  },
+  "automated_evaluation_report": {
+    "value": "Automated Evaluation Report"
+  },
+  "autoplay_audio_video_report_message": {
+    "value": "You have defined <code>%0</code>. Individuals who use screen reading software can find it hard to hear the speech output if there is other audio playing at the same time. Allow the user to turn off videos/sounds (especially if they last more than 3 seconds) that start automatically when a page loads."
+  },
+  "autoplay_audio_video_title": {
+    "value": "Audio and video content should not play automatically."
+  },
+  "broken_data_url_image_report_message_2": {
+    "value": "Image data URL is malformed or has invalid format: %0"
+  },
+  "broken_data_url_image_report_message_3": {
+    "value": "Image failed to decode: %0"
+  },
+  "broken_data_url_image_title": {
+    "value": "Broken or malformed data URL images"
+  },
+  "broken_same_page_link_report_message": {
+    "value": "A link to another location on the page does not have a corresponding target with <code>id=\"%0\"</code>."
+  },
+  "broken_same_page_link_title": {
+    "value": "Same-page links must have a corresponding target."
+  },
+  "browser": {
+    "value": "Browser"
+  },
+  "bypass_blocks_manual_check": {
+    "value": "Verify that a mechanism is available to bypass blocks of content that are repeated on multiple Web pages, such as a 'Skip to main content' link."
+  },
+  "bypass_blocks_title": {
+    "value": "Verify bypass blocks"
+  },
+  "canonical_url_hint": {
+    "value": "Canonical URL hint"
+  },
+  "canonical_url_title": {
+    "value": "Canonical URL tells search engines \"whatever you see in the address bar, this is the URL you should index and show in results.\""
+  },
+  "capital_letters_words_report_message1": {
+    "value": "Element contains <code>%0</code>, which is shown in all-caps by <code>text-transform: uppercase</code>. The text has several long words in uppercase."
+  },
+  "capital_letters_words_report_message2": {
+    "value": "Element text contains several long words written in uppercase."
+  },
+  "capital_letters_words_report_message3": {
+    "value": "The title attribute contains several long words written in uppercase."
+  },
+  "capital_letters_words_report_message4": {
+    "value": "Element text and its title attribute each contain several long words written in uppercase."
+  },
+  "capital_letters_words_title": {
+    "value": "Limit use of long uppercase words."
+  },
+  "captions_live_manual_check": {
+    "value": "For live video broadcasts, check if real-time captions are provided to enable understanding of the audio content."
+  },
+  "captions_live_title": {
+    "value": "Verify live captions"
+  },
+  "captions_prerecorded_title": {
+    "value": "Prerecorded video must have synchronized captions."
+  },
+  "change_filters": {
+    "value": "Change filters"
+  },
+  "change_on_request_manual_check": {
+    "value": "Verify that changes of context are initiated only by user request or that a mechanism is available to turn off such changes."
+  },
+  "change_on_request_title": {
+    "value": "Verify change on request"
+  },
+  "character_key_shortcuts_manual_check": {
+    "value": "If the application uses single-character keyboard shortcuts (e.g., <kbd>a</kbd>, <kbd>1</kbd>, or symbols), verify that there is a mechanism to turn them off, remap them to include a modifier key (like <kbd>Ctrl</kbd> or <kbd>Alt</kbd>), or that the shortcut is only active when the component has focus."
+  },
+  "character_key_shortcuts_title": {
+    "value": "Verify character key shortcuts"
+  },
+  "check_for_broken_links_tool": {
+    "value": "Check for broken links"
+  },
+  "close_sitelint_auditor": {
+    "value": "Close SiteLint Auditor"
+  },
+  "color_contrast_aa_report_message_4": {
+    "value": "Expected color contrast ratio for large font size at least 3:1, but got ratio: %0:1, <code>background-color: %1</code>, <code>foreground-color: %2</code>, <code>font-size: %3</code> (original: <code>%4</code>), <code>font-weight: %5</code>."
+  },
+  "color_contrast_aa_report_message_5": {
+    "value": "Expected color contrast ratio for small font size at least 4.5:1, but got ratio: %0:1, <code>background-color: %1</code>, <code>foreground-color: %2</code>, <code>font-size: %3</code> (original: <code>%4</code>), <code>font-weight: %5</code>."
+  },
+  "color_contrast_aa_report_message_6": {
+    "value": "The color contrast between background <code>%0</code> and foreground <code>%1</code> cannot be determined because both colors are the same."
+  },
+  "color_contrast_aa_report_message_7": {
+    "value": "The color contrast between background <code>%0</code> and foreground <code>%1</code> cannot be determined because the element has defined transparency at <code>%2</code>."
+  },
+  "color_contrast_aa_report_message_8": {
+    "value": "The color contrast between background <code>%0</code> and foreground <code>%1</code> cannot be determined because the element has defined semi-opacity at <code>%2</code>."
+  },
+  "color_contrast_aa_report_message_9": {
+    "value": "The color contrast between background <code>%0</code> and foreground <code>%1</code> cannot be determined because the element has defined <code>mix-blend-mode=\"%2\"</code>."
+  },
+  "color_contrast_aa_title": {
+    "value": "The contrast ratio should be at least 4.5:1 for normal text and 3:1 for large text against a background."
+  },
+  "color_contrast_aaa_report_message_4": {
+    "value": "Expected color contrast ratio for small font size at least 7:1, but got ratio: %0:1, <code>background-color: %1</code>, <code>foreground-color: %2</code>, <code>font-size: %3</code> (original: <code>%4</code>), <code>font-weight: %5</code>."
+  },
+  "color_contrast_aaa_report_message_5": {
+    "value": "Expected color contrast ratio for small font size at least 7:1, but got ratio: %0:1, <code>background-color: %1</code>, <code>foreground-color: %2</code>, <code>font-size: %3</code> (original: <code>%4</code>), <code>font-weight: %5</code>."
+  },
+  "color_contrast_aaa_report_message_6": {
+    "value": "The color contrast between background <code>%0</code> and foreground <code>%1</code> cannot be determined because both colors are the same."
+  },
+  "color_contrast_aaa_report_message_7": {
+    "value": "The color contrast between background <code>%0</code> and foreground <code>%1</code> cannot be determined because the element has defined transparency at <code>%2</code>."
+  },
+  "color_contrast_aaa_report_message_8": {
+    "value": "The color contrast between background <code>%0</code> and foreground <code>%1</code> cannot be determined because the element has defined semi-opacity at <code>%2</code>."
+  },
+  "color_contrast_aaa_report_message_9": {
+    "value": "The color contrast between background <code>%0</code> and foreground <code>%1</code> cannot be determined because the element has defined <code>mix-blend-mode=\"%2\"</code>."
+  },
+  "color_contrast_aaa_title": {
+    "value": "The contrast ratio should be at least 7:1 for normal text and 4.5:1 for large text against a background."
+  },
+  "color_contrast_suggestion_background": {
+    "value": "Adjusting the <strong>background color</strong> to <code>%0</code> will make the color contrast pass."
+  },
+  "color_contrast_suggestion_foreground": {
+    "value": "Adjusting the <strong>foreground color</strong> to <code>%0</code> will make the color contrast pass."
+  },
+  "color_contrast_suggestion_foreground_background": {
+    "value": "Adjusting the <strong>foreground color</strong> to <code>%0</code> and the <strong>background color</strong> to <code>%1</code> will make the color contrast pass."
+  },
+  "concurrent_input_mechanisms_manual_check": {
+    "value": "Verify that the Web content does not restrict use of input modalities available on the platform except where the restriction is essential, required to ensure the security of the content, or required to respect user settings. Users should be able to switch between mouse, keyboard, touch, and speech input at any time."
+  },
+  "concurrent_input_mechanisms_title": {
+    "value": "Verify concurrent input mechanisms"
+  },
+  "conformity_audit": {
+    "value": "Conformity audit"
+  },
+  "consistent_help_manual_check": {
+    "value": "Verify that help mechanisms (e.g., contact details, chat, documentation) appear in the same relative order on all Web pages where they are present."
+  },
+  "consistent_help_title": {
+    "value": "Verify consistent help"
+  },
+  "consistent_identification_manual_check": {
+    "value": "Verify that components with the same functionality across different pages are identified consistently. For example, a \"Settings\" icon should not be labeled \"Preferences\" on another page. Elements found: %0."
+  },
+  "consistent_identification_title": {
+    "value": "Verify consistent identification"
+  },
+  "consistent_navigation_manual_check": {
+    "value": "Verify that navigational mechanisms that are repeated on multiple Web pages within a set of Web pages occur in the same relative order each time they are repeated, unless a change is initiated by the user."
+  },
+  "consistent_navigation_title": {
+    "value": "Verify consistent navigation"
+  },
+  "console_log_error_title": {
+    "value": "The errors were logged to the error console."
+  },
+  "content_editable_missing_attributes_report_message1": {
+    "value": "Missing attribute <code>role=\"textbox\"</code> on <code>%0</code>."
+  },
+  "content_editable_missing_attributes_report_message2": {
+    "value": "Missing attribute <code>aria-multiline=\"true\"</code> on <code>%0</code>."
+  },
+  "content_editable_missing_attributes_report_message3": {
+    "value": "Missing attribute <code>aria-labelledby</code> or <code>aria-label</code> on <code>%0</code>."
+  },
+  "content_editable_missing_attributes_title": {
+    "value": "Editable elements with contenteditable must expose the textbox role, declare whether they are single or multi-line, and provide an accessible name."
+  },
+  "content_on_hover_focus_manual_check": {
+    "value": "Ensure that additional content (e.g., tooltips) can be dismissed without moving the pointer and remains visible while the pointer is over it. Found elements: %0."
+  },
+  "content_on_hover_focus_title": {
+    "value": "Verify content on hover or focus"
+  },
+  "content_wider_than_screen_report_message_1": {
+    "value": "The page content width <code>%0</code> is wider than the screen width <code>%1</code> and that causes the viewport to scroll horizontally."
+  },
+  "content_wider_than_screen_title": {
+    "value": "The page content width is wider than the screen width."
+  },
+  "contentinfo_landmark_only_one_report_message": {
+    "value": "Expected attribute <code>%0</code> to be defined only once. You have <code>%1</code>."
+  },
+  "contentinfo_landmark_only_one_title": {
+    "value": "Only one element may have role=\"contentinfo\"."
+  },
+  "context_unable_to_determine": {
+    "value": "Unable to determine the context. Provided context is type of %0, %1."
+  },
+  "context_unable_to_determine_empty_string": {
+    "value": "Unable to determine the context. Provided context is empty or contains only white spaces."
+  },
+  "copied_to_clipboard": {
+    "value": "Copied!"
+  },
+  "copy_content_to_clipboard": {
+    "value": "Copy %0 to clipboard"
+  },
+  "copy_issue_details": {
+    "value": "Copy prompt for AI"
+  },
+  "copy_js_path": {
+    "value": "Copy JS Path"
+  },
+  "copy_rule_issues_details": {
+    "value": "Copy prompt AI with all issues for the rule \"%0\""
+  },
+  "copy_xpath": {
+    "value": "Copy XPath"
+  },
+  "core_web_vitals": {
+    "value": "Core Web Vitals"
+  },
+  "core_web_vitals_CLS": {
+    "value": "Cumulative layout shift"
+  },
+  "core_web_vitals_FCP": {
+    "value": "First contentful paint"
+  },
+  "core_web_vitals_INP": {
+    "value": "Interaction to Next Paint"
+  },
+  "core_web_vitals_LCP": {
+    "value": "Largest contentful paint"
+  },
+  "core_web_vitals_score_good": {
+    "value": "good"
+  },
+  "core_web_vitals_score_needs_improvement": {
+    "value": "needs improvement"
+  },
+  "core_web_vitals_score_poor": {
+    "value": "poor"
+  },
+  "core_web_vitals_TTFB": {
+    "value": "Time to First Byte"
+  },
+  "criteria": {
+    "value": "Criteria"
+  },
+  "custom_control_role_report1": {
+    "value": "The <code>%0</code> element has <code>tabindex=\"%1\"</code> but is missing an appropriate ARIA role (e.g., <code>role=\"button\"</code>, <code>role=\"switch\"</code>). Focusable non-native controls must expose their role programmatically."
+  },
+  "custom_control_role_title": {
+    "value": "Custom controls must have appropriate ARIA roles."
+  },
+  "displayed_issues": {
+    "value": "Displayed issues"
+  },
+  "document": {
+    "value": "Document"
+  },
+  "dont_allow": {
+    "value": "Don't allow"
+  },
+  "download_earl_report": {
+    "value": "Download EARL report"
+  },
+  "download_html_report": {
+    "value": "Download report in HTML"
+  },
+  "download_json_report": {
+    "value": "Download report in JSON"
+  },
+  "dragging_movements_manual_check": {
+    "value": "Verify that all functionality that uses a dragging movement can be achieved by a single pointer without dragging (e.g., clickable arrows or buttons to move an item)."
+  },
+  "dragging_movements_title": {
+    "value": "Verify dragging movements"
+  },
+  "duplicated_for_attribute_report_message": {
+    "value": "Attribute <code>for=\"%0\"</code> should be unique. It has been defined %1 times."
+  },
+  "duplicated_for_attribute_title": {
+    "value": "A single label element should only describe one form control."
+  },
+  "duplicated_id_attribute_report_message": {
+    "value": "Attribute <code>id=\"%0\"</code> should be unique. It has been defined %1 times on this page. The element below represents the first found instance. Use browser DevTools to search for <code>id=\"%0\"</code> to find all occurrences."
+  },
+  "duplicated_id_attribute_title": {
+    "value": "ID attribute must be unique within the document."
+  },
+  "element_html_not_provided": {
+    "value": "No HTML element code was provided."
+  },
+  "elements_not_allowed_in_head_report_message": {
+    "value": "Expected <code>%0</code> not to be a child of <code>%1</code>."
+  },
+  "elements_not_allowed_in_head_title": {
+    "value": "Invalid HTML elements in the HEAD section."
+  },
+  "empty_button_description_additional_message": {
+    "value": "The button has defined <code>aria-labelledby=\"%0\"</code>, but the associated elements with following ids <code>%1</code> does not exist."
+  },
+  "empty_button_description_report_message_1": {
+    "value": "The button content has only whitespaces."
+  },
+  "empty_button_description_report_message_2": {
+    "value": "The button should have a description, but the content is empty."
+  },
+  "empty_button_description_title": {
+    "value": "BUTTON must have an accessible name that describes its action."
+  },
+  "empty_heading_report_message": {
+    "value": "Heading element should not have an empty content."
+  },
+  "empty_heading_title": {
+    "value": "Heading element exists but has no content."
+  },
+  "empty_label_element_report_message": {
+    "value": "The label has no content."
+  },
+  "empty_label_element_title": {
+    "value": "Labels should always contain meaningful text describing the associated form control."
+  },
+  "empty_link_element_additional_message": {
+    "value": "The link has defined <code>aria-labelledby=\"%0\"</code>, but the associated elements with following ids <code>%1</code> does not exist."
+  },
+  "empty_link_element_report_message_1": {
+    "value": "The link content has only whitespaces."
+  },
+  "empty_link_element_report_message_2": {
+    "value": "The link should have a description, but the content is empty."
+  },
+  "empty_link_element_title": {
+    "value": "Links should have meaningful, descriptive content."
+  },
+  "empty_title_attribute_report_message": {
+    "value": "You have an attribute <code>title</code> with an empty content."
+  },
+  "empty_title_attribute_title": {
+    "value": "Tooltip content must not be empty."
+  },
+  "engine_version": {
+    "value": "Engine version"
+  },
+  "error_identification_manual_check": {
+    "value": "Verify that if an input error is automatically detected, the item that is in error is identified and the error is described to the user in text."
+  },
+  "error_identification_title": {
+    "value": "Verify error identification"
+  },
+  "error_prevention_all_forms_manual_check": {
+    "value": "Verify that for any submission of information, the submission is reversible, checked for input errors, or provides a mechanism to review and confirm information before finalization."
+  },
+  "error_prevention_all_forms_title": {
+    "value": "Verify error prevention (all)"
+  },
+  "error_prevention_manual_check": {
+    "value": "Verify that for Web pages that cause legal commitments or financial transactions, submissions are reversible, checked for input errors, or provide a mechanism to review/confirm information."
+  },
+  "error_prevention_title": {
+    "value": "Verify error prevention"
+  },
+  "error_suggestion_manual_check": {
+    "value": "Verify that if an input error is detected and suggestions for correction are known, the suggestions are provided to the user (e.g., suggesting 'email@example.com' if the user entered 'email@example')."
+  },
+  "error_suggestion_title": {
+    "value": "Verify error suggestion"
+  },
+  "errors": {
+    "value": "errors"
+  },
+  "excessive_css_classes_size_report_message_1": {
+    "value": "There are <code>%0</code> CSS classes. The original HTML size is <code>%1</code> kB and without CSS classes is <code>%2</code> kB. Just CSS classes alone increase the HTML size by <code>%3</code> percentage."
+  },
+  "excessive_css_classes_size_title": {
+    "value": "Avoid excessive CSS classes usage."
+  },
+  "export_csv": {
+    "value": "Export CSV"
+  },
+  "extended_audio_description_prerecorded_manual_check": {
+    "value": "Verify that where the primary audio track is insufficient to provide the necessary visual information within existing pauses, extended audio description is provided by pausing the video content."
+  },
+  "extended_audio_description_prerecorded_title": {
+    "value": "Verify extended audio description (prerecorded)"
+  },
+  "extension_options": {
+    "value": "Options"
+  },
+  "extension_version": {
+    "value": "Extension version"
+  },
+  "feature_not_available": {
+    "value": "The feature is currently unavailable."
+  },
+  "feedback_action": {
+    "value": "Feedback"
+  },
+  "fieldset_no_legend_report_message": {
+    "value": "This <code>%0</code> element is the first child of a <code>fieldset</code>, but only a <code>legend</code> is allowed in that position to caption the group."
+  },
+  "fieldset_no_legend_title": {
+    "value": "Grouped form controls need a defined caption or description."
+  },
+  "first_contentful_paint_report_message_1": {
+    "value": "First content is rendered for the user in a moderate time (<code>%0</code> seconds). Best is < <code>1.8</code> second."
+  },
+  "first_contentful_paint_report_message_2": {
+    "value": "First content is rendered for the user in a slow time (<code>%0</code> seconds). Best is < <code>1.8</code> second, moderate is <code>1.8 - 3</code> seconds."
+  },
+  "first_contentful_paint_title": {
+    "value": "The user waits a long time before it sees the first content on the screen."
+  },
+  "focus_appearance_manual_check": {
+    "value": "Total interactive elements on the page: %0. Verify that each has a focus indicator with sufficient area (at least a 2 CSS pixel thick perimeter) and a contrast ratio of at least 3:1 between the focused and unfocused states."
+  },
+  "focus_appearance_title": {
+    "value": "Verify focus appearance (AAA)"
+  },
+  "focus_not_obscured_enhanced_manual_check": {
+    "value": "Total interactive elements on the page: %0. Verify that when an element receives keyboard focus, it is fully visible and no part of it is hidden by author-created content (like sticky headers, footers, or floating overlays). Found elements: %1."
+  },
+  "focus_not_obscured_enhanced_title": {
+    "value": "Verify focus not obscured (enhanced)"
+  },
+  "focus_not_obscured_minimum_manual_check": {
+    "value": "Verify that when an element receives keyboard focus, it is at least partially visible and not entirely hidden by author-created content (like sticky headers, footers, or non-modal overlays). Found elements: %0."
+  },
+  "focus_not_obscured_minimum_title": {
+    "value": "Verify focus not obscured (minimum)"
+  },
+  "focus_order_preserved_manual_check": {
+    "value": "Verify that the focus order of interactive elements is consistent with the visual layout."
+  },
+  "focus_order_preserved_title": {
+    "value": "Verify focus order is preserved"
+  },
+  "focus_visible_manual_check": {
+    "value": "Verify that any keyboard-operable user interface has a mode of operation where the keyboard focus indicator is visible. Ensure the focus ring has sufficient contrast against the background. Found elements: %0."
+  },
+  "focus_visible_title": {
+    "value": "Verify visible focus"
+  },
+  "focusable_elements_tool": {
+    "value": "Focusable elements"
+  },
+  "focusable_elements_tool_explanation": {
+    "value": "Determine focusable elements. WCAG 2.1 Success Criterion 2.4.7 Focus Visible (Level AA)."
+  },
+  "font_style_italic_report_message": {
+    "value": "You have defined font-style: italic; on long (<code>%0</code> chars) text content. This makes the content difficult to read."
+  },
+  "font_style_italic_title": {
+    "value": "Avoid excessive use of italic text."
+  },
+  "from": {
+    "value": "from"
+  },
+  "general_issues": {
+    "value": "General Issues"
+  },
+  "group_by_wcag_success_criteria": {
+    "value": "Group by WCAG Success Criteria"
+  },
+  "group_elements_name_attribute_report_message": {
+    "value": "Ensure all related checkboxes or radio buttons with <code>name=\"%0\"</code> are grouped together in a <code>fieldset</code> with a <code>legend</code>."
+  },
+  "group_elements_name_attribute_title": {
+    "value": "Related checkboxes or radio buttons should be grouped together."
+  },
+  "h1_length_report_message_1": {
+    "value": "The first <code>H1</code> heading is having <code>%0</code> characters, but it should have at least <code>20</code> characters."
+  },
+  "h1_length_title": {
+    "value": "The length of the first heading H1 should be at least 20 characters."
+  },
+  "h1_must_be_report_message": {
+    "value": "Expected at least one heading <code>H1</code> element, but found none."
+  },
+  "h1_must_be_title": {
+    "value": "Page must contain one H1 heading."
+  },
+  "h1_only_one_report_message": {
+    "value": "Expected only one heading element <code>H1</code>. You have <code>%0</code> total."
+  },
+  "h1_only_one_title": {
+    "value": "There should only be one heading H1 on the page."
+  },
+  "heading_semantics_incorrect_manual_check": {
+    "value": "Verify that headings are used in a logical order and that the semantic structure of the document is correct."
+  },
+  "heading_semantics_incorrect_title": {
+    "value": "Heading semantics are incorrect."
+  },
+  "headings_hierarchy": {
+    "value": "Headings hierarchy"
+  },
+  "headings_hierarchy_report_message": {
+    "value": "Expected <code>%0</code> to be <code>h%1</code>."
+  },
+  "headings_hierarchy_title": {
+    "value": "Headings must not skip levels."
+  },
+  "headings_sibling_unique_report_message": {
+    "value": "The accessible names of sibling heading elements of the same level are not unique. Same level <code>%0</code> and same description: <code>\"%1\"</code>."
+  },
+  "headings_sibling_unique_title": {
+    "value": "Sibling heading elements must not repeat the same text."
+  },
+  "help_improve_sitelint": {
+    "value": "Help us improve our product"
+  },
+  "help_provided_manual_check": {
+    "value": "Verify that context-sensitive help is available for any user interface component that requires complex data input or provides non-obvious choices."
+  },
+  "help_provided_title": {
+    "value": "Verify help"
+  },
+  "hidden_from_at_tool": {
+    "value": "Hidden from screen readers"
+  },
+  "hidden_from_at_tool_title": {
+    "value": "Determine elements hidden from screen readers. These elements are often not visible and locating them aids in auditing quality to identify potential accessibility issues."
+  },
+  "highlight_element": {
+    "value": "Highlight element"
+  },
+  "how_to_verify": {
+    "value": "How to verify"
+  },
+  "html_lang_attr_report_message_1": {
+    "value": "You have defined the lang attribute on the <code>%0</code> root element, but you have more than 3 languages parameters defined there: <code>%0</code>."
+  },
+  "html_lang_attr_report_message_2": {
+    "value": "Expected lang attribute on the <code>%0</code> root element, but got nothing. The <code>html</code> element must have a <code>lang</code> attribute, where the content is composed of a 2-letter ISO 639 language code, followed by the appropriate ISO 3166 geography code. You can use html <code>lang='[language code]-[country code]'</code>."
+  },
+  "html_lang_attr_report_message_3": {
+    "value": "You have defined <code>lang</code> attribute on the <code>%0</code> root element, but the value (<code>%1</code>) is empty."
+  },
+  "html_lang_attr_report_message_4": {
+    "value": "You have defined <code>lang</code> attribute on the <code>%0</code> root element, but the value (<code>%1</code>) is not a valid BCP 47 language tag."
+  },
+  "html_lang_attr_title": {
+    "value": "Page must declare LANG attribute on the HTML element."
+  },
+  "identify_component_purpose_manual_check": {
+    "value": "Check if the purpose of UI components can be programmatically determined to allow for customization of icons and labels."
+  },
+  "identify_component_purpose_title": {
+    "value": "Verify Identification of Component Purpose"
+  },
+  "identify_input_purpose_report_message_1": {
+    "value": "Expected one of the token <code>%0</code> after <code>%1</code>."
+  },
+  "identify_input_purpose_report_message_2": {
+    "value": "You have defined an invalid tokens <code>%0</code>."
+  },
+  "identify_input_purpose_report_message_3": {
+    "value": "The autocomplete token <code>%0</code> does not match the field purpose. Expected token: <code>%1</code>."
+  },
+  "identify_input_purpose_title": {
+    "value": "INPUT purpose must be declared with correct autocomplete attribute."
+  },
+  "identify_purpose_manual_check": {
+    "value": "Verify that the purpose of each user interface component can be programmatically determined, enabling user agents to provide customized presentations or functionality (e.g., auto-filling forms using standard vocabularies)."
+  },
+  "identify_purpose_title": {
+    "value": "Verify identify purpose"
+  },
+  "ignored_slash": {
+    "value": "ignored slash"
+  },
+  "illegal_character_in_link_domain_title": {
+    "value": "Illegal character in the domain for the attribute href."
+  },
+  "illegal_character_in_link_domain_title_report_message_1": {
+    "value": "The following domain <code>%0</code> contains illegal characters: <code>%1</code>."
+  },
+  "images_of_text_manual_check": {
+    "value": "Verify that text is presented as actual text instead of as an image, allowing users to customize font, size, and color to meet their needs."
+  },
+  "images_of_text_no_exception_manual_check": {
+    "value": "Ensure that this image is not used to present text if the same visual effect can be achieved using standard CSS/HTML code."
+  },
+  "images_of_text_no_exception_title": {
+    "value": "Verify images of text (no exception)"
+  },
+  "images_of_text_title": {
+    "value": "Verify images of text"
+  },
+  "img_adjacent_duplicate_text_link_report_message_1": {
+    "value": "Adjacent text and image link have the same destination. Avoid unnecessary duplication that occurs when adjacent text and iconic versions of a link are contained in a document."
+  },
+  "img_adjacent_duplicate_text_link_report_message_2": {
+    "value": "IMG element inside a link has empty or missing ALT text when a link beside it contains link text. Consider combining the links."
+  },
+  "img_adjacent_duplicate_text_link_title": {
+    "value": "Adjacent IMG and TEXT links must share the same destination."
+  },
+  "img_alt_duplicate_text_link_report_message": {
+    "value": "IMG element inside a link must not use ALT text that duplicates the text content of the link."
+  },
+  "img_alt_duplicate_text_link_title": {
+    "value": "A link and its image may not have duplicate text content."
+  },
+  "img_empty_alt_in_link_report_message_1": {
+    "value": "You have defined empty content for <code>alt</code> attribute in <code>img</code> element."
+  },
+  "img_empty_alt_in_link_report_message_2": {
+    "value": "You have defined <code>alt</code> attribute in <code>img</code>, but it contains only whitespace."
+  },
+  "img_empty_alt_in_link_title": {
+    "value": "Image inside of a link needs an alternative description."
+  },
+  "img_empty_alt_with_empty_title_report_message": {
+    "value": "Images with an empty <code>alt</code> attribute must have an absent or empty <code>title</code> attribute, but <code>title</code> exists and is not empty."
+  },
+  "img_empty_alt_with_empty_title_report_message_alt_whitespaces": {
+    "value": "Note: <code>alt</code> attribute contains only whitespaces."
+  },
+  "img_empty_alt_with_empty_title_title": {
+    "value": "Decorative images should not have a title attribute."
+  },
+  "include": {
+    "value": "Include"
+  },
+  "include_best_practices": {
+    "value": "Best practices"
+  },
+  "include_hidden_elements": {
+    "value": "Include hidden elements"
+  },
+  "incorrect_document_mime_type_report_message_1": {
+    "value": "The mime type of the document is <code>%0</code>, but it should be <code>text/html</code>. Mime type indicating the kind of data the content represents."
+  },
+  "incorrect_document_mime_type_title": {
+    "value": "Incorrect mime-type for the document."
+  },
+  "incorrect_technique_for_hiding_content_report_message": {
+    "value": "CSS technique text-indent: <code>%0</code>  is used to hide the text. However, it causes problems for right-to-left language and also keep focus for screen reader outside of visible area."
+  },
+  "incorrect_technique_for_hiding_content_title": {
+    "value": "Do not use CSS text-indent to hide text."
+  },
+  "infos": {
+    "value": "infos"
+  },
+  "input_image_missing_alt_report_message_1": {
+    "value": "You have not defined an <code>alt</code> attribute that describes the button's function."
+  },
+  "input_image_missing_alt_report_message_2": {
+    "value": "You have defined an <code>alt</code> attribute with empty content, but it should describe the button's function."
+  },
+  "input_image_missing_alt_report_message_3": {
+    "value": "The text in the <code>alt</code> attribute should describe the button's function. It contains only white space and therefore it is ignored by assistive technologies."
+  },
+  "input_image_missing_alt_title": {
+    "value": "Image button must declare alt text describing its action."
+  },
+  "inspect_element": {
+    "value": "Inspect element"
+  },
+  "interruptions_postponed_manual_check": {
+    "value": "Verify that there is a mechanism for the user to postpone or suppress interruptions, such as alerts, notifications, or automatic updates, except for interruptions involving an emergency."
+  },
+  "interruptions_postponed_title": {
+    "value": "Verify postponement of interruptions"
+  },
+  "invalid_attribute_dir_value_report_message": {
+    "value": "Attribute <code>dir</code> has invalid value <code>%0</code>."
+  },
+  "invalid_attribute_dir_value_title": {
+    "value": "Invalid value found in DIR attribute."
+  },
+  "invisible_image_loaded_report_message_1": {
+    "value": "The image was loaded during page load but was outside the initial viewport."
+  },
+  "invisible_image_loaded_title": {
+    "value": "Do not load IMG that remains invisible for the user."
+  },
+  "invisible_media_loaded_report_message_1": {
+    "value": "The media was loaded during page load but was outside the initial viewport."
+  },
+  "invisible_media_loaded_title": {
+    "value": "Do not load media that remains invisible for the user."
+  },
+  "issues": {
+    "value": "Issues"
+  },
+  "js_path_label": {
+    "value": "JS Path"
+  },
+  "keyboard_functionality_manual_check": {
+    "value": "Verify that this element is reachable via the <kbd>Tab</kbd> key and can be fully operated using the keyboard (<kbd>Enter</kbd>, <kbd>Space</kbd>, or arrow keys). Elements: %0"
+  },
+  "keyboard_functionality_title": {
+    "value": "Verify keyboard accessibility"
+  },
+  "keyboard_no_exception_manual_check": {
+    "value": "Total interactive elements on the page: %0. Verify that every function of the element can be performed via keyboard without requiring specific timing for individual keystrokes."
+  },
+  "keyboard_no_exception_title": {
+    "value": "Verify full keyboard operation (no exception)"
+  },
+  "label_duplicated_content_title_report_message": {
+    "value": "This element has the same content as its <code>title</code> attribute. Consider removing <code>title</code> as some screen readers read both."
+  },
+  "label_duplicated_content_title_title": {
+    "value": "Avoid repeating LABEL text inside its title attribute."
+  },
+  "label_implicitly_associated_report_message_1": {
+    "value": "You have implicitly associated <code>%0</code> attribute, but it contains only white spaces and therefore it's invalid. To implict associate label with labelable child element remove <code>for</code> attribute. Note that implicit label has poor support in Voice Control AT."
+  },
+  "label_implicitly_associated_report_message_2": {
+    "value": "You have implicitly associated <code>%0</code> attribute, but it contains more than one labelable elements. It should contains only one because activating label sets the foocus on the first labelable element. Note that implicit label has poor support in Voice Control AT."
+  },
+  "label_implicitly_associated_title": {
+    "value": "Implicit LABEL must be clear and sufficient."
+  },
+  "label_inappropriate_association_report_message_1": {
+    "value": "Missing defined associated form control for <code>%0</code>."
+  },
+  "label_inappropriate_association_report_message_2": {
+    "value": "Expected <code>%0</code> not to be associated with non-form control."
+  },
+  "label_inappropriate_association_title": {
+    "value": "LABEL association must point to an existing form control."
+  },
+  "landmark_elements_tool": {
+    "value": "Landmarks"
+  },
+  "landmarks_none_report_message": {
+    "value": "Page have no landmarks defined. Landmarks are used to help users navigate the page more easily, especially for those using assistive technologies."
+  },
+  "landmarks_none_title": {
+    "value": "No landmarks found on page."
+  },
+  "language": {
+    "value": "Language"
+  },
+  "language_of_parts_manual_check": {
+    "value": "Verify that the language of the element content accurately relates to the attribute <code>lang=\"%0\"</code>."
+  },
+  "language_of_parts_title": {
+    "value": "Verify language of parts"
+  },
+  "language_unspecified": {
+    "value": "Unspecified"
+  },
+  "languages_detection_tool": {
+    "value": "Languages detection"
+  },
+  "last_update": {
+    "value": "Last update"
+  },
+  "layout_shifts_with_font_display_report_message_1": {
+    "value": "Unexpected layout shifts caused by web font <code>%0</code> and <code>display: %1</code>."
+  },
+  "layout_shifts_with_font_display_title": {
+    "value": "Avoid layout shift from FONT loading."
+  },
+  "learn_more_about_analytics": {
+    "value": "Learn more about analytics"
+  },
+  "legend_first_child_of_fieldset_report_message_1": {
+    "value": "Expected <code>%0</code> to be the first child of the <code>%1</code> element, but instead there is <code>%2</code>."
+  },
+  "legend_first_child_of_fieldset_report_message_2": {
+    "value": "Element <code>%0</code> is the first child of the <code>%1</code> element, but it contains only white spaces."
+  },
+  "legend_first_child_of_fieldset_title": {
+    "value": "LEGEND must be first child of FIELDSET."
+  },
+  "level": {
+    "value": "Level"
+  },
+  "link_page_title_tool": {
+    "value": "Link page title"
+  },
+  "link_page_title_tool_title": {
+    "value": "This tool fetches a remote page, extracts its title, and displays it next to the corresponding link text, allowing you to determine the actual title of the remote page."
+  },
+  "link_purpose_in_context_manual_check": {
+    "value": "Verify that the purpose of each link can be determined from the link text alone or from the link text together with its programmatically determined link context (e.g., the surrounding sentence, paragraph, or list item). Found elements: %0."
+  },
+  "link_purpose_in_context_title": {
+    "value": "Verify link purpose in context"
+  },
+  "link_with_unclear_purpose_report_message1": {
+    "value": "This link text content <code>%0</code> is unclear out of context."
+  },
+  "link_with_unclear_purpose_report_message2": {
+    "value": "This element looks like a link and its text <code>%0</code> is unclear out of context."
+  },
+  "link_with_unclear_purpose_title": {
+    "value": "Links should have descriptive, meaningful text that makes sense even when taken out of context."
+  },
+  "links_not_visually_evident_without_color_vision_report_message": {
+    "value": "Ensure links are understandable and distinguishable from their surrounding text. Parent element has styles <code>%0</code>, while anchor has styles <code>%1</code>. Change the styles to differentiate between them."
+  },
+  "links_not_visually_evident_without_color_vision_report_message_2": {
+    "value": "Ensure links are distinguishable from surrounding text. This link uses only color (no underline, no font-style change) to differentiate itself, which may not be visible to color-blind users."
+  },
+  "links_not_visually_evident_without_color_vision_title": {
+    "value": "Links need to be understandable and distinguishable from their surrounding text."
+  },
+  "links_same_content_different_url_report_message": {
+    "value": "Found <code>%0</code> links with the same text <code>%1</code> (accessible name: <code>%2</code>) pointing to different URLs. Every link should have unique content."
+  },
+  "links_same_content_different_url_title": {
+    "value": "Avoid link elements that have the same content, but different destination URLs."
+  },
+  "links_to_resources_are_in_english_language_only": {
+    "value": "The SiteLint documentation is available in English, and links to it are provided for users who require further information or guidance on using the tool effectively."
+  },
+  "local_resource_leak_report_message_1": {
+    "value": "The source <code>%0</code> of the element <code>%1</code> points to a local development environment. This will be inaccessible to users in production."
+  },
+  "local_resource_leak_title": {
+    "value": "Local development resource detected."
+  },
+  "location_indicator_manual_check": {
+    "value": "Verify that information about the user's location within a set of web pages is available (e.g., through breadcrumbs, a highlighted current menu item, or a step indicator in a multi-step process)."
+  },
+  "location_indicator_title": {
+    "value": "Verify location indicator"
+  },
+  "low_background_audio_manual_check": {
+    "value": "Verify that background audio is at least 20 decibels quieter than the main speech, or that the user can turn it off completely."
+  },
+  "low_background_audio_title": {
+    "value": "Verify background audio"
+  },
+  "low_or_no_background_audio_manual_check": {
+    "value": "Verify that for audio that contains speech, background audio is either absent, at least 20 decibels lower than the speech, or the user can turn it off."
+  },
+  "low_or_no_background_audio_title": {
+    "value": "Verify low or no background audio"
+  },
+  "main_element_only_one_report_message": {
+    "value": "You have defined multiple (<code>%0</code>) <code>%1</code> elements. Assistive technology users expect one main content block and may miss subsequent <code>main</code> blocks."
+  },
+  "main_element_only_one_title": {
+    "value": "The MAIN element should only be defined once on a page."
+  },
+  "main_landmark_must_be_top_level_report_message": {
+    "value": "Expected element <code>%0</code> to be a top-level landmark, but it is contained within element <code>%1</code>."
+  },
+  "main_landmark_must_be_top_level_title": {
+    "value": "MAIN element must be a top-level landmark (i.e., not nested inside any other landmark region)."
+  },
+  "malformed_json_ld_report_message_1": {
+    "value": "Invalid JSON-LD string. It can't be parsed correctly by search engines because it's JSON syntax is not valid."
+  },
+  "malformed_json_ld_report_message_2": {
+    "value": "Content of JSON-LD should not contains line breaks characters. Yours contains <code>%0</code> line breaks."
+  },
+  "malformed_json_ld_title": {
+    "value": "Malformed JSON-LD found."
+  },
+  "manifest_extension_report_message_1": {
+    "value": "The application manifest file should have an extension <code>.webmanifest</code>. Yours is <code>%0</code>."
+  },
+  "manifest_extension_title": {
+    "value": "Non-standard file extensions used for the web app manifest file."
+  },
+  "manual_audit": {
+    "value": "Manual audit"
+  },
+  "manual_verification": {
+    "value": "Filter problems by"
+  },
+  "manual_verification_include_all": {
+    "value": "Include all"
+  },
+  "manual_verification_not_required": {
+    "value": "Do not require manual verification"
+  },
+  "manual_verification_only_required": {
+    "value": "Require manual verification"
+  },
+  "manual_verification_required": {
+    "value": "Manual verification required"
+  },
+  "meaningful_sequence_report1": {
+    "value": "CSS <code>order</code> property is used on elements inside a flex or grid container, which may cause the visual order to differ from the DOM reading order."
+  },
+  "meaningful_sequence_report2": {
+    "value": "Verify that when the sequence in which content is presented affects its meaning, a correct reading sequence can be programmatically determined."
+  },
+  "meaningful_sequence_title": {
+    "value": "Verify meaningful sequence"
+  },
+  "media_alternative_prerecorded_manual_check": {
+    "value": "Verify that an alternative for time-based media is provided for all pre-recorded synchronized media. This transcript or full descriptive text must present the same information as the synchronized media."
+  },
+  "media_alternative_prerecorded_title": {
+    "value": "Verify media alternative (prerecorded)"
+  },
+  "message_error": {
+    "value": "Error!"
+  },
+  "message_id": {
+    "value": "Message Id"
+  },
+  "message_to_clipboard": {
+    "value": "message %0 to clipboard"
+  },
+  "meta_description_too_long_or_too_short_report_message_1": {
+    "value": "Meta description <code>%0</code> has length <code>%1</code>, but it should be between 25 and 160 characters. Most search engine crawlers only show the first 150-160 characters of the description in the search results."
+  },
+  "meta_description_too_long_or_too_short_title": {
+    "value": "Meta Description of the page is too long or too short."
+  },
+  "meta_description_truncation_short_report_message_1": {
+    "value": "Meta description <code>%0</code> has been truncated. It is recommended to not truncate the page description as it may be incomprehensible to the user while displayed in SERP (search engine results page)."
+  },
+  "meta_description_truncation_title": {
+    "value": "Avoid Meta Description truncation."
+  },
+  "methodology": {
+    "value": "Methodology"
+  },
+  "minimize_sitelint_auditor": {
+    "value": "Minimize SiteLint Auditor"
+  },
+  "minimum_font_size_report_message_1": {
+    "value": "This hidden element has <code>%0px</code> font size (expected minimum <code>10px</code>)."
+  },
+  "minimum_font_size_report_message_2": {
+    "value": "Defined <code>%0px</code> font size, but expected minimum <code>10px</code>."
+  },
+  "minimum_font_size_title": {
+    "value": "BODY text must not be smaller than 16 px."
+  },
+  "missing_alt_attribute_report_message": {
+    "value": "Missing defined attribute <code>alt</code>."
+  },
+  "missing_alt_attribute_title": {
+    "value": "Missing ALT on non-text elements."
+  },
+  "missing_canonical_url_report_message_1": {
+    "value": "The page's missing a defined canonical URL. A canonical URL is the URL of the page that the Search Engine thinks is most representative of a set of duplicate pages on your site."
+  },
+  "missing_canonical_url_title": {
+    "value": "Missing defined canonical URL."
+  },
+  "missing_charset_report_message_1": {
+    "value": "The charset declaration is defined, but not within first 1024 bytes of the HTML"
+  },
+  "missing_charset_report_message_2": {
+    "value": "Missing defined charset declaration"
+  },
+  "missing_charset_title": {
+    "value": "Missing charset declaration or it is not defined in the first 1024 bytes of the HTML."
+  },
+  "missing_favicon_report_message": {
+    "value": "The page has no defined favicon, which helps users identify your website in browser tabs, bookmarks, and search results."
+  },
+  "missing_favicon_title": {
+    "value": "Page should define a favicon"
+  },
+  "missing_href_on_a_report_message": {
+    "value": "Missing attribute <code>href</code> on a hyperlink. The user cannot navigate to this element using the keyboard."
+  },
+  "missing_href_on_a_title": {
+    "value": "A link needs a destination to function properly."
+  },
+  "missing_https_protocol_title": {
+    "value": "Missing https protocol to protect privacy and integrity of the exchanged data."
+  },
+  "missing_https_report_message": {
+    "value": "The page uses <code>%0</code> protocol, but should <code>https:</code>."
+  },
+  "missing_label_report_message_1": {
+    "value": "Expected attribute <code>id</code> to be defined on element <code>%0</code> to associate with appropriate <code>%1</code>."
+  },
+  "missing_label_report_message_2": {
+    "value": "Expected element <code>%0</code> to be defined for this element."
+  },
+  "missing_label_report_message_3": {
+    "value": "You have defined multiple labels for element <code>%0</code>. It should only be one."
+  },
+  "missing_label_title": {
+    "value": "Form controls need labels."
+  },
+  "missing_opengraph_report_message": {
+    "value": "The page has no defined Open Graph tags, which improve how link previews appear across various search engines, services and applications."
+  },
+  "missing_opengraph_title": {
+    "value": "Page should define Open Graph tags"
+  },
+  "missing_page_schema_report1": {
+    "value": "The page has no defined JSON-LD structured data. Adding structured data helps search engines understand your content and enables rich search results."
+  },
+  "missing_page_schema_title": {
+    "value": "Page should define JSON-LD structured data"
+  },
+  "missing_protocol_http2_report_message_1": {
+    "value": "Your site does not use protocol <code>HTTP2</code> or <code>HTTP3</code>. Enable it to open the ability for browsers to accept more content from an application's server at once, which improves application performance."
+  },
+  "missing_protocol_http2_title": {
+    "value": "Missing protocol HTTP2 that make your site faster, simpler, and more robust."
+  },
+  "missing_rel_noopener_report_message_1": {
+    "value": "The element <code>%0</code> should have defined <code>rel=\"noopener\"</code> or <code>rel=\"noreferrer\"</code>."
+  },
+  "missing_rel_noopener_title": {
+    "value": "Links to cross-origin destinations are unsafe."
+  },
+  "missing_submit_button_report_message_1": {
+    "value": "The form has no keyboard-submit mechanism. Add a submit button or keep only one text field."
+  },
+  "missing_submit_button_title": {
+    "value": "Ensure FORM can be submitted without a pointer."
+  },
+  "misused_aria_on_focusable_element_report_message": {
+    "value": "Using <code>%0</code> on a visible focusable element will result in some users focusing on \"nothing\"."
+  },
+  "misused_aria_on_focusable_element_title": {
+    "value": "ARIA attributes redundant on native focusable element."
+  },
+  "misused_input_attribute_report_message": {
+    "value": "Attribute <code>%0</code> is not a valid attribute for INPUT according to the HTML specification."
+  },
+  "misused_input_attribute_title": {
+    "value": "Misused attribute found on INPUT."
+  },
+  "misused_required_attribute_report_message1": {
+    "value": "Redundant attribute: <code>aria-required</code> should not be used with native <code>required</code>."
+  },
+  "misused_required_attribute_title": {
+    "value": "The \"required\" and \"aria-required\" attributes should not be combined on the same element."
+  },
+  "misused_tabindex_attribute_report_message_1": {
+    "value": "Attribute <code>tabindex=\"0\"</code> is defined on natively focusable elements and it's redundant on following elements (name, total founded): <code>%0</code>."
+  },
+  "misused_tabindex_attribute_title": {
+    "value": "Attribute tabindex=\"0\" is redundant on natively focusable elements."
+  },
+  "mixed_content_on_https_report_message_1": {
+    "value": "The location for element <code>%0</code> uses protocol <code>%1</code> which does not match the page protocol <code>%2</code>."
+  },
+  "mixed_content_on_https_title": {
+    "value": "The site uses insecure HTTP connections on HTTPS (Mixed Content)."
+  },
+  "more_details": {
+    "value": "Details"
+  },
+  "motion_actuation_manual_check": {
+    "value": "Verify that functionality triggered by device motion (like shaking or tilting) can also be operated by user interface components, and that the motion trigger can be disabled to prevent accidental activation."
+  },
+  "motion_actuation_title": {
+    "value": "Verify motion actuation"
+  },
+  "multiple_ways_manual_check": {
+    "value": "Verify that more than one way is available to locate a web page within a set of web pages (e.g., a site map, a search function, or a navigation menu), except where the page is the result of, or a step in, a process."
+  },
+  "multiple_ways_title": {
+    "value": "Verify multiple ways to locate pages"
+  },
+  "navigation_landmark_restrictions_report_message": {
+    "value": "Elements with a role inside <code>role=\"navigation\"</code> must only be <code>role=\"region\"</code> or <code>role=\"search\"</code>."
+  },
+  "navigation_landmark_restrictions_title": {
+    "value": "NAV landmark must contain only region or search landmarks."
+  },
+  "no": {
+    "value": "No"
+  },
+  "no_content_for_clipboard": {
+    "value": "There is no content to copy to the clipboard."
+  },
+  "no_css": {
+    "value": "No CSS"
+  },
+  "no_headings_report_message": {
+    "value": "There are no defined headings <code>h1-h6</code>."
+  },
+  "no_headings_title": {
+    "value": "No headings found on page."
+  },
+  "no_issues_found": {
+    "value": "No issues found"
+  },
+  "no_issues_found_for_a_given_filter_options": {
+    "value": "Based on the applied filters, no issues are being displayed. Please adjust your filters to see the relevant issues."
+  },
+  "no_keyboard_trap_manual_check": {
+    "value": "Ensure that if a user navigates to this element using the keyboard, they can also leave it using only the keyboard (without the focus getting stuck)."
+  },
+  "no_keyboard_trap_title": {
+    "value": "Verify keyboard trap"
+  },
+  "no_meta_http_equiv_refresh_report_message": {
+    "value": "You have defined <code>http-equiv=\"refresh\"</code>. Remove this element."
+  },
+  "no_meta_http_equiv_refresh_title": {
+    "value": "Pages must not automatically refresh or redirect without user control."
+  },
+  "no_pdf_links_found": {
+    "value": "No PDF links found on this page"
+  },
+  "no_results_to_export": {
+    "value": "No results to export. Please validate a PDF first."
+  },
+  "no_timing_manual_check": {
+    "value": "Verify that the page does not contain any time limits for user activity. Timing should not be an essential part of the activity or functionality, except for non-interactive synchronized media and real-time events."
+  },
+  "no_timing_title": {
+    "value": "Verify absence of timing"
+  },
+  "noindex_follow_conflict_report_message_1": {
+    "value": "The robots meta tag <code>%0</code> contains conflicting directives that may confuse search engines. Avoid using opposite directives like <code>noindex</code> with <code>index</code> or <code>none</code> with <code>index</code>."
+  },
+  "noindex_follow_conflict_report_message_2": {
+    "value": "Found <code>%0</code> robots meta tags with conflicting directives across different tags. Ensure all robots meta tags on the page use consistent directives."
+  },
+  "noindex_follow_conflict_title": {
+    "value": "Prevent search engines from indexing pages with noindex meta tag conflicts."
+  },
+  "non_text_contrast_manual_check": {
+    "value": "Verify that user interface components (such as form borders and buttons) and graphical objects (such as information-carrying icons) have a contrast ratio of at least 3:1 against adjacent colors."
+  },
+  "non_text_contrast_title": {
+    "value": "Verify non-text contrast"
+  },
+  "none": {
+    "value": "None"
+  },
+  "not_applicable": {
+    "value": "N/A"
+  },
+  "not_determined": {
+    "value": "not determined"
+  },
+  "not_specified": {
+    "value": "not specified"
+  },
+  "object_missing_body_report_message_1": {
+    "value": "The text alternative to the content rendered by <code>%0</code> contains only whitespace. The body of the <code>%1</code> element must provide a complete text alternative for the object."
+  },
+  "object_missing_body_report_message_2": {
+    "value": "The <code>%0</code> element does not define a text alternative. The body of the <code>%1</code> element can be used to provide a complete text alternative for the <code>%2</code>, or it may contain additional non-text content with text alternatives."
+  },
+  "object_missing_body_title": {
+    "value": "Missing alternative content for OBJECT element."
+  },
+  "obsolete_html_attributes_report_message": {
+    "value": "The following attributes <code>%0</code> are obsolete (though the elements are still part of the language), and must not be used by authors."
+  },
+  "obsolete_html_attributes_title": {
+    "value": "Obsolete attribute found."
+  },
+  "obsolete_html_elements_report_message": {
+    "value": "Following element <code>%0</code> is entirely obsolete, and must not be used by authors."
+  },
+  "obsolete_html_elements_title": {
+    "value": "Obsolete HTML elements found."
+  },
+  "on_focus_manual_check": {
+    "value": "Verify that when any component receives focus, it does not initiate a change of context (such as opening a new window, moving focus to another element, or significantly changing page content). Elements found: %0."
+  },
+  "on_focus_title": {
+    "value": "Verify on focus behavior"
+  },
+  "on_input_manual_check": {
+    "value": "Verify that changing the setting of any user interface component does not automatically cause a change of context (like submitting a form or jumping to a new page) unless the user has been advised of the behavior before using the component."
+  },
+  "on_input_title": {
+    "value": "Verify on input behavior"
+  },
+  "open_sitelint_auditor": {
+    "value": "Open SiteLint Auditor"
+  },
+  "options": {
+    "value": "Options"
+  },
+  "orientation_manual_check": {
+    "value": "Verify that content does not restrict its view and operation to a single display orientation, such as portrait or landscape, unless a specific orientation is essential."
+  },
+  "orientation_title": {
+    "value": "Verify orientation"
+  },
+  "overall_score": {
+    "value": "Overall Score"
+  },
+  "overlay_report_message": {
+    "value": "Accessibility an overlay %0 has been detected on the page. Overlays are third-party widgets that attempt to automatically fix the accessibility issues of page they are added to. Therefore the results from the scanning may not be accurate."
+  },
+  "overlay_title": {
+    "value": "Avoid using accessibility overlays."
+  },
+  "oversized_images_report_message_0": {
+    "value": "Image size: <code>%0</code>."
+  },
+  "oversized_images_report_message_1": {
+    "value": "The image has original size: <code>%0px</code> height and <code>%1px</code> width, but it's displayed with size: <code>%2px</code> height and <code>%3px</code> width."
+  },
+  "oversized_images_report_message_2": {
+    "value": "The image has original size: <code>%0px</code> height and <code>%1px</code> width, but it's displayed with the height <code>%2px</code> much smaller than the original value <code>%3px</code>."
+  },
+  "oversized_images_report_message_3": {
+    "value": "The image has original size: <code>%0px</code> height and <code>%1px</code> width, but it's displayed with the width <code>%2px</code> much smaller than the original value <code>%3px</code>."
+  },
+  "oversized_images_title": {
+    "value": "Avoid displaying oversized images."
+  },
+  "page": {
+    "value": "Page"
+  },
+  "page_canonical_url": {
+    "value": "Canonical URL"
+  },
+  "page_h1": {
+    "value": "H1"
+  },
+  "page_has_canonical_url": {
+    "value": "canonical"
+  },
+  "page_has_non_canonical_url": {
+    "value": "non-canonical"
+  },
+  "page_images": {
+    "value": "Images"
+  },
+  "page_images_action": {
+    "value": "Action"
+  },
+  "page_images_ai_generated": {
+    "value": "AI Generated"
+  },
+  "page_images_ai_prompt": {
+    "value": "Please provide a functional, objective description of the provided image in no more than around 30 words so that someone who could not see it would be able to imagine it. If possible, follow an \"object-action-context\" framework. The object is the main focus. The action describes what is happening, usually what the object is doing. The context describes the surrounding environment. If there is text found in the image, do your best to transcribe the important bits, even if it extends the word count beyond 30 words. It should not contain quotation marks, as those tend to cause issues when rendered on the web. If there is no text found in the image, then there is no need to mention it. You should not begin the description with any variation of \"The image\"."
+  },
+  "page_images_alt_text": {
+    "value": "Alt text"
+  },
+  "page_images_generate_alt": {
+    "value": "Generate AI alt"
+  },
+  "page_images_generated_alt_a11y": {
+    "value": "Alt text generated: %0"
+  },
+  "page_images_generating": {
+    "value": "Generating..."
+  },
+  "page_images_has_alt": {
+    "value": "Has alt text"
+  },
+  "page_images_lang_select_page_lang": {
+    "value": "Page language"
+  },
+  "page_images_lang_select_user_pref": {
+    "value": "User preferred"
+  },
+  "page_images_load_error": {
+    "value": "Failed to load the image."
+  },
+  "page_images_load_error_explanation": {
+    "value": "Failed images may be caused by server security settings, such as Content Security Policy (CSP), proxy settings, VPN, or other security measures."
+  },
+  "page_images_missing_alt": {
+    "value": "Empty description"
+  },
+  "page_images_none": {
+    "value": "No images found on this page."
+  },
+  "page_images_pending": {
+    "value": "Image analysis will be available after the audit is complete."
+  },
+  "page_images_preview": {
+    "value": "Preview"
+  },
+  "page_images_status": {
+    "value": "Status"
+  },
+  "page_images_summary": {
+    "value": "%0 of %1 (%2%) have alternative text defined. %3 of %1 (%4%) do not have alternative text defined."
+  },
+  "page_images_translate_lang": {
+    "value": "Language for AI-generated alt text"
+  },
+  "page_indexable": {
+    "value": "indexable"
+  },
+  "page_information": {
+    "value": "Page information"
+  },
+  "page_language": {
+    "value": "Language"
+  },
+  "page_meta_description": {
+    "value": "Meta description"
+  },
+  "page_meta_robots": {
+    "value": "Meta robots"
+  },
+  "page_non_indexable": {
+    "value": "non-indexable"
+  },
+  "page_robots_txt": {
+    "value": "Robots.txt"
+  },
+  "page_robots_txt_allows": {
+    "value": "Allow"
+  },
+  "page_robots_txt_allows_desc": {
+    "value": "Permits crawling of specified URL paths"
+  },
+  "page_robots_txt_content_signal": {
+    "value": "Content-Signal"
+  },
+  "page_robots_txt_content_signal_desc": {
+    "value": "Signals AI training and search permission"
+  },
+  "page_robots_txt_crawl_delay": {
+    "value": "Crawl-delay"
+  },
+  "page_robots_txt_crawl_delay_desc": {
+    "value": "Sets time delay between crawl requests"
+  },
+  "page_robots_txt_disallows": {
+    "value": "Disallow"
+  },
+  "page_robots_txt_disallows_desc": {
+    "value": "Blocks specified URL paths from crawling"
+  },
+  "page_robots_txt_exists": {
+    "value": "Exists"
+  },
+  "page_robots_txt_llms": {
+    "value": "LLMs.txt"
+  },
+  "page_robots_txt_llms_desc": {
+    "value": "References an LLMs.txt for AI crawler guidance"
+  },
+  "page_robots_txt_not_found": {
+    "value": "Not found"
+  },
+  "page_robots_txt_raw": {
+    "value": "Raw robots.txt"
+  },
+  "page_robots_txt_sitemaps": {
+    "value": "Sitemap"
+  },
+  "page_robots_txt_sitemaps_desc": {
+    "value": "Points to XML sitemap location"
+  },
+  "page_robots_txt_user_agents": {
+    "value": "User-agent"
+  },
+  "page_robots_txt_user_agents_desc": {
+    "value": "Defines crawl rules for specific bots"
+  },
+  "page_section_images": {
+    "value": "Images"
+  },
+  "page_title": {
+    "value": "Title"
+  },
+  "page_title_length_report_message_1": {
+    "value": "The page title length is <code>%0</code> characters, which exceeds 120 characters and may be cut off in search results. Current title: <code>%1</code>"
+  },
+  "page_title_length_title": {
+    "value": "The page title should not exceed 120 characters to reduce the chance of being cut off in search results."
+  },
+  "page_title_words_not_included_in_url_report_message_1": {
+    "value": "Following page title <code>%0</code> words <code>%1</code> are not included in the page url <code>%2</code>."
+  },
+  "page_title_words_not_included_in_url_title": {
+    "value": "The page title words are not included in the page url."
+  },
+  "page_url": {
+    "value": "URL"
+  },
+  "parsing_title": {
+    "value": "Parsing (Deprecated)"
+  },
+  "pdf_accessibility_score": {
+    "value": "Accessibility score"
+  },
+  "pdf_allows_copying": {
+    "value": "Allows copying"
+  },
+  "pdf_allows_printing": {
+    "value": "Allows printing"
+  },
+  "pdf_analysis_failed": {
+    "value": "Failed to analyze: %0"
+  },
+  "pdf_attributes": {
+    "value": "Attributes"
+  },
+  "pdf_audit_in_progress": {
+    "value": "Auditing PDF files..."
+  },
+  "pdf_audit_progress": {
+    "value": "Processing document %0 of %1 total"
+  },
+  "pdf_author": {
+    "value": "Author"
+  },
+  "pdf_checking_links": {
+    "value": "Checking PDF links"
+  },
+  "pdf_content_creator": {
+    "value": "Content creator"
+  },
+  "pdf_creation_date": {
+    "value": "Creation date"
+  },
+  "pdf_csv_errors": {
+    "value": "Errors"
+  },
+  "pdf_csv_header_message": {
+    "value": "Message"
+  },
+  "pdf_csv_header_requirement_id": {
+    "value": "Requirement ID"
+  },
+  "pdf_csv_header_score": {
+    "value": "Score"
+  },
+  "pdf_csv_header_type": {
+    "value": "Type"
+  },
+  "pdf_csv_infos": {
+    "value": "Infos"
+  },
+  "pdf_csv_language": {
+    "value": "Language"
+  },
+  "pdf_csv_page": {
+    "value": "Page"
+  },
+  "pdf_csv_pages": {
+    "value": "Pages"
+  },
+  "pdf_csv_severity": {
+    "value": "Severity"
+  },
+  "pdf_csv_standard": {
+    "value": "Standard"
+  },
+  "pdf_csv_total_issues": {
+    "value": "Total issues"
+  },
+  "pdf_csv_warnings": {
+    "value": "Warnings"
+  },
+  "pdf_csv_wcag_criterion": {
+    "value": "WCAG Criterion"
+  },
+  "pdf_document_no_title": {
+    "value": "Document has no title"
+  },
+  "pdf_empty_title": {
+    "value": "Empty title"
+  },
+  "pdf_encrypted": {
+    "value": "Encrypted"
+  },
+  "pdf_error": {
+    "value": "Error: %0"
+  },
+  "pdf_file": {
+    "value": "File"
+  },
+  "pdf_file_size": {
+    "value": "File size"
+  },
+  "pdf_font_embedded": {
+    "value": "Embedded"
+  },
+  "pdf_font_embedded_status": {
+    "value": "Status"
+  },
+  "pdf_font_info": {
+    "value": "Fonts"
+  },
+  "pdf_font_name": {
+    "value": "Name"
+  },
+  "pdf_font_not_embedded": {
+    "value": "Not Embedded"
+  },
+  "pdf_font_type": {
+    "value": "Type"
+  },
+  "pdf_font_unknown": {
+    "value": "Unknown"
+  },
+  "pdf_fonts_embedded": {
+    "value": "Fonts embedded"
+  },
+  "pdf_fonts_not_embedded": {
+    "value": "fonts not embedded"
+  },
+  "pdf_fonts_referenced": {
+    "value": "Fonts referenced"
+  },
+  "pdf_fonts_synthetic": {
+    "value": "synthetic fonts"
+  },
+  "pdf_initializing": {
+    "value": "Initializing. Please wait..."
+  },
+  "pdf_issue_color_contrast": {
+    "value": "Color contrast and use of color must be verified manually."
+  },
+  "pdf_issue_color_contrast_manual": {
+    "value": "Verify: (1) Color is not the only means of conveying information, (2) Color contrast ratio of at least 4.5:1 for normal text and 3:1 for large text, (3) Text can be resized up to 200% without loss of content or functionality, (4) Images of text are not used."
+  },
+  "pdf_issue_color_only": {
+    "value": "Content may rely solely on color to convey information."
+  },
+  "pdf_issue_color_only_manual": {
+    "value": "Verify that color is not the only means of conveying information. Look for indicators like \"*\" for required fields or patterns in charts."
+  },
+  "pdf_issue_embedded_files": {
+    "value": "Document contains %0 embedded file(s). Verify that embedded files are accessible and properly tagged."
+  },
+  "pdf_issue_embedded_files_manual": {
+    "value": "Check that each embedded file has appropriate metadata, alternative text, and is itself accessible."
+  },
+  "pdf_issue_heading_not_h1": {
+    "value": "Page %0: First heading is %1, should be H1."
+  },
+  "pdf_issue_images_missing_alt": {
+    "value": "%0 of %1 images missing alternative text."
+  },
+  "pdf_issue_keyboard_accessible": {
+    "value": "Interactive elements detected. Verify keyboard accessibility and focus indicators."
+  },
+  "pdf_issue_keyboard_accessible_manual": {
+    "value": "Verify: (1) All functionality is operable through a keyboard interface, (2) No keyboard traps exist, (3) Focus order is logical and meaningful."
+  },
+  "pdf_issue_language_not_specified": {
+    "value": "Document language is not specified."
+  },
+  "pdf_issue_language_not_specified_wcag": {
+    "value": "Document language is not specified."
+  },
+  "pdf_issue_link_purpose": {
+    "value": "%0 link(s) found. Verify link purpose is clear from context."
+  },
+  "pdf_issue_link_purpose_manual": {
+    "value": "Verify that the purpose of each link can be determined from the link text alone or from the link text together with its programmatically determined context."
+  },
+  "pdf_issue_lists_found": {
+    "value": "%0 list(s) detected. Ensure proper list structure (L, LI, Lbl, LBody)."
+  },
+  "pdf_issue_lists_manual": {
+    "value": "Verify that lists are properly marked up with List (L), List Item (LI), Label (Lbl), and List Body (LBody) elements."
+  },
+  "pdf_issue_long_document_no_bookmarks": {
+    "value": "Long document (>20 pages) has no bookmarks/outlines for navigation."
+  },
+  "pdf_issue_metadata_missing_title": {
+    "value": "Document metadata missing title."
+  },
+  "pdf_issue_missing_role_map": {
+    "value": "Missing RoleMap. Standard role mapping is recommended."
+  },
+  "pdf_issue_missing_struct_tree": {
+    "value": "Missing StructTreeRoot. Document lacks proper structure tree."
+  },
+  "pdf_issue_missing_structure_tree": {
+    "value": "Missing structure tree may affect parsing by assistive technology."
+  },
+  "pdf_issue_no_outlines": {
+    "value": "No document outline/bookmarks found. Bookmarks aid navigation."
+  },
+  "pdf_issue_no_title": {
+    "value": "Document has no title. Page titles help users locate content."
+  },
+  "pdf_issue_non_embedded_fonts": {
+    "value": "%0 font(s) are not embedded: %1. All fonts must be embedded for accessibility."
+  },
+  "pdf_issue_not_tagged": {
+    "value": "PDF is not tagged. Tagged PDF is required for PDF/UA compliance."
+  },
+  "pdf_issue_page_labels_defined": {
+    "value": "Page labels are defined, which aids navigation."
+  },
+  "pdf_issue_page_no_heading": {
+    "value": "Page %0 has no heading structure."
+  },
+  "pdf_issue_page_no_marked_content": {
+    "value": "Page %0 has no marked content. All content must be marked."
+  },
+  "pdf_issue_page_no_paragraph": {
+    "value": "Page %0 has no paragraph elements (P) found."
+  },
+  "pdf_issue_pdfua_identifier_missing": {
+    "value": "PDF/UA identifier not found in XMP metadata."
+  },
+  "pdf_issue_synthetic_fonts": {
+    "value": "Document contains synthetic/Type3 fonts which may cause accessibility issues."
+  },
+  "pdf_issue_tables_found": {
+    "value": "%0 table(s) found. Verify table headers and structure."
+  },
+  "pdf_issue_tables_headers_manual": {
+    "value": "Verify that all tables have properly marked up headers (TH) and relationships."
+  },
+  "pdf_issue_tables_manual": {
+    "value": "Verify that all tables have proper TH elements, headers, and relationships defined."
+  },
+  "pdf_issue_tables_no_headers": {
+    "value": "Tables detected but may not have proper headers."
+  },
+  "pdf_issue_time_based_media": {
+    "value": "Document may contain time-based media. Verify captions, transcripts, and audio descriptions."
+  },
+  "pdf_issue_time_based_media_manual": {
+    "value": "Check for multimedia content and verify that captions, transcripts, and audio descriptions are provided."
+  },
+  "pdf_issue_word_export": {
+    "value": "PDF exported from Microsoft Word. Verify accessibility settings in source document."
+  },
+  "pdf_issue_word_export_manual": {
+    "value": "When exporting from Word, ensure: (1) Use headings styles, (2) Add alt text to images, (3) Use table headers, (4) Export as \"Best for electronic distribution and accessibility\"."
+  },
+  "pdf_issues_found": {
+    "value": "Issues found"
+  },
+  "pdf_keywords": {
+    "value": "Keywords"
+  },
+  "pdf_local_file": {
+    "value": "Or select a local PDF file"
+  },
+  "pdf_local_file_name": {
+    "value": "local-file"
+  },
+  "pdf_modification_date": {
+    "value": "Modification date"
+  },
+  "pdf_no": {
+    "value": "No"
+  },
+  "pdf_no_file_selected": {
+    "value": "No file selected."
+  },
+  "pdf_no_permissions_present": {
+    "value": "No permissions are present in the PDF file."
+  },
+  "pdf_no_tabs_found": {
+    "value": "No tabs found"
+  },
+  "pdf_not_available": {
+    "value": "N/A"
+  },
+  "pdf_page_count": {
+    "value": "Page count"
+  },
+  "pdf_page_size": {
+    "value": "Page size"
+  },
+  "pdf_pages": {
+    "value": "Pages"
+  },
+  "pdf_pdf_producer": {
+    "value": "PDF producer"
+  },
+  "pdf_results_advanced": {
+    "value": "Advanced"
+  },
+  "pdf_results_basic": {
+    "value": "Basic"
+  },
+  "pdf_scanning_progress": {
+    "value": "Checking link %0 of %1"
+  },
+  "pdf_select_valid_file": {
+    "value": "Please select a valid PDF file."
+  },
+  "pdf_standard": {
+    "value": "Validation standard"
+  },
+  "pdf_standard_all": {
+    "value": "All standards"
+  },
+  "pdf_standard_best_practices": {
+    "value": "Best practices"
+  },
+  "pdf_subject": {
+    "value": "Subject"
+  },
+  "pdf_summary": {
+    "value": "Summary"
+  },
+  "pdf_tagged": {
+    "value": "Tagged"
+  },
+  "pdf_title": {
+    "value": "Title"
+  },
+  "pdf_total_pages": {
+    "value": "Pages"
+  },
+  "pdf_unreachable": {
+    "value": "Unreachable"
+  },
+  "pdf_unreachable_message": {
+    "value": "The file is unreachable. HTTP status: %0"
+  },
+  "pdf_untitled_document": {
+    "value": "Untitled document"
+  },
+  "pdf_url": {
+    "value": "PDF url"
+  },
+  "pdf_url_or_current_page": {
+    "value": "PDF url"
+  },
+  "pdf_url_or_current_page_placeholder": {
+    "value": "Leave empty to scan current page for PDFs"
+  },
+  "pdf_validation_issue_type_error": {
+    "value": "Error"
+  },
+  "pdf_validation_issue_type_info": {
+    "value": "Info"
+  },
+  "pdf_validation_issue_type_warning": {
+    "value": "Warning"
+  },
+  "pdf_version": {
+    "value": "PDF version"
+  },
+  "pdf_yes": {
+    "value": "Yes"
+  },
+  "platform": {
+    "value": "Platform"
+  },
+  "pointer_cancellation_manual_check": {
+    "value": "Verify that for functions that can be operated using a single pointer, at least one of the following is true: the down-event is not used to execute the function, completion is on the up-event, a mechanism is available to abort the function, or the up-event reverses the down-event. Found elements: %0."
+  },
+  "pointer_cancellation_title": {
+    "value": "Verify pointer cancellation"
+  },
+  "pointer_gestures_manual_check": {
+    "value": "Verify that all functionality that uses multipoint or path-based gestures for operation can be operated with a single pointer without a path-based gesture, unless a multipoint or path-based gesture is essential."
+  },
+  "pointer_gestures_title": {
+    "value": "Verify pointer gestures"
+  },
+  "positive_tabindex_report_message": {
+    "value": "Positive <code>tabindex=\"%0\"</code> should not be used. Outside of very specific corner cases, a tabindex should not be given a positive integer value. Users who use keyboards to interact with the web expect a web document to be navigable in sequential order, starting at the top left (or right depending on language of the document) and going in order from there."
+  },
+  "positive_tabindex_title": {
+    "value": "Do not use positive tabindex."
+  },
+  "prompt_rule_issues_details": {
+    "value": "# %0 Issue - SiteLint Audit\n\n- **Audit Type:** %0\n- **Issue:** %1\n- **Total occurrences:** %2"
+  },
+  "prompt_rule_issues_footer": {
+    "value": "## Task\n1. Explain why this is an issue and its impact (cite relevant WCAG criteria or SiteLint Best Practices).\n2. Provide the corrected HTML/markup/code for each occurrence.\n3. Note alternative approaches or best practices.\n\nBe concise. Provide actionable, production-ready fixes that follow current web standards."
+  },
+  "prompt_with_all_issues_footer": {
+    "value": "Review all issues and provide specific code fixes for each element listed."
+  },
+  "prompt_with_all_issues_header": {
+    "value": "Below is the full audit report in JSON format. Analyze each issue, explain why it is a problem, and provide the corrected code for every element.\n\nPage URL: %0\nPage title: %1\n\nAudited by %2."
+  },
+  "prompt_with_issue_details": {
+    "value": "# %0 Issue - SiteLint Audit\n\n- **Audit Type:** %0\n- **Issue:** %1\n- **Description:** %2\n\n## Element HTML\n```html\n%3\n```\n\n## Task\n1. Explain why this is an issue and its impact (cite relevant WCAG criteria or SiteLint Best Practices).\n2. Provide the corrected HTML/markup/code.\n3. Note alternative approaches or best practices.\n\nBe concise. Provide actionable, production-ready fixes that follow current web standards."
+  },
+  "pronunciation_clarification_manual_check": {
+    "value": "Verify that a mechanism is available for identifying the specific pronunciation of words where the meaning of the words, in context, is ambiguous without knowing the pronunciation (e.g., heteronyms like 'lead' (to guide) vs 'lead' (the metal))."
+  },
+  "pronunciation_clarification_title": {
+    "value": "Verify pronunciation"
+  },
+  "re_authentication_state_persistence_manual_check": {
+    "value": "Verify that if an authenticated session expires, the user can continue the activity without loss of data after re-authenticating (e.g., data entered into a form is preserved)."
+  },
+  "re_authentication_state_persistence_title": {
+    "value": "Verify re-authentication data preservation"
+  },
+  "reading_level_summary_manual_check": {
+    "value": "Verify that when text requires reading ability more advanced than the lower secondary education level (after removal of proper names and titles), supplemental content or a version that does not require advanced reading ability is available."
+  },
+  "reading_level_summary_title": {
+    "value": "Verify reading level"
+  },
+  "reason": {
+    "value": "Reason"
+  },
+  "redundant_entry_manual_check": {
+    "value": "Verify that for steps in a process, information previously entered by the user that is required to be entered again is either auto-populated or available for selection."
+  },
+  "redundant_entry_title": {
+    "value": "Verify redundant entry"
+  },
+  "reflow_content_manual_check": {
+    "value": "Resize the browser window to a width of <code>320px</code>. Verify that content scales without loss of information and that no horizontal scrollbar appears."
+  },
+  "reflow_content_title": {
+    "value": "Verify reflow"
+  },
+  "report_generated_via": {
+    "value": "Report generated via"
+  },
+  "requirement": {
+    "value": "Requirement"
+  },
+  "results": {
+    "value": "Results"
+  },
+  "rtl_content_report_message": {
+    "value": "You are using RTL direction (text and other elements go from right to left). Make sure all features are available in RTL mode."
+  },
+  "rtl_content_title": {
+    "value": "Features must accommodate right-to-left languages."
+  },
+  "rule_id": {
+    "value": "Rule ID"
+  },
+  "rule_severity": {
+    "value": "Rule severity"
+  },
+  "rules_audited": {
+    "value": "Rules audited: %0"
+  },
+  "rules_partially_audited": {
+    "value": "Rules partially audited: %0 from total %1"
+  },
+  "rules_pending": {
+    "value": "Rules pending: %0"
+  },
+  "run": {
+    "value": "Run"
+  },
+  "same_target_anchor_text_more_than_once_message_1": {
+    "value": "The anchor <code>a</code> text <code>%0</code> is used more than once (<code>%1</code> times) but should be unique on the page."
+  },
+  "same_target_anchor_text_more_than_once_title": {
+    "value": "Don't use the same target anchor text more than once."
+  },
+  "scan_error_auditor_integrity": {
+    "value": "SiteLint couldn't start the audit because part of the extension is damaged or out of date. Please remove the extension and install it again."
+  },
+  "scan_error_extension_context_invalidated": {
+    "value": "The browser terminated internal connection to MV3 service worker. Close and reopen DevTools/SidePanel to continue."
+  },
+  "screenshot_element_failed": {
+    "value": "Failed to capture screenshot of the selected element. The element may be hidden, have zero dimensions, or the page may have restricted screenshot permissions."
+  },
+  "screenshot_element_has_no_dimensions": {
+    "value": "Element was found but has no visible dimensions and cannot be captured"
+  },
+  "screenshot_not_supported": {
+    "value": "Screenshot capture is not supported in this context. Browser says: %0"
+  },
+  "seconds": {
+    "value": "seconds"
+  },
+  "section_audit_tools": {
+    "value": "Audit tools"
+  },
+  "section_pdf": {
+    "value": "PDF"
+  },
+  "section_tools": {
+    "value": "Tools"
+  },
+  "section_validators": {
+    "value": "Validators"
+  },
+  "select_test_result": {
+    "value": "Select test result"
+  },
+  "sensory_characteristics_manual_check": {
+    "value": "Verify that instructions provided for understanding and operating content do not rely solely on sensory characteristics of components such as shape, color, size, visual location, orientation, or sound."
+  },
+  "sensory_characteristics_title": {
+    "value": "Verify sensory characteristics"
+  },
+  "severity": {
+    "value": "Severity"
+  },
+  "severity_critical": {
+    "value": "Critical"
+  },
+  "severity_high": {
+    "value": "High"
+  },
+  "severity_low": {
+    "value": "Low"
+  },
+  "severity_n": {
+    "value": "Not Applicable"
+  },
+  "severity_na": {
+    "value": "N/A"
+  },
+  "severity_type": {
+    "value": "Severity type"
+  },
+  "sign_language_prerecorded_manual_check": {
+    "value": "Verify that an audio description is provided for all prerecorded video content in synchronized media. This ensures users who are blind can understand visual actions, characters, or scene changes that are not described in the main soundtrack."
+  },
+  "sign_language_prerecorded_title": {
+    "value": "Verify sign language (prerecorded)"
+  },
+  "sitelint_audit_tool_name": {
+    "value": "SiteLint Chrome Web Audit Tools extension"
+  },
+  "sitelint_auditor_widget": {
+    "value": "SiteLint Auditor widget"
+  },
+  "sitelint_best_practices": {
+    "value": "SiteLint Best Practices"
+  },
+  "sitelint_component": {
+    "value": "SiteLint component"
+  },
+  "sitelint_logo": {
+    "value": "SiteLint logo"
+  },
+  "skip_reason_alphaValueColor": {
+    "value": "Unable to determine color contrast ratio: the element or one of its ancestors has a background color with alpha transparency."
+  },
+  "skip_reason_backgroundImageFounded": {
+    "value": "Unable to determine color contrast ratio: the element or one of its ancestors has a background image."
+  },
+  "skip_reason_determinedSemiTransparentBackground": {
+    "value": "Unable to determine color contrast ratio: the element or one of its ancestors has semi-transparent background with opacity."
+  },
+  "skip_reason_elementHasSemiOpacity": {
+    "value": "Unable to determine color contrast ratio: the element or one of its ancestors has semi-opacity."
+  },
+  "skip_reason_elementNotVisible": {
+    "value": "Element was excluded from scanning because it's not visible."
+  },
+  "skip_reason_elementStylingHighlyLimited": {
+    "value": "Unable to determine color contrast ratio because the element has highly limited ability to styling."
+  },
+  "skip_reason_excludedFromScanning_on_demand": {
+    "value": "Element was excluded explicitly from scanning using an attribute data-sitelint-skip."
+  },
+  "skip_reason_hiddenFromAssistiveTechnologies": {
+    "value": "The element was excluded from scanning because it's not exposed to assistive technologies."
+  },
+  "skip_reason_onePxSize": {
+    "value": "The element has width and height size <code>1px</code> and <code>1px</code> therefore color contrast calculation has been skipped."
+  },
+  "skip_reason_performancePaintTimingAPInotAvailable": {
+    "value": "PerformancePaintTiming API is not available."
+  },
+  "skip_reason_positionFixed": {
+    "value": "Unable to determine color contrast ratio because the element has a fixed position."
+  },
+  "skip_reason_positionSticky": {
+    "value": "Unable to determine color contrast ratio because the element has a sticky position."
+  },
+  "skip_reason_sameForegroundBackgroundColorOnElement": {
+    "value": "Unable to determine color contrast ratio because the element has the same foregroud and background color."
+  },
+  "skip_reason_sameForegroundBackgroundColorOnElementAndParent": {
+    "value": "Unable to determine color contrast ratio because the element has the same foregroud and background color, including parent elements."
+  },
+  "skip_reason_skipHiddenElements": {
+    "value": "Element was excluded from the scanning because the option includeHidden is set to false."
+  },
+  "skip_reason_skipHiddenElements_byParent": {
+    "value": "The element was excluded from scanning because it's hidden by the parent element."
+  },
+  "skip_reason_skipHiddenElements_elementNotVisible": {
+    "value": "The element was excluded from the scanning because the option includeHidden is set to false and the element is not visible."
+  },
+  "skip_reason_specifiedStylesCantBeDetermined": {
+    "value": "Required styles %0 for element can't be determined."
+  },
+  "skip_reason_stylesCantBeDetermined": {
+    "value": "Styles for element can't be determined at all."
+  },
+  "skip_reason_transparentBackground": {
+    "value": "Unable to determine color contrast ratio because the element has the background color set as transparent."
+  },
+  "standard_level": {
+    "value": "Level"
+  },
+  "standard_level_A": {
+    "value": "A"
+  },
+  "standard_level_AA": {
+    "value": "AA"
+  },
+  "standard_level_AAA": {
+    "value": "AAA"
+  },
+  "standard_level_best_practices": {
+    "value": "Best practices"
+  },
+  "standard_reference": {
+    "value": "Standard reference"
+  },
+  "standard_type": {
+    "value": "Standard"
+  },
+  "standard_type_sitelint": {
+    "value": "SiteLint"
+  },
+  "standard_type_wcag": {
+    "value": "WCAG"
+  },
+  "standard_version": {
+    "value": "Standard version"
+  },
+  "standardVersion_v10": {
+    "value": "1.0"
+  },
+  "standardVersion_v20": {
+    "value": "2.0"
+  },
+  "standardVersion_v21": {
+    "value": "2.1"
+  },
+  "standardVersion_v22": {
+    "value": "2.2"
+  },
+  "status": {
+    "value": "Status"
+  },
+  "status_messages_title": {
+    "value": "Verify status messages"
+  },
+  "subresource_integrity_report_message_1": {
+    "value": "%0 elements of type <code>%1</code> are missing a defined <code>integrity</code> attribute."
+  },
+  "subresource_integrity_title": {
+    "value": "Missing defined INTEGRITY attribute that enables browsers to verify that resources they fetch are delivered without unexpected manipulation."
+  },
+  "svg_incorrect_size_unit_report_message_1": {
+    "value": "Unsupported unit value <code>%0</code> for <code>height</code> and <code>%0</code> for <code>width</code> attribute."
+  },
+  "svg_incorrect_size_unit_report_message_2": {
+    "value": "Unsupported unit value <code>%0</code> for <code>width</code> attribute."
+  },
+  "svg_incorrect_size_unit_report_message_3": {
+    "value": "Unsupported unit value <code>%0</code> for <code>height</code> attribute."
+  },
+  "svg_incorrect_size_unit_title": {
+    "value": "Unsupported size unit for SVG."
+  },
+  "svg_sprite_missing_report_message_1": {
+    "value": "This page contains %0 inline <code>svg</code> elements that could be combined into a single sprite. Consider using <code>symbol</code> elements referenced via <code>use</code> to reduce HTTP requests and improve page load performance. The element below represents the first found instance."
+  },
+  "svg_sprite_missing_title": {
+    "value": "Consider combining inline SVG elements into a sprite"
+  },
+  "svg_too_large_report_message_1": {
+    "value": "The svg element has a size of <code>%0</code> KB, which clogs up your markup and impacts page performance."
+  },
+  "svg_too_large_title": {
+    "value": "Avoid including large SVG elements."
+  },
+  "switch_text_direction": {
+    "value": "Switch text direction"
+  },
+  "tab_missing_tablist_owner_report_message_1": {
+    "value": "Element with role=\"tab\" has no associated role=\"tablist\" (missing direct parent or aria-owns)."
+  },
+  "tab_missing_tablist_owner_title": {
+    "value": "Tab element is not owned by a tablist"
+  },
+  "table_caption_summary_identical_report_message": {
+    "value": "<code>summary</code> attribute and <code>%0</code> element have the same content."
+  },
+  "table_caption_summary_identical_title": {
+    "value": "TABLE summary and caption content should be different."
+  },
+  "table_copied_to_clipboard": {
+    "value": "Table copied to clipboard"
+  },
+  "table_missing_description_report_message_1": {
+    "value": "Attribute <code>%0</code> contains associated elements that does not exists. Following elements with attribute <code>id</code> are missing: <code>%1</code>."
+  },
+  "table_missing_description_report_message_2": {
+    "value": "<code>caption</code> has not been defined on table."
+  },
+  "table_missing_description_report_message_3": {
+    "value": "The table has defined <code>%0</code>, but it's content is empty."
+  },
+  "table_missing_description_report_message_4": {
+    "value": "The table has defined attribute <code>%0</code>, but it's empty. It should have defined one or more element IDs, which refer to elements that have the text needed for labeling."
+  },
+  "table_missing_description_report_message_5": {
+    "value": "<code>caption</code> is defined, but there is no content defined there. It contains only: <code>%0</code>."
+  },
+  "table_missing_description_title": {
+    "value": "TABLE should include a description."
+  },
+  "table_order": {
+    "value": "Order"
+  },
+  "table_row_and_column_headers_report_message_1": {
+    "value": "The table has no defined headers. Make sure that rows and columns are identified using <code>%0</code> elements."
+  },
+  "table_row_and_column_headers_report_message_2": {
+    "value": "Content of the table should be wrapped using <code>%0</code> element."
+  },
+  "table_row_and_column_headers_report_message_3": {
+    "value": "If applicable then head of the columns of the table should be wrapped using <code>%0</code> element."
+  },
+  "table_row_and_column_headers_report_message_4": {
+    "value": "When the table structure is not trivial (merged cells, multiple header rows, etc.) header cells must explicitly associate themselves with the data cells they label. Use <code>scope</code>, <code>id</code> + <code>headers</code>, or <code>aria-describedby</code>."
+  },
+  "table_row_and_column_headers_title": {
+    "value": "TABLE should have elements that define headers for each column or row."
+  },
+  "target_size_enhanced_manual_check": {
+    "value": "Total interactive elements on the page: %0. Verify that each element has a size of at least 44 by 44 CSS pixels for pointer inputs, except when the target is in a sentence or block of text, or if a specific presentation is essential to the information being conveyed."
+  },
+  "target_size_enhanced_title": {
+    "value": "Verify target size (enhanced)"
+  },
+  "target_size_minimum_report_message_1": {
+    "value": "Interactive element is only %0 × %1 CSS pixels, but minimum required size is %2 × %2 CSS pixels."
+  },
+  "target_size_minimum_title": {
+    "value": "Interactive elements must have an area of at least 24 by 24 pixels."
+  },
+  "test_environment": {
+    "value": "Test environment"
+  },
+  "test_group_assistive_technology": {
+    "value": "Assistive technology"
+  },
+  "test_group_captcha": {
+    "value": "Captcha"
+  },
+  "test_group_color_contrast": {
+    "value": "Color contrast"
+  },
+  "test_group_common_navigation": {
+    "value": "Common navigation"
+  },
+  "test_group_form": {
+    "value": "Form"
+  },
+  "test_group_keyboard_navigation": {
+    "value": "Keyboard navigation"
+  },
+  "test_group_layout": {
+    "value": "Layout"
+  },
+  "test_group_multimedia": {
+    "value": "Multimedia"
+  },
+  "test_group_non_text_content": {
+    "value": "Non-text content"
+  },
+  "test_group_structure": {
+    "value": "Structure"
+  },
+  "test_group_text_content": {
+    "value": "Text content"
+  },
+  "test_group_touch_and_interactions": {
+    "value": "Touch and interactions"
+  },
+  "test_group_touch_screen": {
+    "value": "Touch Screen"
+  },
+  "test_group_uncategorized": {
+    "value": "Uncategorized"
+  },
+  "test_result_compliant": {
+    "value": "Compliant"
+  },
+  "test_result_does_not_support": {
+    "value": "Does Not Support"
+  },
+  "test_result_non_compliant": {
+    "value": "Non compliant"
+  },
+  "test_result_not_applicable": {
+    "value": "Not applicable"
+  },
+  "test_result_not_evaluated": {
+    "value": "Not evaluated"
+  },
+  "test_result_not_tested": {
+    "value": "Not tested"
+  },
+  "test_result_partially_supports": {
+    "value": "Partially Supports"
+  },
+  "test_result_support": {
+    "value": "Support"
+  },
+  "test_rules": {
+    "value": "Test rules"
+  },
+  "testing_methodology_automated": {
+    "value": "Automated"
+  },
+  "testing_methodology_manual": {
+    "value": "Manual"
+  },
+  "testing_methodology_semi_automated": {
+    "value": "Semi-automated"
+  },
+  "text_color_convey_information_report_message": {
+    "value": "Check that the information conveyed by colors <code>%0</code> is also available in text and that the text is not conditional content."
+  },
+  "text_color_convey_information_title": {
+    "value": "Information conveyed by color must also be available in text."
+  },
+  "text_spacing_manual_check": {
+    "value": "Verify that no loss of content or functionality occurs when the user forces custom settings for line height, letter spacing, or paragraph spacing."
+  },
+  "text_spacing_title": {
+    "value": "Verify text spacing"
+  },
+  "text_spacing_tool": {
+    "value": "Text spacing"
+  },
+  "text_spacing_tool_explanation": {
+    "value": "Testing WCAG 2.1 Success Criterion 1.4.12 Text Spacing"
+  },
+  "three_flashes_no_exception_manual_check": {
+    "value": "Total interactive elements on the page: %0. Verify that the page does not contain any content that flashes more than three times in any one-second period."
+  },
+  "three_flashes_no_exception_title": {
+    "value": "Verify three flashes (no exceptions)"
+  },
+  "three_flashes_threshold_manual_check": {
+    "value": "Verify that the content does not contain anything that flashes more than three times in any one-second period, or the flash is below the general flash and red flash thresholds."
+  },
+  "three_flashes_threshold_title": {
+    "value": "Verify three flashes threshold"
+  },
+  "timeouts_data_loss_prevention_manual_check": {
+    "value": "Verify that users are warned of any timeout that could result in data loss (such as automatic logout or page refresh), unless the data is preserved for at least 20 hours of user inactivity."
+  },
+  "timeouts_data_loss_prevention_title": {
+    "value": "Verify timeout data loss prevention"
+  },
+  "title_for_abbr_report_message_1": {
+    "value": "You have not provided a <code>title</code> that defines the abbreviation."
+  },
+  "title_for_abbr_report_message_2": {
+    "value": "The <code>title</code> content for the abbreviation should not be empty."
+  },
+  "title_for_abbr_title": {
+    "value": "Missing TITLE attribute for ABBR element."
+  },
+  "title_iframe_report_message_1": {
+    "value": "Expected <code>title</code> attribute to be defined on <code>%0</code>. However, if it is an <code>iframe</code> without valuable content for the user then add the attribute <code>aria-hidden=\"true\"</code> in order to hide it from assistive technologies."
+  },
+  "title_iframe_report_message_2": {
+    "value": "Expected title attribute not to be empty on <code>%0</code>."
+  },
+  "title_iframe_title": {
+    "value": "Missing the title attribute on iframe."
+  },
+  "tool_ariaValidator": {
+    "value": "ARIA"
+  },
+  "tool_overflow_element": {
+    "value": "Overflow element"
+  },
+  "tool_overflow_element_tip": {
+    "value": "Determines elements wider than the page width. This usually leads to an unwanted horizontal scroll."
+  },
+  "tool_pdf_accessibility_checker": {
+    "value": "PDF Accessibility Checker"
+  },
+  "tool_twentyFourPxCursor": {
+    "value": "24x24 px cursor"
+  },
+  "tool_twentyFourPxCursor_title": {
+    "value": "Easily visualize needed space between elements for WCAG Success Criteria 2.5.8's (Target Size Minimum) spacing exception, or compare target sizes in general."
+  },
+  "tool_w3cValidation": {
+    "value": "W3C Standard"
+  },
+  "tool_w3cValidationWithSerialization": {
+    "value": "W3C Serialization"
+  },
+  "tool_w3cValidationWithSerialization_title": {
+    "value": "Some pages may restrict access to W3C services therefore this option uses serialization of the HTML and sends it to the W3C service."
+  },
+  "top_issues_explanation_paragraph_1": {
+    "value": "These are the 5 most critical confirmed issues found on this page, selected from rules that have produced at least one result - either detected automatically or flagged for further review (semi-automated). Rules that are pending evaluation are not included, even if their potential severity is high."
+  },
+  "top_issues_explanation_paragraph_2": {
+    "value": "Issues are ranked first by severity (Critical, High, Low), then by the number of affected elements within the same severity level. This gives you an immediate starting point for remediation - fixing these issues will have the greatest positive impact on accessibility."
+  },
+  "top_wcag_issues": {
+    "value": "5 recommended priority remediation actions"
+  },
+  "total_characters": {
+    "value": "%0 characters"
+  },
+  "total_issues": {
+    "value": "Total issues"
+  },
+  "total_pdfs_audited": {
+    "value": "Total PDFs audited: %0"
+  },
+  "total_pdfs_audited_with_unreachable": {
+    "value": "Total PDFs audited: %0. Unreachable PDFs: %1"
+  },
+  "unable_to_copy_content_to_the_clipboard": {
+    "value": "Unable to copy content to the clipboard."
+  },
+  "unable_to_find_element": {
+    "value": "Unable to find the element %0 because it does not exists on the page."
+  },
+  "unable_to_highlight_element": {
+    "value": "Unable to highlight the element %0 because it's not being rendered on the page."
+  },
+  "unable_to_highlight_element_visually_hidden": {
+    "value": "The element cannot be highlighted since it has not been rendered visually."
+  },
+  "unable_to_inspect_element_invalid_xpath": {
+    "value": "Inspecting the element failed. The XPath expression \"%0\" is not valid and could not be evaluated. Please check the element structure or malformed HTML. See the console for details."
+  },
+  "unable_to_inspect_element_not_found": {
+    "value": "Inspecting the element failed. The XPath expression \"%0\" is valid, but no matching element was found on the page."
+  },
+  "unable_to_run_audit": {
+    "value": "Unable to run audit.\n\n%0"
+  },
+  "unable_to_run_audit_internal_chrome_page": {
+    "value": "Unable to run audit.\n\nSiteLint cannot run audits on internal Chrome pages (such as chrome://extensions, chrome://settings, or the Chrome Web Store). Please navigate to a regular website and try again."
+  },
+  "unclear_anchor_url_report_message_1": {
+    "value": "Invalid URL found in anchor <code>href</code> attribute."
+  },
+  "unclear_anchor_url_title": {
+    "value": "Links must have a clear, valid destination."
+  },
+  "unclear_image_description_report_message_1": {
+    "value": "The image has unclear, generic description: <code>%0</code>."
+  },
+  "unclear_image_description_title": {
+    "value": "Generic placeholder alt text should be avoided. Use descriptions that convey the image's purpose or content."
+  },
+  "unclear_page_title_report_message_1": {
+    "value": "The page title <code>%0</code> does not identify the contents or purpose of the Web page."
+  },
+  "unclear_page_title_report_message_2": {
+    "value": "The page <code>title</code> is empty and therefore does not identify the contents or purpose of the Web page."
+  },
+  "unclear_page_title_report_message_3": {
+    "value": "The page does not contain a <code>title</code>."
+  },
+  "unclear_page_title_title": {
+    "value": "The TITLE element should clearly describe the content or purpose of the page."
+  },
+  "unknown": {
+    "value": "Unknown"
+  },
+  "unknown_error": {
+    "value": "Unknown error"
+  },
+  "unsupported_role_on_element_report_message": {
+    "value": "Expected attribute <code>role=\"%0\"</code> not to be defined on this element."
+  },
+  "unsupported_role_on_element_title": {
+    "value": "Do not use unsupported or incorrect role attribute on an element."
+  },
+  "unusual_words_definition_manual_check": {
+    "value": "Verify that a mechanism is available for identifying specific definitions of words or phrases used in an unusual or restricted way, including idioms and jargon."
+  },
+  "unusual_words_definition_title": {
+    "value": "Verify definitions for unusual words"
+  },
+  "url": {
+    "value": "URL"
+  },
+  "validate": {
+    "value": "Validate"
+  },
+  "validating": {
+    "value": "Validating"
+  },
+  "validating_completed": {
+    "value": "Validating completed"
+  },
+  "validation_failed": {
+    "value": "Validation failed"
+  },
+  "validation_results": {
+    "value": "Validation results"
+  },
+  "verify_issue_fixed": {
+    "value": "Issue verified as fixed - report updated."
+  },
+  "verify_issue_still_present": {
+    "value": "Issue still present - no changes made."
+  },
+  "verify_not_available_no_reference": {
+    "value": "Verification not available - issue has no element reference."
+  },
+  "video_audio_descriptions_report_message": {
+    "value": "You have not defined neither <code>%0</code> elements to provide descriptions nor <code>%1</code> with an audio as an alternative."
+  },
+  "video_audio_descriptions_title": {
+    "value": "Audio, video, and other media need captions or descriptions."
+  },
+  "view_rule_documentation": {
+    "value": "View documentation for rule \"%0\""
+  },
+  "visual_presentation_customization_manual_check": {
+    "value": "Verify that the user can change foreground and background colors, line spacing is at least 1.5 times the font size, and paragraph spacing is significantly wider."
+  },
+  "visual_presentation_customization_title": {
+    "value": "Verify text presentation (no exceptions)"
+  },
+  "vpat_explanation_text": {
+    "value": "Status reflects both identified issues and the methodology used. Criteria involving manual or semi-automated rules are marked as \"Partially Supports\" until human verification is complete. Fully automated criteria with issues are also marked as \"Partially Supports\"."
+  },
+  "warnings": {
+    "value": "warnings"
+  },
+  "watch_dom_attributes": {
+    "value": "Watch attributes"
+  },
+  "watch_dom_changes": {
+    "value": "Re-run audit when DOM changes"
+  },
+  "watch_dom_changes_hint": {
+    "value": "Learn more about DOM change re-audit"
+  },
+  "watch_dom_changes_title": {
+    "value": "When enabled, the SiteLint watches for DOM modifications and automatically re-runs the audit after a 5-second pause without changes. This is useful for single-page applications (SPAs) and dynamic content. Under \"Advanced observer options\", you can fine-tune which mutations trigger a re-audit: \"Watch attributes\" observes changes to element attributes; \"Watch child list\" observes additions or removals of child nodes; \"Watch subtree\" extends observation to all descendants of the target element. Caution: on pages with frequent or continuous DOM updates (e.g., real-time feeds, animations, live counters), the audit may re-run frequently, which can affect performance and produce many reports."
+  },
+  "watch_dom_child_list": {
+    "value": "Watch child list"
+  },
+  "watch_dom_options_title": {
+    "value": "Advanced observer options"
+  },
+  "watch_dom_subtree": {
+    "value": "Watch subtree"
+  },
+  "wcag": {
+    "value": "WCAG"
+  },
+  "wcag_standards_compliance_checklist": {
+    "value": "WCAG Standards Compliance Checklist"
+  },
+  "xpath_label": {
+    "value": "XPath"
+  },
+  "yes": {
+    "value": "Yes"
+  },
+  "zoom_disabled_report_message": {
+    "value": "You have defined <code>%0</code>. Remove parameters from the <code>content</code> attribute."
+  },
+  "zoom_disabled_title": {
+    "value": "User must be able to zoom the page content."
+  }
+}

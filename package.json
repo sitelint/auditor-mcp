@@ -1,0 +1,53 @@
+{
+  "name": "@sitelint/auditor-mcp",
+  "description": "MCP server for SiteLint Auditor - WCAG and SiteLint accessibility, SEO, performance, and security audits via LLM",
+  "version": "1.0.0",
+  "license": "MPL-2.0",
+  "author": {
+    "name": "SiteLint"
+  },
+  "type": "module",
+  "bin": {
+    "auditor-mcp": "dist/cli.js"
+  },
+  "files": [
+    "dist/",
+    "vendor/"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepack": "npm run build",
+    "release": "release-it --config release-it.json",
+    "start": "node ./dist/cli.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/node": "2.0.0",
+    "@modelcontextprotocol/server": "2.0.0",
+    "puppeteer": "25.4.0",
+    "zod": "4.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "26.1.2",
+    "release-it": ">=20.2.0",
+    "typescript": "7.0.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "accessibility",
+    "a11y",
+    "ada",
+    "audit",
+    "mcp",
+    "modelcontextprotocol",
+    "seo",
+    "sitelint",
+    "wcag",
+    "performance",
+    "security"
+  ],
+  "engines": {
+    "node": ">=20"
+  }
+}
