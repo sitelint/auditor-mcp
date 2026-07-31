@@ -1,6 +1,6 @@
 # SiteLint Auditor MCP Server
 
-MCP server that runs [SiteLint Auditor](https://sitelint.com) — WCAG accessibility, SEO, performance, and security audits via LLM agents.
+MCP server that runs [SiteLint Auditor](https://www.sitelint.com) - WCAG and SiteLint Best Practices for accessibility, SEO, performance, and security audits via LLM agents.
 
 ## Quick start
 
