@@ -249,6 +249,19 @@ In `~/.continue/config.json`:
 }
 ```
 
+### AnythingLLM
+
+```json
+{
+  "mcpServers": {
+    "sitelint-auditor": {
+      "command": "npx",
+      "args": ["-y", "@sitelint/auditor-mcp"]
+    }
+  }
+}
+```
+
 ### Other MCP clients
 
 Any MCP client can connect. Use `stdio` transport (default) for local tools, or `AUDITOR_TRANSPORT=sse` with `AUDITOR_PORT=3100` for remote.
