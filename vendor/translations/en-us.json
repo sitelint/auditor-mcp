@@ -1273,6 +1273,9 @@
   "malformed_json_ld_report_message_2": {
     "value": "Content of JSON-LD should not contains line breaks characters. Yours contains <code>%0</code> line breaks."
   },
+  "malformed_json_ld_report_message_3": {
+    "value": "JSON-LD contains HTML entities (e.g. <code>&amp;amp;amp;</code>, <code>&amp;amp;#10004;</code>) that should be replaced with standard JSON escapes (<code>\\u0026</code>) or Unicode characters. Search engines, like Google, apply only a single pass of HTML unescaping and will not decode double-escaped entities."
+  },
   "malformed_json_ld_title": {
     "value": "Malformed JSON-LD found."
   },
