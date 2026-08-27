@@ -1,7 +1,7 @@
 {
   "name": "@sitelint/auditor-mcp",
   "description": "MCP server for SiteLint Auditor - WCAG and SiteLint accessibility, SEO, performance, and security audits via LLM",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "license": "MPL-2.0",
   "author": {
     "name": "SiteLint"
