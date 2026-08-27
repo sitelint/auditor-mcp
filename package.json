@@ -23,12 +23,12 @@
   "dependencies": {
     "@modelcontextprotocol/node": "2.0.0",
     "@modelcontextprotocol/server": "2.0.0",
-    "puppeteer": "25.4.0",
-    "zod": "4.2.0"
+    "puppeteer": "25.9.0",
+    "zod": "4.4.3"
   },
   "devDependencies": {
-    "@types/node": "26.1.2",
-    "release-it": ">=20.2.0",
+    "@types/node": "26.4.0",
+    "release-it": ">=21.0.2",
     "typescript": "7.0.2"
   },
   "publishConfig": {
