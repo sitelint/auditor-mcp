@@ -209,7 +209,7 @@
     "value": "Answer follow-up"
   },
   "ai_prompt_part_1": {
-    "value": "Context: %0 audit for \"%1\". Description: %2. XPath: %3. Element HTML: %4. Manual verification: %5."
+    "value": "Context: %0 audit for \"%1\". Description: %2. XPath: %3. Element HTML: %4. Manual verification: %5. Rule ID: %6."
   },
   "ai_prompt_part_2": {
     "value": "Explain this issue clearly and concisely to a non-technical user. Translate technical terms to visual descriptions. If manual verification is set as %0 then explain why rule could not be evaluated automatically and require manual verification."
@@ -2180,10 +2180,10 @@
     "value": "Do not use positive tabindex."
   },
   "prompt_rule_issues_details": {
-    "value": "# %0 Issue - SiteLint Audit\n\n- **Audit Type:** %0\n- **Issue:** %1\n- **Total occurrences:** %2\n- **Page URL:** %3"
+    "value": "# %0 Issue - SiteLint Audit\n\n- **Audit Type:** %0\n- **Issue:** %1\n- **Total occurrences:** %2\n- **Page URL:** %3\n- **Rule ID:** %4"
   },
   "prompt_rule_issues_footer": {
-    "value": "## Task\n1. Explain why this is an issue and its impact (cite relevant WCAG criteria or SiteLint Best Practices).\n2. Provide the corrected HTML/markup/code for each occurrence.\n3. Note alternative approaches or best practices.\n4. If any referenced element does not exist in the source codebase you are working with, treat it as third-party code and apply the fix in a separate file (e.g., bug-fixes.css for CSS overrides or bug-fixes.js for a code snippet) loaded after the third-party code.\n\nBe concise. Provide actionable, production-ready fixes that follow current web standards."
+    "value": "## Task\n1. Explain why this is an issue and its impact (cite relevant WCAG criteria or SiteLint Best Practices).\n2. Provide the corrected HTML/markup/code for each occurrence.\n3. Note alternative approaches or best practices.\n4. If any referenced element does not exist in the source codebase you are working with, treat it as third-party code and apply the fix in a separate file (e.g., bug-fixes.css for CSS overrides or bug-fixes.js for a code snippet) loaded after the third-party code.\n5. If the SiteLint Auditor MCP server is available, validate the fix by navigating to the page URL and running a SiteLint audit after applying it.\n\nBe concise. Provide actionable, production-ready fixes that follow current web standards."
   },
   "prompt_with_all_issues_footer": {
     "value": "Review all issues and provide specific code fixes for each element listed."
@@ -2192,7 +2192,7 @@
     "value": "Below is the full audit report in JSON format. Analyze each issue, explain why it is a problem, and provide the corrected code for every element.\n\nPage URL: %0\nPage title: %1\n\nAudited by %2."
   },
   "prompt_with_issue_details": {
-    "value": "# %0 Issue - SiteLint Audit\n\n- **Audit Type:** %0\n- **Issue:** %1\n- **Description:** %2\n- **Page URL:** %4\n\n## Element HTML\n```html\n%3\n```\n\n## Task\n1. Explain why this is an issue and its impact (cite relevant WCAG criteria or SiteLint Best Practices).\n2. Provide the corrected HTML/markup/code.\n3. Note alternative approaches or best practices.\n4. If the referenced element does not exist in the source codebase you are working with, treat it as third-party code and apply the fix in a separate file (e.g., bug-fixes.css for CSS overrides or bug-fixes.js for a code snippet) loaded after the third-party code.\n\nBe concise. Provide actionable, production-ready fixes that follow current web standards."
+    "value": "# %0 Issue - SiteLint Audit\n\n- **Audit Type:** %0\n- **Issue:** %1\n- **Description:** %2\n- **Page URL:** %4\n- **Rule ID:** %5\n\n## Element HTML\n```html\n%3\n```\n\n## Task\n1. Explain why this is an issue and its impact (cite relevant WCAG criteria or SiteLint Best Practices).\n2. Provide the corrected HTML/markup/code.\n3. Note alternative approaches or best practices.\n4. If the referenced element does not exist in the source codebase you are working with, treat it as third-party code and apply the fix in a separate file (e.g., bug-fixes.css for CSS overrides or bug-fixes.js for a code snippet) loaded after the third-party code.\n5. If the SiteLint Auditor MCP server is available, validate the fix by navigating to the page URL and running a SiteLint audit after applying it.\n\nBe concise. Provide actionable, production-ready fixes that follow current web standards."
   },
   "pronunciation_clarification_manual_check": {
     "value": "Verify that a mechanism is available for identifying the specific pronunciation of words where the meaning of the words, in context, is ambiguous without knowing the pronunciation (e.g., heteronyms like 'lead' (to guide) vs 'lead' (the metal))."
