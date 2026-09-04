@@ -1570,8 +1570,11 @@
   "object_missing_body_title": {
     "value": "Missing alternative content for OBJECT element."
   },
-  "obsolete_html_attributes_report_message": {
+  "obsolete_html_attributes_report_message_1": {
     "value": "The following attributes <code>%0</code> are obsolete (though the elements are still part of the language), and must not be used by authors."
+  },
+  "obsolete_html_attributes_report_message_2": {
+    "value": "The element <code>%0</code> contains the following obsolete attributes: <code>%1</code>. This is likely third-party markup and requires manual verification."
   },
   "obsolete_html_attributes_title": {
     "value": "Obsolete attribute found."
