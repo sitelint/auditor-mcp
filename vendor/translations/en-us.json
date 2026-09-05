@@ -1687,6 +1687,9 @@
   "page_images_load_error_explanation": {
     "value": "Failed images may be caused by server security settings, such as Content Security Policy (CSP), proxy settings, VPN, or other security measures."
   },
+  "page_images_load_error_img_source": {
+    "value": "Source"
+  },
   "page_images_missing_alt": {
     "value": "Empty description"
   },
