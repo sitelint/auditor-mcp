@@ -1783,6 +1783,15 @@
   "page_section_images": {
     "value": "Images"
   },
+  "page_structured_data": {
+    "value": "Structured data (JSON-LD)"
+  },
+  "page_structured_data_block": {
+    "value": "JSON-LD block %0"
+  },
+  "page_structured_data_not_found": {
+    "value": "Not found"
+  },
   "page_title": {
     "value": "Title"
   },
@@ -2598,6 +2607,9 @@
   },
   "test_group_uncategorized": {
     "value": "Uncategorized"
+  },
+  "test_live_url": {
+    "value": "Test live URL"
   },
   "test_result_compliant": {
     "value": "Compliant"
