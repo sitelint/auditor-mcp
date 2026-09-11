@@ -1,4 +1,6 @@
+import { existsSync } from 'node:fs';
 import puppeteer, { type Browser, type Page } from 'puppeteer';
+import { downloadBrowsers } from 'puppeteer/internal/node/install.js';
 import type { IAuditorMcpConfig } from '../config.js';
 
 const DEFAULT_CONCURRENCY = 3;
@@ -11,6 +13,7 @@ export class BrowserLaunchError extends Error {
 }
 
 let browser: Browser | null = null;
+let browserInstall: Promise<void> | null = null;
 let activePages = 0;
 const waiters: Array<() => void> = [];
 
@@ -40,7 +43,7 @@ function releaseSlot(): void {
 }
 
 async function launchBrowser(config: IAuditorMcpConfig): Promise<Browser> {
-  return puppeteer.launch({
+  const launch = (): Promise<Browser> => puppeteer.launch({
     headless: config.headless as boolean | 'shell',
     executablePath: config.browserPath,
     args: [
@@ -51,6 +54,34 @@ async function launchBrowser(config: IAuditorMcpConfig): Promise<Browser> {
       '--ignore-certificate-errors',
     ],
   });
+
+  try {
+    return await launch();
+  } catch (error) {
+    if (config.browserPath !== undefined || browserInstall !== null) {
+      throw error;
+    }
+
+    const executablePath = await puppeteer.executablePath();
+    if (existsSync(executablePath)) {
+      throw error;
+    }
+
+    browserInstall = downloadBrowsers();
+
+    try {
+      await browserInstall;
+    } catch (installError) {
+      throw new Error(
+        `Chromium is not installed and its automatic download failed: ${
+          installError instanceof Error ? installError.message : String(installError)
+        }. Run "npx puppeteer browsers install chrome" and restart the MCP server.`,
+        { cause: installError }
+      );
+    }
+
+    return launch();
+  }
 }
 
 export async function getBrowser(config: IAuditorMcpConfig): Promise<Browser> {

@@ -8,7 +8,10 @@ MCP server that runs [SiteLint Auditor](https://www.sitelint.com) - WCAG and Sit
 npx @sitelint/auditor-mcp
 ```
 
-Requires Chromium (installed automatically by Puppeteer).
+Requires Chromium. Puppeteer normally downloads it during package installation; if that
+download was skipped, the MCP server automatically downloads Chrome for Testing on the
+first audit. The server does not change or download over an explicitly configured
+`AUDITOR_BROWSER_PATH`.
 
 ## Tools
 
@@ -282,7 +285,8 @@ cp /path/to/auditor/app/translations/en-us.json vendor/translations/
 ## Requirements
 
 - Node.js 20+
-- Chromium (auto-downloaded by Puppeteer, or point to existing via `AUDITOR_BROWSER_PATH`)
+- Chromium (downloaded by Puppeteer during installation or on the first audit if needed,
+  or point to an existing browser via `AUDITOR_BROWSER_PATH`)
 - SiteLint Auditor bundle (vendored as `vendor/auditor.bundle.js`)
 
 ## How it works
