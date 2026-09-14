@@ -54,7 +54,7 @@ export function registerAuditHtmlTool(server: McpServer, config: IAuditorMcpConf
           }, auditorConfig);
 
           const reportId = storeReport(result, 'inline-html');
-          const formatted = formatAuditReport(result);
+          const formatted = await formatAuditReport(result);
 
           const text = [
             '## HTML Snippet Audit',
@@ -76,7 +76,7 @@ export function registerAuditHtmlTool(server: McpServer, config: IAuditorMcpConf
 
         if (error instanceof BrowserLaunchError) {
           return {
-            content: [{ type: 'text', text: `Audit failed to start: ${message}. Check Chromium installation or AUDITOR_BROWSER_PATH.` }],
+            content: [{ type: 'text', text: `Audit failed to start: ${message}. Puppeteer manages the browser installation automatically.` }],
           };
         }
 

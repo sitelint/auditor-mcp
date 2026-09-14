@@ -44,6 +44,7 @@ function releaseSlot(): void {
 
 async function launchBrowser(config: IAuditorMcpConfig): Promise<Browser> {
   const launch = (): Promise<Browser> => puppeteer.launch({
+    browser: config.browser,
     headless: config.headless as boolean | 'shell',
     executablePath: config.browserPath,
     args: [
@@ -58,7 +59,7 @@ async function launchBrowser(config: IAuditorMcpConfig): Promise<Browser> {
   try {
     return await launch();
   } catch (error) {
-    if (config.browserPath !== undefined || browserInstall !== null) {
+    if (browserInstall !== null) {
       throw error;
     }
 

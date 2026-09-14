@@ -51,7 +51,7 @@ export function registerReportResources(server: McpServer): void {
         };
       }
 
-      const formatted = formatAuditReport(report.result);
+      const formatted = await formatAuditReport(report.result);
 
       return {
         contents: [

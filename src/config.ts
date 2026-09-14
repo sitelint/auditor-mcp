@@ -1,12 +1,14 @@
-import { readFileSync, existsSync } from 'node:fs';
-import { join, dirname } from 'node:path';
+import { existsSync } from 'node:fs';
+import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { resolveBrowserPath } from './puppeteer/browser-path.js';
 
 const CURRENT_DIR = dirname(fileURLToPath(import.meta.url));
 const PROJECT_ROOT = join(CURRENT_DIR, '..');
 
 export interface IAuditorMcpConfig {
-  browserPath?: string;
+  browserPath: string;
+  browser: 'chrome' | 'firefox';
   concurrency: number;
   timeout: number;
   headless: boolean;
@@ -15,15 +17,21 @@ export interface IAuditorMcpConfig {
   port: number;
 }
 
-export function loadConfig(): IAuditorMcpConfig {
+export async function loadConfig(): Promise<IAuditorMcpConfig> {
+  const configuredBrowserPath = process.env["AUDITOR_BROWSER_PATH"];
+  const browser = configuredBrowserPath
+    ? { path: configuredBrowserPath, browser: "chrome" as const }
+    : await resolveBrowserPath();
+
   return {
-    browserPath: process.env['AUDITOR_BROWSER_PATH'] || undefined,
-    concurrency: Number.parseInt(process.env['AUDITOR_CONCURRENCY'] || '3', 10),
-    timeout: Number.parseInt(process.env['AUDITOR_TIMEOUT'] || '30000', 10),
-    headless: process.env['AUDITOR_HEADLESS'] !== 'false',
+    browserPath: browser.path,
+    browser: browser.browser,
+    concurrency: Number.parseInt(process.env.AUDITOR_CONCURRENCY || '3', 10),
+    timeout: Number.parseInt(process.env.AUDITOR_TIMEOUT || '30000', 10),
+    headless: process.env.AUDITOR_HEADLESS !== 'false',
     bundlePath: resolveBundlePath(),
-    transport: (process.env['AUDITOR_TRANSPORT'] as 'stdio' | 'sse') || 'stdio',
-    port: Number.parseInt(process.env['AUDITOR_PORT'] || '3100', 10),
+    transport: (process.env.AUDITOR_TRANSPORT as 'stdio' | 'sse') || 'stdio',
+    port: Number.parseInt(process.env.AUDITOR_PORT || '3100', 10),
   };
 }
 
@@ -56,7 +64,7 @@ export function parseCliArgs(args: string[]): Partial<IAuditorMcpConfig> {
     const arg = args[i] as string;
 
     switch (arg) {
-      case '--browser':
+      case "--browser":
         config.browserPath = args[i + 1] as string;
         i += 1;
         break;

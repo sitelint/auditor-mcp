@@ -17,23 +17,23 @@ export function buildAuditorConfig(filters?: IAuditFilterOptions): Record<string
   }
 
   if (Array.isArray(filters.standards) && filters.standards.length > 0) {
-    config['standards'] = filters.standards;
+    config.standards = filters.standards;
   }
 
   if (Array.isArray(filters.auditTypes) && filters.auditTypes.length > 0) {
-    config['auditTypes'] = filters.auditTypes;
+    config.auditTypes = filters.auditTypes;
   }
 
   if (Array.isArray(filters.wcagLevels) && filters.wcagLevels.length > 0) {
-    config['wcagLevels'] = filters.wcagLevels;
+    config.wcagLevels = filters.wcagLevels;
   }
 
   if (Array.isArray(filters.wcagVersions) && filters.wcagVersions.length > 0) {
-    config['wcagVersions'] = filters.wcagVersions;
+    config.wcagVersions = filters.wcagVersions;
   }
 
   if (Array.isArray(filters.wcagCriteria) && filters.wcagCriteria.length > 0) {
-    config['wcagCriteria'] = filters.wcagCriteria;
+    config.wcagCriteria = filters.wcagCriteria;
   }
 
   return config;

@@ -52,19 +52,32 @@ async function startSseServer(server: McpServer, config: IAuditorMcpConfig): Pro
 }
 
 async function main(): Promise<void> {
-  const envConfig = loadConfig();
-  const cliOverrides = parseCliArgs(process.argv.slice(2));
+  const envConfig: IAuditorMcpConfig = await loadConfig();
+  const cliOverrides: Partial<IAuditorMcpConfig> = parseCliArgs(process.argv.slice(2));
   const config = { ...envConfig, ...cliOverrides };
 
-  const server = createServer(config);
+  const server: McpServer = createServer(config);
 
   if (config.transport === 'sse') {
-    await startSseServer(server, config);
+
+    try {
+      await startSseServer(server, config);
+    } catch (error) {
+      console.error('[auditor-mcp] Fatal error starting SSE server:', error instanceof Error ? error.message : String(error));
+      process.exit(1);
+    }
+
     return;
   }
 
-  const transport = new StdioServerTransport();
-  await server.connect(transport);
+  const transport: StdioServerTransport = new StdioServerTransport();
+
+  try {
+    await server.connect(transport);
+  } catch (error) {
+    console.error('[auditor-mcp] Fatal error:', error instanceof Error ? error.message : String(error));
+    process.exit(1);
+  }
 }
 
 main().catch((error: unknown) => {

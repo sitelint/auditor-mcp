@@ -625,6 +625,9 @@
   "copy_content_to_clipboard": {
     "value": "Copy %0 to clipboard"
   },
+  "copy_debugging_result": {
+    "value": "Copy result to clipboard"
+  },
   "copy_issue_details": {
     "value": "Copy prompt for AI"
   },
@@ -672,6 +675,9 @@
   },
   "custom_control_role_title": {
     "value": "Custom controls must have appropriate ARIA roles."
+  },
+  "debugging": {
+    "value": "Debugging"
   },
   "displayed_issues": {
     "value": "Displayed issues"

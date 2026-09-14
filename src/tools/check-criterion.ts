@@ -33,7 +33,7 @@ export function registerCheckCriterionTool(server: McpServer, config: IAuditorMc
           );
 
           const reportId = storeReport(result, `${url}#${criterion}`);
-          const formatted = formatAuditReport(result);
+          const formatted = await formatAuditReport(result);
 
           const summaryLines: string[] = [];
 
@@ -65,7 +65,7 @@ export function registerCheckCriterionTool(server: McpServer, config: IAuditorMc
 
         if (error instanceof BrowserLaunchError) {
           return {
-            content: [{ type: 'text', text: `Audit failed to start: ${message}. Check Chromium installation or AUDITOR_BROWSER_PATH.` }],
+            content: [{ type: 'text', text: `Audit failed to start: ${message}. Puppeteer manages the browser installation automatically.` }],
           };
         }
 

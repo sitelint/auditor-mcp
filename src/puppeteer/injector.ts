@@ -62,23 +62,23 @@ export async function injectAndRunAudit(
 
   if (filters !== undefined) {
     if (Array.isArray(filters.standards) && filters.standards.length > 0) {
-      auditorConfig['standards'] = filters.standards;
+      auditorConfig.standards = filters.standards;
     }
 
     if (Array.isArray(filters.auditTypes) && filters.auditTypes.length > 0) {
-      auditorConfig['auditTypes'] = filters.auditTypes;
+      auditorConfig.auditTypes = filters.auditTypes;
     }
 
     if (Array.isArray(filters.wcagLevels) && filters.wcagLevels.length > 0) {
-      auditorConfig['wcagLevels'] = filters.wcagLevels;
+      auditorConfig.wcagLevels = filters.wcagLevels;
     }
 
     if (Array.isArray(filters.wcagVersions) && filters.wcagVersions.length > 0) {
-      auditorConfig['wcagVersions'] = filters.wcagVersions;
+      auditorConfig.wcagVersions = filters.wcagVersions;
     }
 
     if (Array.isArray(filters.wcagCriteria) && filters.wcagCriteria.length > 0) {
-      auditorConfig['wcagCriteria'] = filters.wcagCriteria;
+      auditorConfig.wcagCriteria = filters.wcagCriteria;
     }
   }
 
@@ -87,7 +87,7 @@ export async function injectAndRunAudit(
   try {
     result = await page.evaluate(async (cfg: Record<string, unknown>) => {
       try {
-        const auditor = (globalThis as Record<string, unknown>)['auditor'] as {
+        const auditor = (globalThis as Record<string, unknown>).auditor as {
           config: (opts: Record<string, unknown>) => { run: () => Promise<Record<string, unknown>> };
         };
 
