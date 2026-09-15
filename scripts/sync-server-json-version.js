@@ -25,7 +25,16 @@ const syncServerJsonVersion = async () => {
     await syncVersionInJsonFile(new URL('../plugins/auditor-mcp/plugin.json', import.meta.url), pkg.version);
     await syncVersionInJsonFile(new URL('../plugins/auditor-mcp/.claude-plugin/plugin.json', import.meta.url), pkg.version);
 
-    console.log(`Synced server.json and plugin versions to ${pkg.version}`);
+    const claudeMarketplacePath = new URL('../.claude-plugin/marketplace.json', import.meta.url);
+    const claudeMarketplace = JSON.parse(await readFile(claudeMarketplacePath, 'utf8'));
+
+    for (const pkgEntry of claudeMarketplace.plugins ?? []) {
+      pkgEntry.version = pkg.version;
+    }
+
+    await writeFile(claudeMarketplacePath, `${JSON.stringify(claudeMarketplace, null, 2)}\n`);
+
+    console.log(`Synced server.json, marketplace, and plugin versions to ${pkg.version}`);
   } catch (err) {
     console.error(`Failed to sync versions: ${err.message}`);
     process.exit(1);
