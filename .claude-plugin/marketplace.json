@@ -1,0 +1,14 @@
+{
+  "name": "sitelint",
+  "description": "SiteLint MCP plugins: WCAG accessibility, SEO, performance, and security audits.",
+  "owner": {
+    "name": "SiteLint"
+  },
+  "plugins": [
+    {
+      "name": "auditor-mcp",
+      "source": "./plugins/auditor-mcp",
+      "description": "WCAG and SiteLint Best Practices audits for accessibility, SEO, performance, and security."
+    }
+  ]
+}

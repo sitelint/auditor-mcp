@@ -222,6 +222,36 @@ Edit `claude_desktop_config.json`:
 }
 ```
 
+### Claude Code
+
+#### Plugin (recommended)
+
+```shell
+/plugin marketplace add sitelint/auditor-mcp
+/plugin install auditor-mcp@sitelint
+```
+
+#### Manual
+
+```shell
+claude mcp add sitelint-auditor -- npx -y @sitelint/auditor-mcp
+```
+
+### Codex
+
+#### Plugin (recommended)
+
+```shell
+codex plugin marketplace add sitelint/auditor-mcp
+codex plugin add auditor-mcp@sitelint
+```
+
+#### Manual
+
+```shell
+codex mcp add sitelint-auditor -- npx -y @sitelint/auditor-mcp
+```
+
 ### ZCode
 
 ```json

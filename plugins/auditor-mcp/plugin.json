@@ -1,0 +1,11 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "auditor-mcp",
+  "version": "1.0.22",
+  "description": "WCAG and SiteLint Best Practices audits for accessibility, SEO, performance, and security.",
+  "author": {
+    "name": "SiteLint"
+  },
+  "repository": "https://github.com/sitelint/auditor-mcp",
+  "license": "MPL-2.0"
+}

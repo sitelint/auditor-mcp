@@ -1,0 +1,10 @@
+{
+  "name": "auditor-mcp",
+  "description": "WCAG and SiteLint Best Practices audits for accessibility, SEO, performance, and security.",
+  "version": "1.0.22",
+  "author": {
+    "name": "SiteLint"
+  },
+  "repository": "https://github.com/sitelint/auditor-mcp",
+  "license": "MPL-2.0"
+}

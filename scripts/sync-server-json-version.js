@@ -1,5 +1,13 @@
 import { readFile, writeFile } from 'node:fs/promises';
 
+const syncVersionInJsonFile = async (fileUrl, version) => {
+  const json = JSON.parse(await readFile(fileUrl, 'utf8'));
+
+  json.version = version;
+
+  await writeFile(fileUrl, `${JSON.stringify(json, null, 2)}\n`);
+};
+
 const syncServerJsonVersion = async () => {
   try {
     const pkg = JSON.parse(await readFile(new URL('../package.json', import.meta.url), 'utf8'));
@@ -14,9 +22,12 @@ const syncServerJsonVersion = async () => {
 
     await writeFile(serverJsonPath, `${JSON.stringify(server, null, 2)}\n`);
 
-    console.log(`Synced server.json version to ${pkg.version}`);
+    await syncVersionInJsonFile(new URL('../plugins/auditor-mcp/plugin.json', import.meta.url), pkg.version);
+    await syncVersionInJsonFile(new URL('../plugins/auditor-mcp/.claude-plugin/plugin.json', import.meta.url), pkg.version);
+
+    console.log(`Synced server.json and plugin versions to ${pkg.version}`);
   } catch (err) {
-    console.error(`Failed to sync server.json version: ${err.message}`);
+    console.error(`Failed to sync versions: ${err.message}`);
     process.exit(1);
   }
 };

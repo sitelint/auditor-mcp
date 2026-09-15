@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "sitelint-auditor": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@sitelint/auditor-mcp"
+      ]
+    }
+  }
+}

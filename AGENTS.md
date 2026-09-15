@@ -2,7 +2,7 @@
 
 ## Project
 
-SiteLint MCP server for the SiteLint Auditor engine - WCAG and SiteLint Best Practices audits for accessibility, SEO, performance, and security via LLM agents. TypeScript, ESM (`"type": "module"`), builds to `dist/` with `tsc`. Distributed via npm (`@sitelint/auditor-mcp`); uses Puppeteer to drive Chrome/Chromium. MCP registry metadata lives in `server.json` (releases sync its version to `package.json` via `scripts/sync-server-json-version.js`).
+SiteLint MCP server for the SiteLint Auditor engine - WCAG and SiteLint Best Practices audits for accessibility, SEO, performance, and security via LLM agents. TypeScript, ESM (`"type": "module"`), builds to `dist/` with `tsc`. Distributed via npm (`@sitelint/auditor-mcp`); uses Puppeteer to drive Chrome/Chromium. MCP registry metadata lives in `server.json` (releases sync its version to `package.json` via `scripts/sync-server-json-version.js`). Agent plugins live in `plugins/auditor-mcp/` (Claude Code + Codex) with marketplace manifests at `.claude-plugin/marketplace.json` and `.agents/plugins/marketplace.json`; the sync script also keeps plugin versions in step with `package.json`.
 
 ## Code style notes (supplementing ESLint)
 
@@ -56,6 +56,6 @@ SiteLint MCP server for the SiteLint Auditor engine - WCAG and SiteLint Best Pra
 
 ## Git & PRs
 
-- Branch from `develop`: `feature/xyz` or `fix/xyz`
-- PR target: `develop` (main/master for releases only)
+- Branch from `main`: `feature/xyz` or `fix/xyz`
+- PR target: `main`
 - Husky pre-push hook exists (commented-out `npm run lint && npm run test`)

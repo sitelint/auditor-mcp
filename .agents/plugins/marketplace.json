@@ -1,0 +1,21 @@
+{
+  "name": "sitelint",
+  "interface": {
+    "displayName": "SiteLint"
+  },
+  "plugins": [
+    {
+      "name": "auditor-mcp",
+      "source": {
+        "source": "local",
+        "path": "./plugins/auditor-mcp"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity",
+      "description": "WCAG and SiteLint Best Practices audits for accessibility, SEO, performance, and security."
+    }
+  ]
+}
