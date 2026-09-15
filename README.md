@@ -222,6 +222,21 @@ Edit `claude_desktop_config.json`:
 }
 ```
 
+### ZCode
+
+```json
+{
+  "sitelint-auditor": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@sitelint/auditor-mcp@latest"
+    ]
+  }
+}
+```
+
 ### VS Code (Cline)
 
 In Cline extension settings → MCP Servers:
