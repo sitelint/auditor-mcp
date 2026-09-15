@@ -2,7 +2,7 @@
   "name": "auditor-mcp",
   "displayName": "Auditor MCP",
   "description": "WCAG and SiteLint Best Practices audits for accessibility, SEO, performance, and security.",
-  "version": "1.0.24",
+  "version": "1.0.25",
   "author": {
     "name": "SiteLint",
     "email": "support@sitelint.com",
