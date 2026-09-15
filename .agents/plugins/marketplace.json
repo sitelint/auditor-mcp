@@ -9,7 +9,7 @@
       "displayName": "Auditor MCP",
       "source": {
         "source": "local",
-        "path": "./plugins/auditor-mcp"
+        "path": "./"
       },
       "policy": {
         "installation": "AVAILABLE",

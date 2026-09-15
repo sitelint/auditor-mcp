@@ -22,8 +22,8 @@ const syncServerJsonVersion = async () => {
 
     await writeFile(serverJsonPath, `${JSON.stringify(server, null, 2)}\n`);
 
-    await syncVersionInJsonFile(new URL('../plugins/auditor-mcp/plugin.json', import.meta.url), pkg.version);
-    await syncVersionInJsonFile(new URL('../plugins/auditor-mcp/.claude-plugin/plugin.json', import.meta.url), pkg.version);
+    await syncVersionInJsonFile(new URL('../plugin.json', import.meta.url), pkg.version);
+    await syncVersionInJsonFile(new URL('../.claude-plugin/plugin.json', import.meta.url), pkg.version);
 
     const claudeMarketplacePath = new URL('../.claude-plugin/marketplace.json', import.meta.url);
     const claudeMarketplace = JSON.parse(await readFile(claudeMarketplacePath, 'utf8'));

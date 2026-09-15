@@ -27,7 +27,7 @@
         "email": "support@sitelint.com",
         "url": "https://www.sitelint.com"
       },
-      "source": "./plugins/auditor-mcp"
+      "source": "./"
     }
   ]
 }
