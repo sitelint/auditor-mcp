@@ -2,17 +2,32 @@
   "name": "sitelint",
   "description": "SiteLint MCP plugins: WCAG accessibility, SEO, performance, and security audits.",
   "owner": {
-    "name": "SiteLint"
+    "name": "SiteLint",
+    "email": "support@sitelint.com",
+    "url": "https://www.sitelint.com"
   },
   "plugins": [
     {
       "name": "auditor-mcp",
       "displayName": "Auditor MCP",
+      "description": "WCAG and SiteLint Best Practices audits for accessibility, SEO, performance, and security.",
+      "version": "1.0.24",
+      "homepage": "https://www.sitelint.com",
+      "repository": "https://github.com/sitelint/auditor-mcp",
+      "license": "MPL-2.0",
+      "keywords": [
+        "accessibility",
+        "seo",
+        "performance",
+        "security",
+        "wcag"
+      ],
       "author": {
-        "name": "SiteLint"
+        "name": "SiteLint",
+        "email": "support@sitelint.com",
+        "url": "https://www.sitelint.com"
       },
-      "source": "./plugins/auditor-mcp",
-      "description": "WCAG and SiteLint Best Practices audits for accessibility, SEO, performance, and security."
+      "source": "./plugins/auditor-mcp"
     }
   ]
 }

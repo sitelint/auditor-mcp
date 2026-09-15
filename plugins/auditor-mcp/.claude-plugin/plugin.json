@@ -4,7 +4,9 @@
   "description": "WCAG and SiteLint Best Practices audits for accessibility, SEO, performance, and security.",
   "version": "1.0.24",
   "author": {
-    "name": "SiteLint"
+    "name": "SiteLint",
+    "email": "support@sitelint.com",
+    "url": "https://www.sitelint.com"
   },
   "repository": "https://github.com/sitelint/auditor-mcp",
   "license": "MPL-2.0"
