@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.json",
+  "include": [
+    "src/**/*",
+    "scripts/**/*",
+    "test-filter.ts",
+    "eslint.config.js"
+  ],
+  "compilerOptions": {
+    "allowJs": true,
+    "noEmit": true
+  }
+}
