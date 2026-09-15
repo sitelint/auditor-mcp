@@ -7,6 +7,10 @@
   "plugins": [
     {
       "name": "auditor-mcp",
+      "displayName": "Auditor MCP",
+      "author": {
+        "name": "SiteLint"
+      },
       "source": "./plugins/auditor-mcp",
       "description": "WCAG and SiteLint Best Practices audits for accessibility, SEO, performance, and security."
     }

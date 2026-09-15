@@ -6,6 +6,7 @@
   "plugins": [
     {
       "name": "auditor-mcp",
+      "displayName": "Auditor MCP",
       "source": {
         "source": "local",
         "path": "./plugins/auditor-mcp"
