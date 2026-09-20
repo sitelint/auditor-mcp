@@ -580,9 +580,6 @@
   "consistent_navigation_title": {
     "value": "Verify consistent navigation"
   },
-  "console_log_error_title": {
-    "value": "The errors were logged to the error console."
-  },
   "content_editable_missing_attributes_report_message1": {
     "value": "Missing attribute <code>role=\"textbox\"</code> on <code>%0</code>."
   },
@@ -696,6 +693,18 @@
   },
   "download_json_report": {
     "value": "Download report in JSON"
+  },
+  "download_link_missing_information_report1": {
+    "value": "This link points to a downloadable file, but its text does not indicate the file type or file size. Use descriptive text such as <code>Download the 2026 annual report (PDF, 2.4 MB)</code>."
+  },
+  "download_link_missing_information_report2": {
+    "value": "This link points to a downloadable file, but its text does not indicate the file type. Add the file format (such as <code>PDF</code> or <code>ZIP</code>) to the link text."
+  },
+  "download_link_missing_information_report3": {
+    "value": "This link points to a downloadable file, but its text does not indicate the file size. Add the file size (such as <code>2.4 MB</code>) to the link text."
+  },
+  "download_link_missing_information_title": {
+    "value": "Download links should clearly identify the downloaded file and indicate its file type and size."
   },
   "dragging_movements_manual_check": {
     "value": "Verify that all functionality that uses a dragging movement can be achieved by a single pointer without dragging (e.g., clickable arrows or buttons to move an item)."
@@ -1245,6 +1254,36 @@
   },
   "local_resource_leak_title": {
     "value": "Local development resource detected."
+  },
+  "locate_blocked_closed_shadow_dom_message": {
+    "value": "The element is inside a closed shadow root. Browsers hide closed shadow DOM content from every script, including SiteLint, so this element cannot be highlighted or inspected. Use the copy buttons to capture its HTML or JavaScript path instead."
+  },
+  "locate_blocked_debugger_unavailable_message": {
+    "value": "SiteLint could not attach the browser debugger required to highlight elements. Close other DevTools windows or debuggers attached to this tab, then try again."
+  },
+  "locate_blocked_element_detached_message": {
+    "value": "The element no longer exists on the page. The page has changed since this issue was detected. Re-run the audit to refresh the results."
+  },
+  "locate_blocked_general_message": {
+    "value": "A unique locator (XPath) could not be determined for this element, so it cannot be highlighted or inspected on the page. Use the copy buttons to capture the element HTML instead."
+  },
+  "locate_blocked_invalid_xpath_message": {
+    "value": "The stored XPath expression is not valid on the current page, so this element cannot be highlighted or inspected. This can happen with malformed HTML or dynamically generated element names."
+  },
+  "locate_blocked_manual_verification_message": {
+    "value": "This issue is reported by a rule that requires manual verification. It is triggered by the page as a whole (for example, the presence of form fields that need to be checked) and is not attached to one specific element, so there is nothing to highlight or inspect. Follow the rule description to perform the verification manually."
+  },
+  "locate_blocked_missing_element_message": {
+    "value": "This issue describes an element that does not exist on the page (for example a missing heading, page title, or meta tag) or a rule that applies to the entire page. There is no element to highlight or inspect."
+  },
+  "locate_blocked_non_element_node_message": {
+    "value": "This issue points to a text or comment node instead of an HTML element. Text and comment nodes cannot be highlighted or inspected on the page."
+  },
+  "locate_blocked_stale_report_message": {
+    "value": "This report was generated for a different page. The address (URL) has changed since the audit ran. Re-run the audit on this page before using element highlighting or inspection."
+  },
+  "locate_blocked_stale_shadow_path_message": {
+    "value": "The shadow DOM structure changed after this issue was detected, so the element can no longer be located. Re-run the audit to refresh the results."
   },
   "location_indicator_manual_check": {
     "value": "Verify that information about the user's location within a set of web pages is available (e.g., through breadcrumbs, a highlighted current menu item, or a step indicator in a multi-step process)."
@@ -2281,6 +2320,15 @@
   "run": {
     "value": "Run"
   },
+  "runtime_script_errors_report1": {
+    "value": "Runtime error detected on the page: %0."
+  },
+  "runtime_script_errors_report2": {
+    "value": "A cross-origin script reported an error, but the browser hides the details (%0)."
+  },
+  "runtime_script_errors_title": {
+    "value": "Uncaught runtime errors must be prevented."
+  },
   "same_target_anchor_text_more_than_once_message_1": {
     "value": "The anchor <code>a</code> text <code>%0</code> is used more than once (<code>%1</code> times) but should be unique on the page."
   },
@@ -2762,19 +2810,22 @@
     "value": "Unable to copy content to the clipboard."
   },
   "unable_to_find_element": {
-    "value": "Unable to find the element %0 because it does not exists on the page."
+    "value": "The element %0 no longer exists on the page, so it cannot be highlighted. The page may have changed since this issue was detected. Re-run the audit to refresh the results."
   },
   "unable_to_highlight_element": {
-    "value": "Unable to highlight the element %0 because it's not being rendered on the page."
+    "value": "Unable to highlight the <code>%0</code> element because it is not rendered on the page. It may be off-screen, have zero size, or be hidden by the layout."
   },
   "unable_to_highlight_element_visually_hidden": {
-    "value": "The element cannot be highlighted since it has not been rendered visually."
+    "value": "The element exists in the HTML but is not rendered visually on the page. Reveal it and try again."
   },
   "unable_to_inspect_element_invalid_xpath": {
     "value": "Inspecting the element failed. The XPath expression \"%0\" is not valid and could not be evaluated. Please check the element structure or malformed HTML. See the console for details."
   },
-  "unable_to_inspect_element_not_found": {
-    "value": "Inspecting the element failed. The XPath expression \"%0\" is valid, but no matching element was found on the page."
+  "unable_to_inspect_element_title": {
+    "value": "Unable to inspect element"
+  },
+  "unable_to_locate_element_title": {
+    "value": "Unable to highlight element"
   },
   "unable_to_run_audit": {
     "value": "Unable to run audit.\n\n%0"
