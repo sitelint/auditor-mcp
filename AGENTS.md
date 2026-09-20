@@ -59,3 +59,15 @@ SiteLint MCP server for the SiteLint Auditor engine - WCAG and SiteLint Best Pra
 - Branch from `main`: `feature/xyz` or `fix/xyz`
 - PR target: `main`
 - Husky pre-push hook exists (commented-out `npm run lint && npm run test`)
+
+## Plugin marketplace display ("by X" line in Claude desktop)
+
+**Finding (2026-09-15): the desktop app's by-line for personal-added marketplaces is NOT fixable via repo files. `author` in manifests is ignored.**
+
+- The Claude desktop Plugins browser renders from Anthropic's cloud catalog API (`/api/organizations/.../library/discover/browse`), not from local/remote marketplace files.
+- Each plugin item carries `provenance`: `source` (`default` or `personal`), `author`, `marketplace_name`, `marketplace_display_name`.
+- Curated plugins (e.g. Slack, Security Guidance) are members of Anthropic's `knowledge-work-plugins` catalog (`source: "default"`); their by-line = `provenance.author` provided by Anthropic's server. Their repo layout (plugin at root, `source: "./"`) is irrelevant — it was never the cause.
+- Plugins added by URL (e.g. `https://github.com/sitelint/auditor-mcp`) get `source: "personal"`; server derives `marketplace_name` from the repo path's last segment (`auditor-mcp`), ignoring `marketplace.json`'s `name` field. Desktop then shows `by {marketplace_name}` for personal-source plugins.
+- Server data does carry `provenance.author: "SiteLint"` for our plugin (verified from decoded API responses) — if Anthropic ever curates the plugin into their catalog, the by-line will display correctly.
+- `author.name` in `.claude-plugin/plugin.json` and `marketplace.json` IS read correctly by the CLI (`claude plugin details`, `claude plugin install`), Codex, and opencode. Only the desktop's personal-marketplace by-line is affected.
+- Repo restructure to mirror Sanity's layout (plugin at root, `source: "./"`) was harmless but had no effect on the desktop by-line. Keep the layout as-is; do not chase further layout changes for display purposes.
