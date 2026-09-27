@@ -775,6 +775,240 @@
   "empty_title_attribute_title": {
     "value": "Tooltip content must not be empty."
   },
+  "en_301_549_10_5_report1": {
+    "value": "Where ICT is, or includes, a non-web document, and contains synchronized media with subtitles, the subtitles should not obscure relevant information in the synchronized media."
+  },
+  "en_301_549_10_5_title": {
+    "value": "Clause 10.5: Subtitle positioning (recommendation)"
+  },
+  "en_301_549_10_6_report1": {
+    "value": "Where ICT is, or includes, a non-web document, and the non-web document contains synchronized media with audio description, the audio description should not interfere with relevant audio information in the synchronized media."
+  },
+  "en_301_549_10_6_title": {
+    "value": "Clause 10.6: Audio description timing (recommendation)"
+  },
+  "en_301_549_11_5_2_10_report1": {
+    "value": "Where ICT is, or includes, non-web software that provides a user interface, and the software includes functionality that is not closed to programmatic access of information by assistive technologies, and renders text to a screen, the software shall, by using the services as described in clause 11.5.2.3, make the text contents, text attributes used or available for user generated content, and the boundary of text programmatically determinable by assistive technologies for all functionality that is not closed to programmatic access of information by assistive technologies."
+  },
+  "en_301_549_11_5_2_10_title": {
+    "value": "Clause 11.5.2.10: Text"
+  },
+  "en_301_549_11_5_2_11_report1": {
+    "value": "Where ICT is, or includes, non-web software that provides a user interface, and the software includes functionality that is not closed to programmatic access of information by assistive technologies, the functionality that is not closed shall, by using the services as described in clause 11.5.2.3, make a list of available actions that can be executed on a user interface element, programmatically determinable by assistive technologies for all functionality that is not closed to programmatic access of information by assistive technologies."
+  },
+  "en_301_549_11_5_2_11_title": {
+    "value": "Clause 11.5.2.11: List of available actions"
+  },
+  "en_301_549_11_5_2_12_report1": {
+    "value": "Where ICT is, or includes, non-web software that provides a user interface, and the software includes functionality that is not closed to programmatic access of information by assistive technologies, and there are user interface elements that have actions that can be executed by the user, the functionality that is not closed shall, by using the services as described in clause 11.5.2.3, allow the programmatic execution of the actions exposed according to clause 11.5.2.11 by assistive technologies where permitted by security requirements for all functionality that is not closed to programmatic access of information by assistive technologies."
+  },
+  "en_301_549_11_5_2_12_title": {
+    "value": "Clause 11.5.2.12: Execution of available actions"
+  },
+  "en_301_549_11_5_2_13_report1": {
+    "value": "Where ICT is, or includes, non-web software that provides a user interface, and the software includes functionality that is not closed to programmatic access of information by assistive technologies, the functionality that is not closed shall, by using the services as described in clause 11.5.2.3, make information and mechanisms necessary to track focus, text insertion point, and selection attributes of user interface elements programmatically determinable by assistive technologies for all functionality that is not closed to programmatic access of information by assistive technologies."
+  },
+  "en_301_549_11_5_2_13_title": {
+    "value": "Clause 11.5.2.13: Tracking of focus and selection attributes"
+  },
+  "en_301_549_11_5_2_14_report1": {
+    "value": "Where ICT is, or includes, non-web software that provides a user interface, and the software includes functionality that is not closed to programmatic access of information by assistive technologies, and there are user interface elements that can receive focus or that enable text editing, the functionality that is not closed shall, by using the services as described in clause 11.5.2.3, allow assistive technologies to programmatically modify focus, text insertion point, and selection attributes of user interface elements where the user can modify these items where permitted by security requirements for all functionality that is not closed to programmatic access of information by assistive technologies."
+  },
+  "en_301_549_11_5_2_14_title": {
+    "value": "Clause 11.5.2.14: Modification of focus and selection attributes"
+  },
+  "en_301_549_11_5_2_15_report1": {
+    "value": "Where ICT is, or includes, non-web software that provides a user interface, and the software includes functionality that is not closed to programmatic access of information by assistive technologies, the functionality that is not closed shall, by using the services as described in clause 11.5.2.3, notify assistive technologies about changes in those programmatically determinable attributes of user interface elements that are referenced in requirements 11.5.2.5 to 11.5.2.11 and 11.5.2.13, for all functionality that is not closed to programmatic access of information by assistive technologies."
+  },
+  "en_301_549_11_5_2_15_title": {
+    "value": "Clause 11.5.2.15: Change notification"
+  },
+  "en_301_549_11_5_2_16_report1": {
+    "value": "Where ICT is, or includes, non-web software that provides a user interface, and the software includes functionality that is not closed to programmatic access of information by assistive technologies, and there are user interface elements whose state or properties can be modified by a user without the use of assistive technology, the functionality that is not closed shall, by using the services as described in clause 11.5.2.3, allow assistive technologies to programmatically modify states and properties of user interface elements, where the user can modify these items where permitted by security requirements for all functionality that is not closed to programmatic access of information by assistive technologies."
+  },
+  "en_301_549_11_5_2_16_title": {
+    "value": "Clause 11.5.2.16: Modifications of states and properties"
+  },
+  "en_301_549_11_5_2_17_report1": {
+    "value": "Where ICT is, or includes, non-web software that provides a user interface, and the software includes functionality that is not closed to programmatic access of information by assistive technologies, and there are user interface elements whose values or text can be modified by a user without the use of assistive technology, the functionality that is not closed shall, by using the services as described in clause 11.5.2.3, allow assistive technologies to modify values and text of user interface elements using the input methods of the platform, where a user can modify these items without the use of assistive technology where permitted by security requirements for all functionality that is not closed to programmatic access of information by assistive technologies."
+  },
+  "en_301_549_11_5_2_17_title": {
+    "value": "Clause 11.5.2.17: Modifications of values and text"
+  },
+  "en_301_549_11_5_2_3_report1": {
+    "value": "Where ICT is, or includes, non-web software that provides a user interface, and the software includes functionality that is not closed to programmatic access of information by assistive technologies, the functionality that is not closed should use the applicable documented platform accessibility services listed in clause 11.5.2.1. If the documented platform accessibility services do not allow the software to meet the applicable requirements of clauses 11.5.2.5 to 11.5.2.17, then the functionality that is not closed should use other documented platform services to interoperate with assistive technology."
+  },
+  "en_301_549_11_5_2_3_title": {
+    "value": "Clause 11.5.2.3: Use of accessibility services (recommendation)"
+  },
+  "en_301_549_11_5_2_4_report1": {
+    "value": "Where ICT is, or includes, non-web software that is assistive technology, the assistive technology shall use the documented platform accessibility services corresponding to clauses 11.5.2.5 to 11.5.2.17."
+  },
+  "en_301_549_11_5_2_4_title": {
+    "value": "Clause 11.5.2.4: Assistive technology"
+  },
+  "en_301_549_11_5_2_5_report1": {
+    "value": "Where ICT is, or includes, non-web software that provides a user interface, and the software includes functionality that is not closed to programmatic access of information by assistive technologies, the functionality that is not closed shall, by using the services as described in clause 11.5.2.3, make the user interface elements' role, state(s), boundary, name, and description programmatically determinable by assistive technologies for all functionality that is not closed to programmatic access of information by assistive technologies."
+  },
+  "en_301_549_11_5_2_5_title": {
+    "value": "Clause 11.5.2.5: Object information"
+  },
+  "en_301_549_11_5_2_6_report1": {
+    "value": "Where ICT is, or includes, non-web software that provides a user interface, and the software includes functionality that is not closed to programmatic access of information by assistive technologies, the functionality that is not closed shall, by using the services as described in clause 11.5.2.3, make the row and column of each cell in a data table, including headers of the row and column if present, programmatically determinable by assistive technologies for all functionality that is not closed to programmatic access of information by assistive technologies."
+  },
+  "en_301_549_11_5_2_6_title": {
+    "value": "Clause 11.5.2.6: Row, column, and headers"
+  },
+  "en_301_549_11_5_2_7_report1": {
+    "value": "Where ICT is, or includes, non-web software that provides a user interface, and the software includes functionality that is not closed to programmatic access of information by assistive technologies, and there are user interface elements that can have values, the functionality that is not closed shall, by using the services as described in clause 11.5.2.3, make the current value of a user interface element and any minimum or maximum values of the range, if the user interface element conveys information about a range of values, programmatically determinable by assistive technologies for all functionality that is not closed to programmatic access of information by assistive technologies."
+  },
+  "en_301_549_11_5_2_7_title": {
+    "value": "Clause 11.5.2.7: Values"
+  },
+  "en_301_549_11_5_2_8_report1": {
+    "value": "Where ICT is, or includes, non-web software that provides a user interface, and the software includes functionality that is not closed to programmatic access of information by assistive technologies, and there are user interface elements that are labels of other user interface elements, the functionality that is not closed shall expose the relationship that a user interface element has as a label for another element, or of being labelled by another element, using the services as described in clause 11.5.2.3, so that this information is programmatically determinable by assistive technologies for all functionality that is not closed to programmatic access of information by assistive technologies."
+  },
+  "en_301_549_11_5_2_8_title": {
+    "value": "Clause 11.5.2.8: Label relationships"
+  },
+  "en_301_549_11_5_2_9_report1": {
+    "value": "Where ICT is, or includes, non-web software that provides a user interface, and the software includes functionality that is not closed to programmatic access of information by assistive technologies, and there are user interface elements that are parents of other user interface elements in a hierarchical structure, the functionality that is not closed shall, by using the services as described in clause 11.5.2.3, make the relationship between a user interface element and any parent or children elements programmatically determinable by assistive technologies for all functionality that is not closed to programmatic access of information by assistive technologies."
+  },
+  "en_301_549_11_5_2_9_title": {
+    "value": "Clause 11.5.2.9: Parent-child relationships"
+  },
+  "en_301_549_11_6_1_report1": {
+    "value": "Where ICT is, or includes, platform software, the platform software shall provide sufficient modes of operation for user control over documented platform accessibility features."
+  },
+  "en_301_549_11_6_1_title": {
+    "value": "Clause 11.6.1: User control of accessibility features"
+  },
+  "en_301_549_11_6_2_report1": {
+    "value": "Where ICT is, or includes, non-web software, the non-web software shall not disrupt documented platform accessibility features except when requested to do so by the user during the operation of the software."
+  },
+  "en_301_549_11_6_2_title": {
+    "value": "Clause 11.6.2: No disruption of accessibility features"
+  },
+  "en_301_549_11_7_report1": {
+    "value": "Where ICT is, or includes, non-web software that provides a user interface, and is not designed to be isolated from its platform, that user interface shall follow the values of the user preference settings for documented platform accessibility features unless it is essential to the function of the non-web software to not follow a user preference setting."
+  },
+  "en_301_549_11_7_title": {
+    "value": "Clause 11.7: User preferences"
+  },
+  "en_301_549_12_2_report1": {
+    "value": "Where ICT is, or includes, information about a service, made available in a digital form, the presentation of the information shall conform to the requirements of clause 9 if it is available in a web format, clause 10 if it is available as a non-web document, and clause 11 if it is available as part of non-web software."
+  },
+  "en_301_549_12_2_title": {
+    "value": "Clause 12.2: Accessible information about services"
+  },
+  "en_301_549_12_3_report1": {
+    "value": "Where ICT has documentation about the use of the ICT on the ICT or there is an official webpage that provides documentation about the use of the ICT, this documentation about the use of the ICT on the ICT shall include directly or via a link to a web page that, directly or via further links, provides information on the accessibility features of the ICT, how to use the features, and how to get support for accessibility features."
+  },
+  "en_301_549_12_3_title": {
+    "value": "Clause 12.3: Accessibility and compatibility features"
+  },
+  "en_301_549_5_10_2_report1": {
+    "value": "Where ICT is, or includes, authoring tool functionality, the authoring tool shall enable and guide the production of content that conforms to clause 9 (web), or clause 10 (Non-web documents), or clause 11 (Non-web software) as applicable."
+  },
+  "en_301_549_5_10_2_title": {
+    "value": "Clause 5.10.2: Accessible content creation"
+  },
+  "en_301_549_5_10_3_report1": {
+    "value": "Where ICT is, or includes, authoring tool functionality, and provides restructuring transformations or re-coding transformations, accessibility information shall be preserved in the output if equivalent mechanisms exist in the content technology of the output."
+  },
+  "en_301_549_5_10_3_title": {
+    "value": "Clause 5.10.3: Preservation of accessibility information in transformations"
+  },
+  "en_301_549_5_10_4_report1": {
+    "value": "Where ICT is, or includes, authoring tool functionality, and is capable of detecting that content does not meet a requirement of clause 9 (Web), or clause 10 (Non-web document), or clause 11 (Non-web software) as applicable, the authoring tool shall provide repair suggestion(s)."
+  },
+  "en_301_549_5_10_4_title": {
+    "value": "Clause 5.10.4: Repair assistance"
+  },
+  "en_301_549_5_10_5_report1": {
+    "value": "Where ICT is, or includes, authoring tool functionality, and provides templates, at least one template that supports the creation of content that conforms to the requirements of clause 9 (Web) or clause 10 (Non-web document) or clause 11 (Non-web software) as applicable shall be available and identified as such."
+  },
+  "en_301_549_5_10_5_title": {
+    "value": "Clause 5.10.5: Templates"
+  },
+  "en_301_549_5_2_report1": {
+    "value": "Where ICT includes documented accessibility features, it shall be possible to activate those documented accessibility features that are required to meet a specific need without relying on a method that does not support that need."
+  },
+  "en_301_549_5_2_title": {
+    "value": "Clause 5.2: Activation of accessibility features"
+  },
+  "en_301_549_5_7_report1": {
+    "value": "Where ICT includes a keyboard or keypad, and a key repeat function that cannot be turned off, and that key repeat will result in the generation of multiple entries of the same alphanumeric data into input fields or into documents: a) the delay before the key repeat shall be adjustable to at least 2 seconds; and b) the key repeat rate shall be adjustable down to one character per 2 seconds."
+  },
+  "en_301_549_5_7_title": {
+    "value": "Clause 5.7: Key repeat"
+  },
+  "en_301_549_5_8_report1": {
+    "value": "Where ICT includes a device-independent keyboard interface service, keyboard, or keypad, and includes a capability to adjust the time before the same key can be accepted again, the delay after any keystroke, during which the same key-press will not be accepted, shall be adjustable up to at least 0,5 seconds."
+  },
+  "en_301_549_5_8_title": {
+    "value": "Clause 5.8: Double-strike key acceptance"
+  },
+  "en_301_549_5_9_report1": {
+    "value": "Where ICT includes a mode of operation requiring simultaneous user actions for its operation, the ICT shall provide at least one mode of operation that does not require simultaneous user actions to operate the ICT."
+  },
+  "en_301_549_5_9_title": {
+    "value": "Clause 5.9: Simultaneous user actions"
+  },
+  "en_301_549_7_1_1_report1": {
+    "value": "Where ICT displays video with synchronized audio, the ICT shall have a mode of operation to display the available subtitles. Where closed subtitles are provided as part of the content, the ICT shall allow the user to choose to display the subtitles."
+  },
+  "en_301_549_7_1_1_title": {
+    "value": "Clause 7.1.1: Subtitle playback"
+  },
+  "en_301_549_7_1_2_report1": {
+    "value": "Where ICT displays video with synchronized audio, and displays subtitles, the ICT shall display subtitles within 100 ms of the timecode value attached to the subtitle."
+  },
+  "en_301_549_7_1_2_title": {
+    "value": "Clause 7.1.2: Subtitle synchronization"
+  },
+  "en_301_549_7_1_3_report1": {
+    "value": "Where ICT transmits, converts, or records video with synchronized audio, the ICT shall preserve subtitle data such that the subtitles can be displayed in a manner consistent with clause 7.1.1, including any data relating to presentational aspects such as screen position, text and background colours, text style and text fonts."
+  },
+  "en_301_549_7_1_3_title": {
+    "value": "Clause 7.1.3: Preservation of subtitles"
+  },
+  "en_301_549_7_1_4_report1": {
+    "value": "Where ICT displays video with synchronized audio, and has control over the presentation of its subtitles, the ICT shall provide a way for the user to adapt the displayed characteristics of subtitles to their individual requirements, except where the subtitles are displayed as unmodifiable characters."
+  },
+  "en_301_549_7_1_4_title": {
+    "value": "Clause 7.1.4: Subtitle characteristics"
+  },
+  "en_301_549_7_1_5_report1": {
+    "value": "Where ICT displays video with synchronized audio, the ICT shall have a mode of operation to enable output of the available spoken subtitles."
+  },
+  "en_301_549_7_1_5_title": {
+    "value": "Clause 7.1.5: Spoken subtitles"
+  },
+  "en_301_549_7_2_1_report1": {
+    "value": "Where ICT displays video with synchronized audio, the ICT shall provide a mechanism to select and play available audio description to the default audio channel. Where video technologies do not have explicit and separate mechanisms for audio description, an ICT is deemed to satisfy this requirement if the ICT enables the user to select and play one of several audio tracks."
+  },
+  "en_301_549_7_2_1_title": {
+    "value": "Clause 7.2.1: Audio description playback"
+  },
+  "en_301_549_7_2_2_report1": {
+    "value": "Where ICT displays video with synchronized audio, and has a mechanism to play audio description, the ICT shall preserve the synchronization between the audio/visual content and the corresponding audio description."
+  },
+  "en_301_549_7_2_2_title": {
+    "value": "Clause 7.2.2: Audio description synchronization"
+  },
+  "en_301_549_7_2_3_report1": {
+    "value": "Where ICT transmits, converts, or records video with synchronized audio, the ICT shall preserve audio description data such that the audio description can be played in a manner consistent with clauses 7.2.1 and 7.2.2."
+  },
+  "en_301_549_7_2_3_title": {
+    "value": "Clause 7.2.3: Preservation of audio description"
+  },
+  "en_301_549_7_3_report1": {
+    "value": "Where ICT primarily displays video with synchronized audio, and has control over the activation of subtitles, audio description, and spoken subtitles, the ICT shall provide at least one mode of operation that allows the activation and deactivation of the user's choice of either subtitles, audio description, or spoken subtitles with a single user operation that is at the same level as the volume control and that meets the other accessibility requirements of the present document."
+  },
+  "en_301_549_7_3_title": {
+    "value": "Clause 7.3: User control of audiovisual accessibility features"
+  },
   "engine_version": {
     "value": "Engine version"
   },
@@ -1061,7 +1295,7 @@
     "value": "Include"
   },
   "include_best_practices": {
-    "value": "Best practices"
+    "value": "Best practices (SiteLint)"
   },
   "include_hidden_elements": {
     "value": "Include hidden elements"
@@ -1674,6 +1908,9 @@
   },
   "oversized_images_report_message_3": {
     "value": "The image has original size: <code>%0px</code> height and <code>%1px</code> width, but it's displayed with the width <code>%2px</code> much smaller than the original value <code>%3px</code>."
+  },
+  "oversized_images_report_message_4": {
+    "value": "The image has original size: <code>%0px</code> height and <code>%1px</code> width, but it's not rendered (displayed size is 0px). Verify manually whether its status is correct."
   },
   "oversized_images_title": {
     "value": "Avoid displaying oversized images."
@@ -2476,6 +2713,15 @@
   "skip_reason_transparentBackground": {
     "value": "Unable to determine color contrast ratio because the element has the background color set as transparent."
   },
+  "speculation_rules_report1": {
+    "value": "The page does not use the Speculation Rules API. Add a script element with <code>type=\"speculationrules\"</code> in the page head to prefetch or prerender likely navigation targets and improve loading performance."
+  },
+  "speculation_rules_title": {
+    "value": "Page should use the Speculation Rules API to improve loading performance"
+  },
+  "standard": {
+    "value": "Standard"
+  },
   "standard_level": {
     "value": "Level"
   },
@@ -2491,20 +2737,32 @@
   "standard_level_best_practices": {
     "value": "Best practices"
   },
+  "standard_level_not_applicable": {
+    "value": "Not applicable"
+  },
   "standard_reference": {
     "value": "Standard reference"
   },
   "standard_type": {
     "value": "Standard"
   },
+  "standard_type_en_301_549": {
+    "value": "EN 301 549"
+  },
   "standard_type_sitelint": {
     "value": "SiteLint"
+  },
+  "standard_type_us_508": {
+    "value": "Section 508"
   },
   "standard_type_wcag": {
     "value": "WCAG"
   },
   "standard_version": {
-    "value": "Standard version"
+    "value": "Version"
+  },
+  "standardVersion_revised508": {
+    "value": "Revised 508 Standards"
   },
   "standardVersion_v10": {
     "value": "1.0"
@@ -2517,6 +2775,9 @@
   },
   "standardVersion_v22": {
     "value": "2.2"
+  },
+  "standardVersion_v411": {
+    "value": "4.1.1"
   },
   "status": {
     "value": "Status"
@@ -2877,6 +3138,174 @@
   },
   "url": {
     "value": "URL"
+  },
+  "us_508_502_2_1_report1": {
+    "value": "Platform software shall provide user control over platform features that are defined in the platform documentation as accessibility features."
+  },
+  "us_508_502_2_1_title": {
+    "value": "Clause 502.2.1: User Control of Accessibility Features"
+  },
+  "us_508_502_2_2_report1": {
+    "value": "Software shall not disrupt platform features that are defined in the platform documentation as accessibility features."
+  },
+  "us_508_502_2_2_title": {
+    "value": "Clause 502.2.2: No Disruption of Accessibility Features"
+  },
+  "us_508_502_3_1_report1": {
+    "value": "The object role, state(s), properties, boundary, name, and description shall be programmatically determinable."
+  },
+  "us_508_502_3_1_title": {
+    "value": "Clause 502.3.1: Object Information"
+  },
+  "us_508_502_3_10_report1": {
+    "value": "A list of all actions that can be executed on an object shall be programmatically determinable."
+  },
+  "us_508_502_3_10_title": {
+    "value": "Clause 502.3.10: List of Actions"
+  },
+  "us_508_502_3_11_report1": {
+    "value": "Applications shall allow assistive technology to programmatically execute available actions on objects."
+  },
+  "us_508_502_3_11_title": {
+    "value": "Clause 502.3.11: Actions on Objects"
+  },
+  "us_508_502_3_12_report1": {
+    "value": "Applications shall expose information and mechanisms necessary to track focus, text insertion point, and selection attributes of user interface components."
+  },
+  "us_508_502_3_12_title": {
+    "value": "Clause 502.3.12: Focus Cursor"
+  },
+  "us_508_502_3_13_report1": {
+    "value": "Focus, text insertion point, and selection attributes that can be set by the user shall be capable of being set programmatically, including through the use of assistive technology."
+  },
+  "us_508_502_3_13_title": {
+    "value": "Clause 502.3.13: Modification of Focus Cursor"
+  },
+  "us_508_502_3_14_report1": {
+    "value": "Notification of events relevant to user interactions, including but not limited to changes in the component’s state(s), value, name, description, or boundary, shall be available to assistive technology."
+  },
+  "us_508_502_3_14_title": {
+    "value": "Clause 502.3.14: Event Notification"
+  },
+  "us_508_502_3_2_report1": {
+    "value": "States and properties that can be set by the user shall be capable of being set programmatically, including through assistive technology."
+  },
+  "us_508_502_3_2_title": {
+    "value": "Clause 502.3.2: Modification of Object Information"
+  },
+  "us_508_502_3_3_report1": {
+    "value": "If an object is in a data table, the occupied rows and columns, and any headers associated with those rows or columns, shall be programmatically determinable."
+  },
+  "us_508_502_3_3_title": {
+    "value": "Clause 502.3.3: Row, Column, and Headers"
+  },
+  "us_508_502_3_4_report1": {
+    "value": "Any current value(s), and any set or range of allowable values associated with an object, shall be programmatically determinable."
+  },
+  "us_508_502_3_4_title": {
+    "value": "Clause 502.3.4: Values"
+  },
+  "us_508_502_3_5_report1": {
+    "value": "Any values associated with an object that can be set by the user shall be capable of being set programmatically, including through assistive technology."
+  },
+  "us_508_502_3_5_title": {
+    "value": "Clause 502.3.5: Modification of Values"
+  },
+  "us_508_502_3_6_report1": {
+    "value": "Any relationship that a component has as a label for another component, or of being labeled by another component, shall be programmatically determinable."
+  },
+  "us_508_502_3_6_title": {
+    "value": "Clause 502.3.6: Label Relationships"
+  },
+  "us_508_502_3_7_report1": {
+    "value": "Any hierarchical (parent-child) relationship that a component has as a container for, or being contained by, another component shall be programmatically determinable."
+  },
+  "us_508_502_3_7_title": {
+    "value": "Clause 502.3.7: Hierarchical Relationships"
+  },
+  "us_508_502_3_8_report1": {
+    "value": "The content of text objects, text attributes, and the boundary of text rendered to the screen, shall be programmatically determinable."
+  },
+  "us_508_502_3_8_title": {
+    "value": "Clause 502.3.8: Text"
+  },
+  "us_508_502_3_9_report1": {
+    "value": "Text that can be set by the user shall be capable of being set programmatically, including through assistive technology."
+  },
+  "us_508_502_3_9_title": {
+    "value": "Clause 502.3.9: Modification of Text"
+  },
+  "us_508_502_4_report1": {
+    "value": "Platforms and platform software shall conform to the requirements in ANSI/HFES 200.2, Human Factors Engineering of Software User Interfaces — Part 2: Accessibility (copyright 2008) listed below:"
+  },
+  "us_508_502_4_title": {
+    "value": "Clause 502.4: Platform Accessibility Features"
+  },
+  "us_508_503_2_report1": {
+    "value": "Applications shall permit user preferences from platform settings for color, contrast, font type, font size, and focus cursor."
+  },
+  "us_508_503_2_title": {
+    "value": "Clause 503.2: User Preferences"
+  },
+  "us_508_503_3_report1": {
+    "value": "Where an application provides an alternative user interface that functions as assistive technology, the application shall use platform and other industry standard accessibility services."
+  },
+  "us_508_503_3_title": {
+    "value": "Clause 503.3: Alternative User Interfaces"
+  },
+  "us_508_503_4_1_report1": {
+    "value": "Where user controls are provided for volume adjustment, ICT shall provide user controls for the selection of captions at the same menu level as the user controls for volume or program selection."
+  },
+  "us_508_503_4_1_title": {
+    "value": "Clause 503.4.1: Caption Controls"
+  },
+  "us_508_503_4_2_report1": {
+    "value": "Where user controls are provided for program selection, ICT shall provide user controls for the selection of audio descriptions at the same menu level as the user controls for volume or program selection."
+  },
+  "us_508_503_4_2_title": {
+    "value": "Clause 503.4.2: Audio Description Controls"
+  },
+  "us_508_504_2_1_report1": {
+    "value": "Authoring tools shall, when converting content from one format to another or saving content in multiple formats, preserve the information required for accessibility to the extent that the information is supported by the destination format."
+  },
+  "us_508_504_2_1_title": {
+    "value": "Clause 504.2.1: Preservation of Information Provided for Accessibility in Format Conversion"
+  },
+  "us_508_504_2_2_report1": {
+    "value": "Authoring tools capable of exporting PDF files that conform to ISO 32000-1:2008 (PDF 1.7) shall also be capable of exporting PDF files that conform to ANSI/AIIM/ISO 14289-1:2016 (PDF/UA-1)."
+  },
+  "us_508_504_2_2_title": {
+    "value": "Clause 504.2.2: PDF Export"
+  },
+  "us_508_504_2_report1": {
+    "value": "Authoring tools shall provide a mode of operation to create or edit content that conforms to Level A and Level AA Success Criteria and Conformance Requirements in WCAG 2.1 for all supported features and, as applicable, to file formats supported by the authoring tool. Authoring tools shall permit authors the option of overriding information required for accessibility."
+  },
+  "us_508_504_2_title": {
+    "value": "Clause 504.2: Content Creation or Editing"
+  },
+  "us_508_504_3_report1": {
+    "value": "Authoring tools shall provide a mode of operation that prompts authors to create content that conforms to Level A and Level AA Success Criteria and Conformance Requirements in WCAG 2.1 for supported features and, as applicable, to file formats supported by the authoring tool."
+  },
+  "us_508_504_3_title": {
+    "value": "Clause 504.3: Prompts"
+  },
+  "us_508_504_4_report1": {
+    "value": "Authoring tools may provide a range of templates that support features and, as applicable file formats. Where templates are provided, templates shall allow content creation that conforms to Level A and Level AA Success Criteria and Conformance Requirements in WCAG 2.1."
+  },
+  "us_508_504_4_title": {
+    "value": "Clause 504.4: Templates"
+  },
+  "us_508_602_2_report1": {
+    "value": "Documentation lists and explains accessibility and compatibility features, including keyboard access."
+  },
+  "us_508_602_2_title": {
+    "value": "Clause 602.2: Accessibility and Compatibility Features"
+  },
+  "us_508_602_3_report1": {
+    "value": "Documentation in electronic format, including Web-based self-service support, shall conform to Level A and Level AA Success Criteria and Conformance Requirements in WCAG 2.1."
+  },
+  "us_508_602_3_title": {
+    "value": "Clause 602.3: Electronic Support Documentation"
   },
   "validate": {
     "value": "Validate"
