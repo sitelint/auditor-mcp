@@ -2,6 +2,8 @@
 
 MCP server that runs [SiteLint Auditor](https://www.sitelint.com) - WCAG and SiteLint Best Practices for accessibility, SEO, performance, and security audits via LLM agents.
 
+The auditor bundle additionally supports [WebMCP](https://developer.chrome.com/docs/ai/webmcp): when enabled it registers in-page tools on `document.modelContext`, so browser agents can run and inspect audits directly on a live site without this server. See [WebMCP (in-page tools)](#webmcp-in-page-tools).
+
 ## Quick start
 
 ```bash
@@ -348,3 +350,48 @@ Navigation failures, timeouts, and browser-launch errors are returned as readabl
 ### Limitations vs. embedded auditor
 
 When SiteLint Auditor is embedded directly into a website via `<script>`, it watches for DOM mutations, re-tests dynamically loaded content, and provides an interactive sidebar UI. The MCP server does **not** do any of that — it takes a one-time snapshot of the page at the moment of injection. Content loaded after the audit starts (lazy images, infinite scroll, SPA route transitions) is not evaluated. For SPAs or pages with heavy dynamic content, consider waiting for full render before calling the tool.
+
+## WebMCP (in-page tools)
+
+WebMCP turns the page itself into a tool server: the site exposes client-side functions with
+JSON schemas, and a browser agent invokes them directly in the open tab. No stdio/SSE transport,
+no headless browser, no server deployment.
+
+When the auditor is embedded via `<script>` with the `webmcp` option enabled, it registers:
+
+| Tool | Description |
+| --- | --- |
+| `sitelint_run_audit` | Runs a full audit of the live page; returns score and issue totals |
+| `sitelint_get_reports` | Issues from the last audit with translated messages and element locators (`jsPath`, `cssSelector`, `xpath`); filters `ruleId`, `severity`, `standard`; paginated via `offset`/`limit` (default 25, max 100) |
+| `sitelint_list_rules` | All registered rules with id, severity, standard and WCAG level |
+| `sitelint_highlight_issue` | Scrolls to and visually highlights the element for an issue `jsPath` returned by `sitelint_get_reports` |
+
+Enabling from page code:
+
+```js
+auditor.config({ webmcp: true });
+auditor.run();
+```
+
+The flag is opt-in and defaults to `false`. Registration is feature-detected: browsers without
+`document.modelContext` silently skip it and the auditor behaves exactly as before.
+
+### When to use WebMCP instead of this server
+
+- **Live page state** — audits SPAs, authenticated views, and content rendered after load; the
+  server only snapshots the initial DOM (see *Limitations vs. embedded auditor* above).
+- **Fix-and-verify loop** — the agent changes the page, re-runs `sitelint_run_audit`, and uses
+  `sitelint_highlight_issue` to show the user what remains — all inside the user's tab.
+- **Assistive and browser-agent workflows** — the agent and the user share one context.
+
+### Requirements
+
+- Chromium 146+ with WebMCP enabled (`chrome://flags/#enable-webmcp-testing` in preview builds;
+  Chrome 150+ exposes the producer API on `document.modelContext`)
+- Secure context (HTTPS)
+- Tools are visible to same-origin consumers only; cross-origin exposure requires the `tools`
+  permissions policy plus `exposedTo` at registration
+
+WebMCP complements this server rather than replacing it: headless audits of arbitrary URLs (CI,
+batch checks, sites that do not embed the auditor) stay on `@sitelint/auditor-mcp`; in-browser
+agents driving a live site use the WebMCP tools.

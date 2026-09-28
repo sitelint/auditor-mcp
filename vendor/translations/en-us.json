@@ -695,7 +695,7 @@
     "value": "Download report in JSON"
   },
   "download_link_missing_information_report1": {
-    "value": "This link points to a downloadable file, but its text does not indicate the file type or file size. Use descriptive text such as <code>Download the 2026 annual report (PDF, 2.4 MB)</code>."
+    "value": "This link points to a downloadable file, but its text does not indicate the file type or file size. Use descriptive text such as <code>Download the 2026 annual report (PDF, 10 pages, 2.4 MB)</code>."
   },
   "download_link_missing_information_report2": {
     "value": "This link points to a downloadable file, but its text does not indicate the file type. Add the file format (such as <code>PDF</code> or <code>ZIP</code>) to the link text."
