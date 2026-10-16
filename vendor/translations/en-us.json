@@ -67,6 +67,12 @@
   "action_check_for_local_ai_title": {
     "value": "Please note: this feature is experimental. While it is fully supported in Google Chrome, it may not function correctly in other Chromium-based browsers at this time."
   },
+  "action_clear_issues": {
+    "value": "Clear all runtime issues"
+  },
+  "action_clear_issues_title": {
+    "value": "Removes all captured runtime issues from the local buffer"
+  },
   "action_close": {
     "value": "Close"
   },
@@ -82,6 +88,12 @@
   "action_copy_as_markdown": {
     "value": "Copy as Markdown"
   },
+  "action_copy_issues_for_ai": {
+    "value": "Copy runtime issues for AI agent"
+  },
+  "action_copy_issues_for_ai_title": {
+    "value": "Copies runtime issues as a text file to share with an AI agent for analysis"
+  },
   "action_copy_prompt_with_issues": {
     "value": "Copy prompt with issues"
   },
@@ -96,6 +108,12 @@
   },
   "action_download_report_in_html_title": {
     "value": "HTML report for a quick results overview, easy to share with non-technical stakeholders."
+  },
+  "action_export_issues_json": {
+    "value": "Export runtime issues as JSON"
+  },
+  "action_export_issues_json_title": {
+    "value": "Downloads all captured runtime issues as a JSON file"
   },
   "action_get_explanation_of_the_issue": {
     "value": "Get explanation of the issue"
@@ -117,6 +135,9 @@
   },
   "action_share_link_to_report": {
     "value": "Share link to the report"
+  },
+  "action_share_report_title": {
+    "value": "Plain text report published on pastefox.com. The link to the shared report is copied to the clipboard. Available in the DevTools panel and the Side Panel."
   },
   "additional_information": {
     "value": "Additional information"
@@ -427,6 +448,12 @@
   "autoplay_audio_video_title": {
     "value": "Audio and video content should not play automatically."
   },
+  "base_hijack_report1": {
+    "value": "The <code>base</code> element points to a different origin (%0). Every relative URL on the page, including link and form targets, is then resolved against this origin, which can be used to hijack them. Remove the element or point it to the same origin."
+  },
+  "base_hijack_title": {
+    "value": "Base element hijacking"
+  },
   "broken_data_url_image_report_message_2": {
     "value": "Image data URL is malformed or has invalid format: %0"
   },
@@ -498,6 +525,9 @@
   },
   "check_for_broken_links_tool": {
     "value": "Check for broken links"
+  },
+  "clear_all": {
+    "value": "Clear all"
   },
   "close_sitelint_auditor": {
     "value": "Close SiteLint Auditor"
@@ -598,6 +628,33 @@
   "content_on_hover_focus_title": {
     "value": "Verify content on hover or focus"
   },
+  "content_security_policy_report_message_1": {
+    "value": "The Content-Security-Policy HTTP response header is missing. Configure the server to send the Content-Security-Policy header to prevent XSS and data injection attacks."
+  },
+  "content_security_policy_report_message_2": {
+    "value": "The Content-Security-Policy content is empty. Add directives such as <code>default-src</code>, <code>script-src</code>, and <code>style-src</code>."
+  },
+  "content_security_policy_report_message_3": {
+    "value": "The Content-Security-Policy is incomplete. It should include %1. Current value: %0."
+  },
+  "content_security_policy_report_message_4": {
+    "value": "The Content-Security-Policy is defined only via a <code>meta</code> element. Browsers apply it with limitations, for example <code>frame-ancestors</code>, <code>sandbox</code>, and <code>report-uri</code> are ignored. Send the Content-Security-Policy as an HTTP response header instead."
+  },
+  "content_security_policy_report_message_5": {
+    "value": "The Content-Security-Policy HTTP response header could not be verified automatically. Verify the server configuration manually."
+  },
+  "content_security_policy_report6": {
+    "value": "The Content-Security-Policy allows inline code with the <code>'unsafe-inline'</code> source. This significantly weakens protection against cross-site scripting. Remove it and use nonces or hashes instead."
+  },
+  "content_security_policy_report7": {
+    "value": "The Content-Security-Policy allows code evaluation with the <code>'unsafe-eval'</code> source. This weakens protection against cross-site scripting. Remove it and use safer alternatives."
+  },
+  "content_security_policy_report8": {
+    "value": "The Content-Security-Policy directive <code>script-src</code> allows insecure sources: %0. Wildcards, <code>data:</code> and <code>http:</code> sources can be abused to inject scripts. Restrict the directive to trusted HTTPS sources."
+  },
+  "content_security_policy_title": {
+    "value": "Content-Security-Policy"
+  },
   "content_wider_than_screen_report_message_1": {
     "value": "The page content width <code>%0</code> is wider than the screen width <code>%1</code> and that causes the viewport to scroll horizontally."
   },
@@ -624,6 +681,9 @@
   },
   "copy_debugging_result": {
     "value": "Copy result to clipboard"
+  },
+  "copy_for_ai_agent": {
+    "value": "Copy for AI agent"
   },
   "copy_issue_details": {
     "value": "Copy prompt for AI"
@@ -664,14 +724,68 @@
   "core_web_vitals_TTFB": {
     "value": "Time to First Byte"
   },
+  "credentials_in_url_report1": {
+    "value": "The <code>a</code> element links to a URL that contains user credentials (%0). Credentials in URLs are visible in browser history, server logs and referrer headers. Verify the finding manually and pass credentials securely instead."
+  },
+  "credentials_in_url_report2": {
+    "value": "The <code>a</code> element links to a URL that contains a sensitive query parameter (<code>%0</code>). Values such as tokens or passwords in URLs can leak through browser history, server logs and referrer headers. Verify the finding manually and pass such values securely instead."
+  },
+  "credentials_in_url_title": {
+    "value": "Credentials in URLs"
+  },
   "criteria": {
     "value": "Criteria"
+  },
+  "cross_origin_embedder_policy_report1": {
+    "value": "The Cross-Origin-Embedder-Policy HTTP response header is missing. Configure the server to send it with the value <code>require-corp</code> to enable cross-origin isolation."
+  },
+  "cross_origin_embedder_policy_report2": {
+    "value": "The Cross-Origin-Embedder-Policy HTTP response header should have the value <code>require-corp</code> or <code>credentialless</code>. Current value: %0."
+  },
+  "cross_origin_embedder_policy_report3": {
+    "value": "The Cross-Origin-Embedder-Policy HTTP response header could not be verified automatically. Verify the server configuration manually."
+  },
+  "cross_origin_embedder_policy_title": {
+    "value": "Cross-Origin-Embedder-Policy"
+  },
+  "cross_origin_opener_policy_report1": {
+    "value": "The Cross-Origin-Opener-Policy HTTP response header is missing. Configure the server to send it with the value <code>same-origin</code> to protect against cross-origin attacks such as XS-Leaks."
+  },
+  "cross_origin_opener_policy_report2": {
+    "value": "The Cross-Origin-Opener-Policy HTTP response header should have the value <code>same-origin</code> or <code>same-origin-allow-popups</code>. Current value: %0."
+  },
+  "cross_origin_opener_policy_report3": {
+    "value": "The Cross-Origin-Opener-Policy HTTP response header could not be verified automatically. Verify the server configuration manually."
+  },
+  "cross_origin_opener_policy_title": {
+    "value": "Cross-Origin-Opener-Policy"
+  },
+  "cross_origin_resource_policy_report1": {
+    "value": "The Cross-Origin-Resource-Policy HTTP response header is missing. Configure the server to send it with the value <code>same-origin</code> or <code>same-site</code> to prevent cross-origin embedding of the resource."
+  },
+  "cross_origin_resource_policy_report2": {
+    "value": "The Cross-Origin-Resource-Policy HTTP response header should have the value <code>same-origin</code> or <code>same-site</code>. Current value: %0."
+  },
+  "cross_origin_resource_policy_report3": {
+    "value": "The Cross-Origin-Resource-Policy HTTP response header could not be verified automatically. Verify the server configuration manually."
+  },
+  "cross_origin_resource_policy_title": {
+    "value": "Cross-Origin-Resource-Policy"
   },
   "custom_control_role_report1": {
     "value": "The <code>%0</code> element has <code>tabindex=\"%1\"</code> but is missing an appropriate ARIA role (e.g., <code>role=\"button\"</code>, <code>role=\"switch\"</code>). Focusable non-native controls must expose their role programmatically."
   },
   "custom_control_role_title": {
     "value": "Custom controls must have appropriate ARIA roles."
+  },
+  "custom_select_recommendation_report1": {
+    "value": "This custom choice control has no detected search input. Consider using the native <code>&lt;select&gt;</code> element. It provides built-in accessibility semantics and browser and platform-provided interactions, which may offer familiar experiences adapted to desktop and mobile. Its exact presentation varies by platform."
+  },
+  "custom_select_recommendation_report2": {
+    "value": "This custom choice control includes a search input. For a fixed set of choices, consider a native <code>&lt;select&gt;</code>; when search or free-form entry is needed, consider <code>&lt;input list=\"…\"&gt;</code> with <code>&lt;datalist&gt;</code>. Native selects use browser and platform-provided interactions, which may offer familiar experiences adapted to desktop and mobile. Their exact presentation varies by platform."
+  },
+  "custom_select_recommendation_title": {
+    "value": "Consider native controls for custom choice widgets"
   },
   "debugging": {
     "value": "Debugging"
@@ -1048,6 +1162,9 @@
   "export_csv": {
     "value": "Export CSV"
   },
+  "export_json": {
+    "value": "Export JSON"
+  },
   "extended_audio_description_prerecorded_manual_check": {
     "value": "Verify that where the primary audio track is insufficient to provide the necessary visual information within existing pauses, extended audio description is provided by pausing the video content."
   },
@@ -1095,6 +1212,9 @@
   },
   "focus_not_obscured_minimum_manual_check": {
     "value": "Verify that when an element receives keyboard focus, it is at least partially visible and not entirely hidden by author-created content (like sticky headers, footers, or non-modal overlays). Found elements: %0."
+  },
+  "focus_not_obscured_minimum_report1": {
+    "value": "The element <code>%0</code> can be entirely hidden by author-created content (<code>%1</code>) when keyboard focus brings it into view. WCAG 2.4.11 requires that the focused component is not entirely obscured. Remove the overlap, make the obscuring layer modal so it takes focus, or add CSS scroll-padding so the focused element is revealed."
   },
   "focus_not_obscured_minimum_title": {
     "value": "Verify focus not obscured (minimum)"
@@ -1198,6 +1318,24 @@
   "how_to_verify": {
     "value": "How to verify"
   },
+  "hsts_report1": {
+    "value": "The Strict-Transport-Security HTTP response header is missing. Configure the server to send it with the <code>max-age</code> directive to enforce HTTPS connections."
+  },
+  "hsts_report2": {
+    "value": "The Strict-Transport-Security HTTP response header should include the <code>max-age</code> directive with a value of at least %0 seconds. Current value: %1."
+  },
+  "hsts_report3": {
+    "value": "The Strict-Transport-Security HTTP response header should include the <code>includeSubDomains</code> directive to also cover all subdomains."
+  },
+  "hsts_report4": {
+    "value": "The Strict-Transport-Security HTTP response header could not be verified automatically. Verify the server configuration manually."
+  },
+  "hsts_title": {
+    "value": "Strict-Transport-Security (HSTS)"
+  },
+  "html_label": {
+    "value": "HTML"
+  },
   "html_lang_attr_report_message_1": {
     "value": "You have defined the lang attribute on the <code>%0</code> root element, but you have more than 3 languages parameters defined there: <code>%0</code>."
   },
@@ -1236,6 +1374,12 @@
   },
   "identify_purpose_title": {
     "value": "Verify identify purpose"
+  },
+  "iframe_sandbox_report1": {
+    "value": "The <code>iframe</code> element loads cross-origin content (%0) without the <code>sandbox</code> attribute. Sandboxing restricts what the embedded content can do, for example run scripts or submit forms. Add a <code>sandbox</code> attribute with the minimum required permissions."
+  },
+  "iframe_sandbox_title": {
+    "value": "Iframe sandbox"
   },
   "ignored_slash": {
     "value": "ignored slash"
@@ -1327,6 +1471,15 @@
   "input_image_missing_alt_title": {
     "value": "Image button must declare alt text describing its action."
   },
+  "insecure_form_submission_report1": {
+    "value": "The password form sends data to an insecure <code>http:</code> URL (%0). Credentials submitted this way can be intercepted in transit. Use <code>https:</code> in the form <code>action</code> attribute."
+  },
+  "insecure_form_submission_report2": {
+    "value": "The password form is submitted with the <code>GET</code> method, either set explicitly or used by default when the method is not specified. Passwords sent this way become part of the URL and can be stored in browser history and server logs. Use the <code>POST</code> method instead."
+  },
+  "insecure_form_submission_title": {
+    "value": "Insecure form submission"
+  },
   "inspect_element": {
     "value": "Inspect element"
   },
@@ -1356,6 +1509,42 @@
   },
   "issues": {
     "value": "Issues"
+  },
+  "issues_console_tail": {
+    "value": "Console tail"
+  },
+  "issues_context_details": {
+    "value": "Context details"
+  },
+  "issues_export_json": {
+    "value": "Export JSON"
+  },
+  "issues_hours_ago": {
+    "value": "hours ago"
+  },
+  "issues_just_now": {
+    "value": "Just now"
+  },
+  "issues_minutes_ago": {
+    "value": "minutes ago"
+  },
+  "issues_select_issue_to_view_details": {
+    "value": "Select an issue to view details"
+  },
+  "issues_stack_trace": {
+    "value": "Stack trace"
+  },
+  "issues_steps_to_reproduce": {
+    "value": "Steps to reproduce"
+  },
+  "issues_user_events_count": {
+    "value": "%0 user event(s) before this issue"
+  },
+  "javascript_url_report1": {
+    "value": "The <code>%0</code> element uses a <code>javascript:</code> URL in its <code>%1</code> attribute. Code executed this way bypasses Content-Security-Policy protections and is a common cross-site scripting vector. Use a regular URL with an event listener instead."
+  },
+  "javascript_url_title": {
+    "value": "JavaScript URLs"
   },
   "js_path_label": {
     "value": "JS Path"
@@ -1431,6 +1620,12 @@
   },
   "learn_more_about_analytics": {
     "value": "Learn more about analytics"
+  },
+  "legacy_plugin_content_report1": {
+    "value": "The <code>%0</code> element uses plugin-based content technology. Plugins such as Flash, Java applets and ActiveX are deprecated, blocked by modern browsers and a known source of security vulnerabilities. Replace it with native HTML elements such as <code>video</code>, <code>audio</code> or <code>iframe</code>."
+  },
+  "legacy_plugin_content_title": {
+    "value": "Legacy plugin content"
   },
   "legend_first_child_of_fieldset_report_message_1": {
     "value": "Expected <code>%0</code> to be the first child of the <code>%1</code> element, but instead there is <code>%2</code>."
@@ -1642,7 +1837,7 @@
   "missing_alt_attribute_title": {
     "value": "Missing ALT on non-text elements."
   },
-  "missing_canonical_url_report_message_1": {
+  "missing_canonical_url_report1": {
     "value": "The page's missing a defined canonical URL. A canonical URL is the URL of the page that the Search Engine thinks is most representative of a set of duplicate pages on your site."
   },
   "missing_canonical_url_title": {
@@ -1687,8 +1882,11 @@
   "missing_label_title": {
     "value": "Form controls need labels."
   },
-  "missing_opengraph_report_message": {
+  "missing_opengraph_report1": {
     "value": "The page has no defined Open Graph tags, which improve how link previews appear across various search engines, services and applications."
+  },
+  "missing_opengraph_report2": {
+    "value": "Open Graph tags <code>%0</code> are defined outside of the document <code>head</code> element, where crawlers expect them. Move them into <code>head</code> so link previews render correctly."
   },
   "missing_opengraph_title": {
     "value": "Page should define Open Graph tags"
@@ -1876,8 +2074,35 @@
   "on_input_title": {
     "value": "Verify on input behavior"
   },
+  "open_graph_optional": {
+    "value": "optional"
+  },
+  "open_graph_required": {
+    "value": "required"
+  },
   "open_sitelint_auditor": {
     "value": "Open SiteLint Auditor"
+  },
+  "opengraph_malformed_report1": {
+    "value": "Open Graph tag <code>%0</code> has no content. Remove the tag or provide a value."
+  },
+  "opengraph_malformed_report2": {
+    "value": "Open Graph tag <code>%0</code> declares <code>og:type</code> as <code>%1</code>, which is not a type defined by the Open Graph protocol. Use a type such as <code>website</code>, <code>article</code>, <code>product</code> or a namespaced type such as <code>music.song</code>."
+  },
+  "opengraph_malformed_report3": {
+    "value": "Open Graph tag <code>%0</code> has the value <code>%1</code>, which is not an absolute URL. Crawlers cannot resolve relative URLs in Open Graph tags."
+  },
+  "opengraph_malformed_report4": {
+    "value": "Open Graph tag <code>%0</code> declares a numeric property as <code>%1</code>. The Open Graph protocol requires positive whole numbers for image width and height."
+  },
+  "opengraph_malformed_title": {
+    "value": "Open Graph tags are malformed"
+  },
+  "opengraph_missing_required_properties_report1": {
+    "value": "The page does not define the required Open Graph properties <code>%0</code>. Link previews fall back to generic values or render incomplete when they are missing."
+  },
+  "opengraph_missing_required_properties_title": {
+    "value": "Page is missing required Open Graph properties"
   },
   "options": {
     "value": "Options"
@@ -1975,6 +2200,12 @@
   "page_images_missing_alt": {
     "value": "Empty description"
   },
+  "page_images_missing_alt_none": {
+    "value": "All images on this page have alternative text defined."
+  },
+  "page_images_missing_alt_only": {
+    "value": "Missing alt images only"
+  },
   "page_images_none": {
     "value": "No images found on this page."
   },
@@ -2010,6 +2241,18 @@
   },
   "page_non_indexable": {
     "value": "non-indexable"
+  },
+  "page_open_graph": {
+    "value": "Open Graph"
+  },
+  "page_open_graph_empty": {
+    "value": "empty value"
+  },
+  "page_open_graph_not_found": {
+    "value": "No Open Graph tags were found on this page."
+  },
+  "page_open_graph_not_set": {
+    "value": "not set"
   },
   "page_robots_txt": {
     "value": "Robots.txt"
@@ -2455,6 +2698,18 @@
   "pdf_yes": {
     "value": "Yes"
   },
+  "permissions_policy_report1": {
+    "value": "The Permissions-Policy HTTP response header is missing. Configure the server to send it to control which powerful browser features the page can use."
+  },
+  "permissions_policy_report2": {
+    "value": "The Permissions-Policy HTTP response header is empty. Set its value to feature directives such as <code>camera=()</code> or <code>geolocation=()</code>."
+  },
+  "permissions_policy_report3": {
+    "value": "The Permissions-Policy HTTP response header could not be verified automatically. Verify the server configuration manually."
+  },
+  "permissions_policy_title": {
+    "value": "Permissions-Policy"
+  },
   "platform": {
     "value": "Platform"
   },
@@ -2518,14 +2773,50 @@
   "redundant_entry_title": {
     "value": "Verify redundant entry"
   },
+  "referrer_policy_report1": {
+    "value": "The Referrer-Policy HTTP response header is missing. Configure the server to send it with the value <code>strict-origin-when-cross-origin</code> to limit referrer information leakage."
+  },
+  "referrer_policy_report2": {
+    "value": "The Referrer-Policy HTTP response header is empty. Set its value to <code>strict-origin-when-cross-origin</code>."
+  },
+  "referrer_policy_report3": {
+    "value": "The Referrer-Policy HTTP response header contains an invalid token: %0. Use tokens such as <code>no-referrer</code>, <code>same-origin</code> or <code>strict-origin-when-cross-origin</code>."
+  },
+  "referrer_policy_report4": {
+    "value": "The Referrer-Policy HTTP response header could not be verified automatically. Verify the server configuration manually."
+  },
+  "referrer_policy_title": {
+    "value": "Referrer-Policy"
+  },
   "reflow_content_manual_check": {
     "value": "Resize the browser window to a width of <code>320px</code>. Verify that content scales without loss of information and that no horizontal scrollbar appears."
   },
   "reflow_content_title": {
     "value": "Verify reflow"
   },
+  "report_documentation": {
+    "value": "Documentation"
+  },
   "report_generated_via": {
     "value": "Report generated via"
+  },
+  "report_metric": {
+    "value": "Metric"
+  },
+  "report_rating": {
+    "value": "Rating"
+  },
+  "report_shared_successfully": {
+    "value": "Report shared. The link has been copied to your clipboard: <a href=\"%0\" target=\"_blank\" rel=\"noopener noreferrer\">%0</a>"
+  },
+  "report_sharing_failed": {
+    "value": "The report could not be shared. Please try again in a moment."
+  },
+  "report_sharing_manual": {
+    "value": "The report could not be uploaded automatically, so it has been copied to your clipboard instead. <a href=\"%0\" target=\"_blank\" rel=\"noopener noreferrer\">Open PasteFox</a> and paste it there to publish the report."
+  },
+  "report_value": {
+    "value": "Value"
   },
   "requirement": {
     "value": "Requirement"
@@ -2590,8 +2881,17 @@
   "seconds": {
     "value": "seconds"
   },
+  "secrets_in_inline_script_report1": {
+    "value": "The inline <code>script</code> element contains what looks like a hard-coded secret or API key (%0). Hard-coded secrets in the page source are exposed to every visitor. Remove them and provide them server-side. Verify the finding manually, for example placeholders in demos."
+  },
+  "secrets_in_inline_script_title": {
+    "value": "Secrets in inline scripts"
+  },
   "section_audit_tools": {
     "value": "Audit tools"
+  },
+  "section_issues": {
+    "value": "Issues"
   },
   "section_pdf": {
     "value": "PDF"
@@ -2604,6 +2904,12 @@
   },
   "select_test_result": {
     "value": "Select test result"
+  },
+  "sensitive_url_exposure_report1": {
+    "value": "The <code>a</code> element links to a location that looks like a sensitive or internal file (%0). Exposing such files can reveal configuration, credentials or source code. Verify the finding manually and remove the link and the file if it is exposed."
+  },
+  "sensitive_url_exposure_title": {
+    "value": "Sensitive URL exposure"
   },
   "sensory_characteristics_manual_check": {
     "value": "Verify that instructions provided for understanding and operating content do not rely solely on sensory characteristics of components such as shape, color, size, visual location, orientation, or sound."
@@ -2631,6 +2937,9 @@
   },
   "severity_type": {
     "value": "Severity type"
+  },
+  "share_page_report": {
+    "value": "Share page report"
   },
   "sign_language_prerecorded_manual_check": {
     "value": "Verify that an audio description is provided for all prerecorded video content in synchronized media. This ensures users who are blind can understand visual actions, characters, or scene changes that are not described in the main soundtrack."
@@ -3124,6 +3433,12 @@
   "unknown_error": {
     "value": "Unknown error"
   },
+  "unsafe_dom_api_report1": {
+    "value": "The inline <code>script</code> element uses %0, which can introduce cross-site scripting vulnerabilities when they process untrusted data. Review the usage manually and replace them with safer alternatives."
+  },
+  "unsafe_dom_api_title": {
+    "value": "Unsafe DOM APIs"
+  },
   "unsupported_role_on_element_report_message": {
     "value": "Expected attribute <code>role=\"%0\"</code> not to be defined on this element."
   },
@@ -3378,6 +3693,33 @@
   },
   "wcag_standards_compliance_checklist": {
     "value": "WCAG Standards Compliance Checklist"
+  },
+  "x_content_type_options_report_message_1": {
+    "value": "The X-Content-Type-Options HTTP response header is missing. Configure the server to send it with the value <code>nosniff</code> to prevent MIME type sniffing."
+  },
+  "x_content_type_options_report_message_2": {
+    "value": "The X-Content-Type-Options HTTP response header should have the value <code>nosniff</code>. Current value: %0."
+  },
+  "x_content_type_options_report_message_3": {
+    "value": "The X-Content-Type-Options HTTP response header could not be verified automatically. Verify the server configuration manually."
+  },
+  "x_content_type_options_title": {
+    "value": "X-Content-Type-Options"
+  },
+  "x_frame_options_report_message_1": {
+    "value": "The X-Frame-Options HTTP response header is missing. Configure the server to send it with the value <code>DENY</code> or <code>SAMEORIGIN</code> to prevent clickjacking attacks."
+  },
+  "x_frame_options_report_message_2": {
+    "value": "The X-Frame-Options HTTP response header is empty. Set its value to <code>DENY</code> or <code>SAMEORIGIN</code>."
+  },
+  "x_frame_options_report_message_3": {
+    "value": "The X-Frame-Options HTTP response header should include \"deny\" or \"sameorigin\". Current value: %0."
+  },
+  "x_frame_options_report_message_4": {
+    "value": "The X-Frame-Options HTTP response header could not be verified automatically. Verify the server configuration manually."
+  },
+  "x_frame_options_title": {
+    "value": "X-Frame-Options"
   },
   "xpath_label": {
     "value": "XPath"
