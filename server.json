@@ -24,6 +24,20 @@
           "isRequired": false,
           "format": "string",
           "isSecret": false
+        },
+        {
+          "name": "AUDITOR_PLATFORM_URL",
+          "description": "Base URL of the SiteLint platform for list_issues/get_issue. Defaults to https://platform.sitelint.com.",
+          "isRequired": false,
+          "format": "string",
+          "isSecret": false
+        },
+        {
+          "name": "AUDITOR_ACCESS_TOKEN",
+          "description": "Bearer token for authenticating list_issues/get_issue against the platform API.",
+          "isRequired": false,
+          "format": "string",
+          "isSecret": true
         }
       ]
     }

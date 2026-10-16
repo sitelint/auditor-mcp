@@ -15,6 +15,8 @@ export interface IAuditorMcpConfig {
   bundlePath: string;
   transport: 'stdio' | 'sse';
   port: number;
+  platformUrl: string;
+  accessToken: string | null;
 }
 
 export async function loadConfig(): Promise<IAuditorMcpConfig> {
@@ -32,6 +34,8 @@ export async function loadConfig(): Promise<IAuditorMcpConfig> {
     bundlePath: resolveBundlePath(),
     transport: (process.env.AUDITOR_TRANSPORT as 'stdio' | 'sse') || 'stdio',
     port: Number.parseInt(process.env.AUDITOR_PORT || '3100', 10),
+    platformUrl: process.env.AUDITOR_PLATFORM_URL ?? 'https://platform.sitelint.com',
+    accessToken: process.env.AUDITOR_ACCESS_TOKEN ?? null,
   };
 }
 
@@ -90,6 +94,14 @@ export function parseCliArgs(args: string[]): Partial<IAuditorMcpConfig> {
         break;
       case '--port':
         config.port = Number.parseInt(args[i + 1] as string, 10);
+        i += 1;
+        break;
+      case '--platform-url':
+        config.platformUrl = args[i + 1] as string;
+        i += 1;
+        break;
+      case '--access-token':
+        config.accessToken = args[i + 1] as string;
         i += 1;
         break;
       default:
