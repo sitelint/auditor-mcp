@@ -3121,8 +3121,11 @@
   "status_messages_title": {
     "value": "Verify status messages"
   },
-  "subresource_integrity_report_message_1": {
-    "value": "%0 elements of type <code>%1</code> are missing a defined <code>integrity</code> attribute."
+  "subresource_integrity_report1": {
+    "value": "The <code>%0</code> element loading <code>%1</code> is missing a defined <code>integrity</code> attribute."
+  },
+  "subresource_integrity_report2": {
+    "value": "The <code>integrity</code> hash on the <code>%0</code> element loading <code>%1</code> is not valid. Use <code>sha256</code>, <code>sha384</code> or <code>sha512</code> with a base64-encoded value."
   },
   "subresource_integrity_title": {
     "value": "Missing defined INTEGRITY attribute that enables browsers to verify that resources they fetch are delivered without unexpected manipulation."
