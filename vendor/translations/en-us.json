@@ -1879,15 +1879,6 @@
   "missing_canonical_url_title": {
     "value": "Missing defined canonical URL."
   },
-  "missing_charset_report_message_1": {
-    "value": "The charset declaration is defined, but not within first 1024 bytes of the HTML"
-  },
-  "missing_charset_report_message_2": {
-    "value": "Missing defined charset declaration"
-  },
-  "missing_charset_title": {
-    "value": "Missing charset declaration or it is not defined in the first 1024 bytes of the HTML."
-  },
   "missing_favicon_report_message": {
     "value": "The page has no defined favicon, which helps users identify your website in browser tabs, bookmarks, and search results."
   },
