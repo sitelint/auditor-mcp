@@ -1498,14 +1498,44 @@
   "invisible_image_loaded_report_message_1": {
     "value": "The image was loaded during page load but was outside the initial viewport."
   },
+  "invisible_image_loaded_report_message_2": {
+    "value": "The image was loaded during page load but is hidden from the user (display: none on the image or one of its ancestors)."
+  },
   "invisible_image_loaded_title": {
     "value": "Do not load IMG that remains invisible for the user."
   },
   "invisible_media_loaded_report_message_1": {
     "value": "The media was loaded during page load but was outside the initial viewport."
   },
+  "invisible_media_loaded_report_message_2": {
+    "value": "The media was loaded during page load but is hidden from the user (display: none on the element or one of its ancestors)."
+  },
   "invisible_media_loaded_title": {
     "value": "Do not load media that remains invisible for the user."
+  },
+  "issue_type_browser_report": {
+    "value": "Browser report"
+  },
+  "issue_type_console_error": {
+    "value": "Console error"
+  },
+  "issue_type_console_warning": {
+    "value": "Console warning"
+  },
+  "issue_type_js_error": {
+    "value": "JavaScript error"
+  },
+  "issue_type_network_failure": {
+    "value": "Network failure"
+  },
+  "issue_type_page_load": {
+    "value": "Page load"
+  },
+  "issue_type_resource_error": {
+    "value": "Resource error"
+  },
+  "issue_type_unhandled_rejection": {
+    "value": "Unhandled promise rejection"
   },
   "issues": {
     "value": "Issues"
@@ -1531,11 +1561,17 @@
   "issues_select_issue_to_view_details": {
     "value": "Select an issue to view details"
   },
+  "issues_show_details": {
+    "value": "Show details"
+  },
   "issues_stack_trace": {
     "value": "Stack trace"
   },
   "issues_steps_to_reproduce": {
     "value": "Steps to reproduce"
+  },
+  "issues_tab_hint": {
+    "value": "Runtime issues captured while this page was open: JavaScript errors, unhandled promise rejections, failed network requests, missing resources (images, scripts, stylesheets), browser-generated error reports, and slow page loads. Each issue includes the steps you took (clicks, scrolls, key presses) that led to it, making it easier to reproduce and fix. Issues are stored locally and are not sent anywhere unless you export them."
   },
   "issues_user_events_count": {
     "value": "%0 user event(s) before this issue"
