@@ -3142,11 +3142,11 @@
   "svg_incorrect_size_unit_title": {
     "value": "Unsupported size unit for SVG."
   },
-  "svg_sprite_missing_report_message_1": {
-    "value": "This page contains %0 inline <code>svg</code> elements that could be combined into a single sprite. Consider using <code>symbol</code> elements referenced via <code>use</code> to reduce HTTP requests and improve page load performance. The element below represents the first found instance."
+  "svg_sprite_missing_report1": {
+    "value": "This page contains %0 inline <code>svg</code> elements. Some may belong to components or widgets that you do not control. If these are repeated icons that you can change, reusing <code>symbol</code> elements with <code>use</code> may reduce duplicated markup. Review the elements before making changes. The element below represents the first found instance."
   },
   "svg_sprite_missing_title": {
-    "value": "Consider combining inline SVG elements into a sprite"
+    "value": "Review whether inline SVG graphics can be reused"
   },
   "svg_too_large_report_message_1": {
     "value": "The svg element has a size of <code>%0</code> KB, which clogs up your markup and impacts page performance."
