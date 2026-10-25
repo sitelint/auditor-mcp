@@ -130,14 +130,23 @@
   "action_refresh": {
     "value": "Refresh"
   },
+  "action_remove": {
+    "value": "Remove"
+  },
   "action_scan": {
     "value": "Analyze page"
+  },
+  "action_send": {
+    "value": "Send"
   },
   "action_share_link_to_report": {
     "value": "Share link to the report"
   },
   "action_share_report_title": {
     "value": "Plain text report published on pastefox.com. The link to the shared report is copied to the clipboard. Available in the DevTools panel and the Side Panel."
+  },
+  "action_stop": {
+    "value": "Stop"
   },
   "additional_information": {
     "value": "Additional information"
@@ -1126,6 +1135,9 @@
   "engine_version": {
     "value": "Engine version"
   },
+  "error_action_cant_be_performed": {
+    "value": "Action can't be performed"
+  },
   "error_identification_manual_check": {
     "value": "Verify that if an input error is automatically detected, the item that is in error is identified and the error is described to the user in text."
   },
@@ -1143,6 +1155,9 @@
   },
   "error_prevention_title": {
     "value": "Verify error prevention"
+  },
+  "error_sending_feedback_request": {
+    "value": "Error sending feedback request"
   },
   "error_suggestion_manual_check": {
     "value": "Verify that if an input error is detected and suggestions for correction are known, the suggestions are provided to the user (e.g., suggesting 'email@example.com' if the user entered 'email@example')."
@@ -1182,6 +1197,51 @@
   },
   "feedback_action": {
     "value": "Feedback"
+  },
+  "feedback_button_label": {
+    "value": "Feedback"
+  },
+  "feedback_close": {
+    "value": "Close"
+  },
+  "feedback_include_screenshot": {
+    "value": "Include screenshot"
+  },
+  "feedback_recording_consent": {
+    "value": "By recording you consent to sharing the recording with support."
+  },
+  "feedback_recording_failed": {
+    "value": "Recording failed"
+  },
+  "feedback_recording_in_progress": {
+    "value": "Recording in progress"
+  },
+  "feedback_recording_mode": {
+    "value": "Recording mode"
+  },
+  "feedback_recording_mode_audio": {
+    "value": "Audio"
+  },
+  "feedback_recording_mode_audio_video": {
+    "value": "Audio + video"
+  },
+  "feedback_recording_mode_video": {
+    "value": "Video"
+  },
+  "feedback_recording_permission_denied": {
+    "value": "Permission denied"
+  },
+  "feedback_recording_rerecord": {
+    "value": "Re-record"
+  },
+  "feedback_recording_start": {
+    "value": "Start recording"
+  },
+  "feedback_recording_too_large": {
+    "value": "Recording is too large"
+  },
+  "feedback_screenshot_capture_failed": {
+    "value": "Screenshot capture failed"
   },
   "fieldset_no_legend_report_message": {
     "value": "This <code>%0</code> element is the first child of a <code>fieldset</code>, but only a <code>legend</code> is allowed in that position to caption the group."
@@ -1620,6 +1680,9 @@
   },
   "label_inappropriate_association_title": {
     "value": "LABEL association must point to an existing form control."
+  },
+  "label_support_your_email": {
+    "value": "Your email"
   },
   "landmark_elements_tool": {
     "value": "Landmarks"
@@ -3130,6 +3193,9 @@
   "subresource_integrity_title": {
     "value": "Missing defined INTEGRITY attribute that enables browsers to verify that resources they fetch are delivered without unexpected manipulation."
   },
+  "success_sent_feedback": {
+    "value": "Feedback sent"
+  },
   "svg_incorrect_size_unit_report_message_1": {
     "value": "Unsupported unit value <code>%0</code> for <code>height</code> and <code>%0</code> for <code>width</code> attribute."
   },
@@ -3756,6 +3822,9 @@
   },
   "yes": {
     "value": "Yes"
+  },
+  "your_feedback": {
+    "value": "Your feedback"
   },
   "zoom_disabled_report_message": {
     "value": "You have defined <code>%0</code>. Remove parameters from the <code>content</code> attribute."
