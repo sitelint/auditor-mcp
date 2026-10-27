@@ -1204,8 +1204,11 @@
   "feedback_close": {
     "value": "Close"
   },
+  "feedback_include_extension_screenshot": {
+    "value": "Include extension screenshot"
+  },
   "feedback_include_screenshot": {
-    "value": "Include screenshot"
+    "value": "Include page screenshot"
   },
   "feedback_recording_consent": {
     "value": "By recording you consent to sharing the recording with support."
@@ -1242,6 +1245,12 @@
   },
   "feedback_screenshot_capture_failed": {
     "value": "Screenshot capture failed"
+  },
+  "feedback_screenshot_captured": {
+    "value": "Capturing screenshot done"
+  },
+  "feedback_screenshot_capturing": {
+    "value": "Capturing screenshot..."
   },
   "fieldset_no_legend_report_message": {
     "value": "This <code>%0</code> element is the first child of a <code>fieldset</code>, but only a <code>legend</code> is allowed in that position to caption the group."
