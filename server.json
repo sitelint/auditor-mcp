@@ -7,12 +7,12 @@
     "url": "https://github.com/sitelint/auditor-mcp",
     "source": "github"
   },
-  "version": "1.0.40",
+  "version": "1.0.41",
   "packages": [
     {
       "registryType": "npm",
       "identifier": "@sitelint/auditor-mcp",
-      "version": "1.0.40",
+      "version": "1.0.41",
       "runtimeHint": "npx",
       "transport": {
         "type": "stdio"
