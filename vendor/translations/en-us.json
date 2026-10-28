@@ -2708,7 +2708,7 @@
     "value": "No file selected."
   },
   "pdf_no_permissions_present": {
-    "value": "No permissions are present in the PDF file."
+    "value": "Permissions are not specified in the PDF file."
   },
   "pdf_no_tabs_found": {
     "value": "No tabs found"
