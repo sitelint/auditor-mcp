@@ -104,6 +104,40 @@ Filters are ANDed — a rule must match every provided filter to run. On `audit_
 
 Omit a parameter (or pass empty array) to skip that filter.
 
+## Runtime issues (errors, network failures, console errors)
+
+SiteLint captures runtime issues from live pages — JS errors, failed network requests, console errors/warnings, failed resource loads, browser reports, and page-load thresholds. Each issue carries a **user events log** (clicks, scrolls, navigation) that reproduces the "steps to reproduce".
+
+### Tools
+
+| Tool | Purpose |
+| --- | --- |
+| `capture_page_issues` | Load a URL with Puppeteer, inject the auditor with collection enabled, wait, return captured issues inline. Works offline, no platform account needed. |
+| `list_issues` | List issues for a site token (paginated; supports `q`, `type`, `severity`, `url`, `since`, `until`, `sortBy`, `skip`, `limit`). |
+| `get_issue` | Full detail for one issue group: stack trace, user events log, network context. |
+
+### Typical agent workflow
+
+1. **Reproduce** — open the page in your browser (or run `capture_page_issues`), trigger the bug.
+2. **Capture** — issues are captured automatically (extension: while browsing; page-load injection: sent to the platform; bookmarklet: stored locally).
+3. **Query** — ask your agent:
+   > "List the issues for site token X"
+   > "Get the issue with fingerprint Y — show me the stack trace and steps to reproduce"
+4. **Fix** — the agent reads the source file from the stack trace (`location.filename` / `sourceLocation`), applies the fix, and confirms.
+
+### Example prompts
+
+- *"List recent runtime issues for my site (token `abc123`), filter by `type: network_failure`"*
+- *"Get issue group `6453...` — what were the steps to reproduce?"*
+- *"Capture issues from `https://example.com/checkout` and tell me what broke"*
+- *"The console shows a TypeError on the payment page. Find it in the issues and fix the source."*
+
+### Notes
+
+- Issues are **local-first**: stored in the page (localStorage) unless explicitly sent to the platform. The extension stores them in the browser; the MCP server works fully offline.
+- Deduplication is by fingerprint (type + message + stack + source) — repeated occurrences increment `count`, not new rows.
+- The events log is capped at 30 entries per issue; console tail at 50 entries.
+
 ## Resources
 
 | URI | Description |
