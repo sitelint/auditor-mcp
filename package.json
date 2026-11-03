@@ -21,9 +21,11 @@
   ],
   "scripts": {
     "build": "tsc",
+    "lint": "oxlint",
     "prepack": "npm run build",
     "release": "release-it --config release-it.json",
-    "start": "node ./dist/cli.js"
+    "start": "node ./dist/cli.js",
+    "test": "vitest run"
   },
   "dependencies": {
     "@modelcontextprotocol/node": "2.1.2",
@@ -38,8 +40,11 @@
     "eslint": "10.14.0",
     "eslint-plugin-import": "2.32.0",
     "eslint-plugin-security": "4.2.1",
+    "oxlint": "1.91.0",
     "release-it": ">=21.1.2",
-    "typescript": "7.0.2"
+    "typescript": "7.0.2",
+    "vite": "8.3.5",
+    "vitest": "5.1.0"
   },
   "publishConfig": {
     "access": "public"
