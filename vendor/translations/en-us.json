@@ -1471,6 +1471,12 @@
   "images_of_text_title": {
     "value": "Verify images of text"
   },
+  "images_same_alt_text_different_url_report1": {
+    "value": "The alternative text <code>%0</code> is used for <code>%1</code> different images. Images with different content should have unique alternative text so users and search engines can distinguish them."
+  },
+  "images_same_alt_text_different_url_title": {
+    "value": "Images with different sources should not share the same alternative text."
+  },
   "img_adjacent_duplicate_text_link_report_message_1": {
     "value": "Adjacent text and image link have the same destination. Avoid unnecessary duplication that occurs when adjacent text and iconic versions of a link are contained in a document."
   },
@@ -1743,6 +1749,12 @@
   },
   "legend_first_child_of_fieldset_title": {
     "value": "LEGEND must be first child of FIELDSET."
+  },
+  "letters_separated_by_spaces_report1": {
+    "value": "Element text contains letters separated by spaces: <code>%0</code>. Screen readers may read each letter separately instead of as a word."
+  },
+  "letters_separated_by_spaces_title": {
+    "value": "Avoid separating letters of a word with spaces."
   },
   "level": {
     "value": "Level"
