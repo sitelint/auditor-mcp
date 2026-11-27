@@ -94,6 +94,12 @@
   "action_copy_issues_for_ai_title": {
     "value": "Copies runtime issues as a text file to share with an AI agent for analysis"
   },
+  "action_copy_page_report": {
+    "value": "Copy page report"
+  },
+  "action_copy_page_report_title": {
+    "value": "Copies report in the plain text format to the clipboard without publishing it online"
+  },
   "action_copy_prompt_with_issues": {
     "value": "Copy prompt with issues"
   },
@@ -108,6 +114,9 @@
   },
   "action_download_report_in_html_title": {
     "value": "HTML report for a quick results overview, easy to share with non-technical stakeholders."
+  },
+  "action_download_test_cases_in_html_title": {
+    "value": "HTML summary of all WCAG test cases with their selected results."
   },
   "action_export_issues_json": {
     "value": "Export runtime issues as JSON"
@@ -143,7 +152,7 @@
     "value": "Share link to the report"
   },
   "action_share_report_title": {
-    "value": "Plain text report published on pastefox.com. The link to the shared report is copied to the clipboard. Available in the DevTools panel and the Side Panel."
+    "value": "Share the report as plain text on pastefox.com, where it will expire after 7 days. Check it for confidential data - anyone with the link can read it. The link will be copied to the clipboard. Available in the DevTools panel and the Side Panel."
   },
   "action_stop": {
     "value": "Stop"
@@ -799,6 +808,15 @@
   "debugging": {
     "value": "Debugging"
   },
+  "deep_accessibility_analysis": {
+    "value": "Deep accessibility analysis"
+  },
+  "deep_accessibility_analysis_hint": {
+    "value": "Use Chrome Accessibility Tree for computed roles and names"
+  },
+  "deep_accessibility_analysis_title": {
+    "value": "When enabled, SiteLint reads the browser's accessibility tree (via Chrome DevTools Protocol) to detect computed roles and accessible names set via Element.attachInternals(), which are invisible to the DOM. Results may differ from the SiteLint Platform report; each issue shows both DOM-computed and AX-tree values for comparison."
+  },
   "displayed_issues": {
     "value": "Displayed issues"
   },
@@ -812,7 +830,7 @@
     "value": "Download EARL report"
   },
   "download_html_report": {
-    "value": "Download report in HTML"
+    "value": "Download the report as HTML"
   },
   "download_json_report": {
     "value": "Download report in JSON"
@@ -828,6 +846,9 @@
   },
   "download_link_missing_information_title": {
     "value": "Download links should clearly identify the downloaded file and indicate its file type and size."
+  },
+  "download_test_cases_html_report": {
+    "value": "Download test cases as HTML"
   },
   "dragging_movements_manual_check": {
     "value": "Verify that all functionality that uses a dragging movement can be achieved by a single pointer without dragging (e.g., clickable arrows or buttons to move an item)."
@@ -1204,11 +1225,17 @@
   "feedback_close": {
     "value": "Close"
   },
+  "feedback_details": {
+    "value": "Feedback details"
+  },
   "feedback_include_extension_screenshot": {
     "value": "Include extension screenshot"
   },
-  "feedback_include_screenshot": {
-    "value": "Include page screenshot"
+  "feedback_include_full_screenshot": {
+    "value": "Include full page screenshot"
+  },
+  "feedback_include_visible_screenshot": {
+    "value": "Include visible page screenshot"
   },
   "feedback_recording_consent": {
     "value": "By recording you consent to sharing the recording with support."
@@ -1251,6 +1278,9 @@
   },
   "feedback_screenshot_capturing": {
     "value": "Capturing screenshot..."
+  },
+  "feedback_screenshot_mode": {
+    "value": "Screenshot"
   },
   "fieldset_no_legend_report_message": {
     "value": "This <code>%0</code> element is the first child of a <code>fieldset</code>, but only a <code>legend</code> is allowed in that position to caption the group."
@@ -1311,6 +1341,9 @@
   },
   "font_style_italic_title": {
     "value": "Avoid excessive use of italic text."
+  },
+  "form_required": {
+    "value": "(required)"
   },
   "from": {
     "value": "from"
@@ -1924,11 +1957,17 @@
   "message_to_clipboard": {
     "value": "message %0 to clipboard"
   },
-  "meta_description_too_long_or_too_short_report_message_1": {
+  "meta_description_too_long_report_message_1": {
     "value": "Meta description <code>%0</code> has length <code>%1</code>, but it should be between 25 and 160 characters. Most search engine crawlers only show the first 150-160 characters of the description in the search results."
   },
-  "meta_description_too_long_or_too_short_title": {
-    "value": "Meta Description of the page is too long or too short."
+  "meta_description_too_long_title": {
+    "value": "Meta Description of the page is too long."
+  },
+  "meta_description_too_short_report_message_1": {
+    "value": "Meta description <code>%0</code> has length <code>%1</code>, but it should be between 25 and 160 characters. Most search engine crawlers only show the first 150-160 characters of the description in the search results."
+  },
+  "meta_description_too_short_title": {
+    "value": "Meta Description of the page is too short."
   },
   "meta_description_truncation_short_report_message_1": {
     "value": "Meta description <code>%0</code> has been truncated. It is recommended to not truncate the page description as it may be incomprehensible to the user while displayed in SERP (search engine results page)."
@@ -1993,6 +2032,12 @@
   "missing_label_title": {
     "value": "Form controls need labels."
   },
+  "missing_meta_description_report1": {
+    "value": "The page has no defined meta description."
+  },
+  "missing_meta_description_title": {
+    "value": "Missing meta description."
+  },
   "missing_opengraph_report1": {
     "value": "The page has no defined Open Graph tags, which improve how link previews appear across various search engines, services and applications."
   },
@@ -2019,6 +2064,12 @@
   },
   "missing_rel_noopener_title": {
     "value": "Links to cross-origin destinations are unsafe."
+  },
+  "missing_shopping_schema_report1": {
+    "value": "The page has JSON-LD but no shopping schema (Product, Offer, AggregateOffer, ...). Google's Shopping reports need structured data to show product snippets, merchant listings, or merchant opportunities."
+  },
+  "missing_shopping_schema_title": {
+    "value": "Google Shopping: add product snippets, merchant listings, merchant opportunities schema"
   },
   "missing_submit_button_report_message_1": {
     "value": "The form has no keyboard-submit mechanism. Add a submit button or keep only one text field."
@@ -2055,6 +2106,9 @@
   },
   "mixed_content_on_https_title": {
     "value": "The site uses insecure HTTP connections on HTTPS (Mixed Content)."
+  },
+  "mixed_language_detection_tool": {
+    "value": "Mixed language detection"
   },
   "more_details": {
     "value": "Details"
@@ -2905,11 +2959,20 @@
   "reflow_content_title": {
     "value": "Verify reflow"
   },
+  "report_copy_failed": {
+    "value": "The report could not be copied to the clipboard. Please try again in a moment."
+  },
   "report_documentation": {
     "value": "Documentation"
   },
   "report_generated_via": {
     "value": "Report generated via"
+  },
+  "report_issue_button_label": {
+    "value": "Incorrect results? Report issue"
+  },
+  "report_issue_feedback_message": {
+    "value": "I am reporting an incorrect audit result for rule '%0' (%1).\n\n- **Problem:** %2\n- **HTML:** %3\n- **XPath:** %4\n- **CSS selector:** %5\n- **JS Path:** %6\n- **Page URL:** %7\n\n---\n\nPlease review whether this is a false positive."
   },
   "report_metric": {
     "value": "Metric"
@@ -3051,6 +3114,24 @@
   },
   "share_page_report": {
     "value": "Share page report"
+  },
+  "shopping_schema_incorrect_values_report1": {
+    "value": "Shopping schema (<code>%0</code>) has incorrect values: <code>%1</code>. Fix the values so Google can show product snippets, merchant listings, or merchant opportunities."
+  },
+  "shopping_schema_incorrect_values_title": {
+    "value": "Google Shopping: fix product snippets, merchant listings, merchant opportunities values"
+  },
+  "shopping_schema_missing_properties_report1": {
+    "value": "Shopping schema (<code>%0</code>) is missing required properties: <code>%1</code>. Add the missing properties so Google can show product snippets, merchant listings, or merchant opportunities."
+  },
+  "shopping_schema_missing_properties_title": {
+    "value": "Google Shopping: complete product snippets, merchant listings, merchant opportunities properties"
+  },
+  "shopping_schema_recommended_properties_report1": {
+    "value": "Shopping schema (<code>%0</code>) is missing recommended properties: <code>%1</code>. Adding recommended properties improves eligibility for product snippets, merchant listings, and merchant opportunities."
+  },
+  "shopping_schema_recommended_properties_title": {
+    "value": "Google Shopping: add recommended product snippets, merchant listings, merchant opportunities properties"
   },
   "sign_language_prerecorded_manual_check": {
     "value": "Verify that an audio description is provided for all prerecorded video content in synchronized media. This ensures users who are blind can understand visual actions, characters, or scene changes that are not described in the main soundtrack."
@@ -3307,6 +3388,18 @@
   "target_size_minimum_title": {
     "value": "Interactive elements must have an area of at least 24 by 24 pixels."
   },
+  "test_case_result": {
+    "value": "Result"
+  },
+  "test_case_sc_handle": {
+    "value": "Success Criteria Handle"
+  },
+  "test_case_sc_number": {
+    "value": "SC Number"
+  },
+  "test_case_title": {
+    "value": "Test Case"
+  },
   "test_environment": {
     "value": "Test environment"
   },
@@ -3342,6 +3435,9 @@
   },
   "test_group_text_content": {
     "value": "Text content"
+  },
+  "test_group_time_based_media": {
+    "value": "Time-based media"
   },
   "test_group_touch_and_interactions": {
     "value": "Touch and interactions"
